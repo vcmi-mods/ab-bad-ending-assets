@@ -12,7 +12,7 @@
 				},
 				"templates" : {
 					"base" : { "animation" : "abbe neutral/grandConflux.def", 
-					"visitableFrom" : [ "+++", "+++", "+++" ], 
+					"visitableFrom" : [ "---", "-+-", "+++" ], 
 					"mask" : [ "VVVVVV", "VVBBVV", "VBBBBV", "VBBABV", "VVVVVV"], 
 					"allowedTerrains":["subterra", "rough", "dirt", "sand", "lava"] 
 					}
