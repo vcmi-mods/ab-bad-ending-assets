@@ -1,0 +1,64 @@
+{
+	"abbe_drone" : {
+		"abilities" : {
+			"robot" : 
+			{ 
+				"type" : "NON_LIVING"
+			 },
+			"canFly" : 
+			{ 
+				"type" : "FLYING",
+				"subtype" : 0
+			 },
+			"slayer" : {
+				"type" : "ENCHANTED",
+				"subtype" : "spell.slayer",
+				"val" : 2
+			},
+			"ironGolem" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : -1,
+				"val" : 75
+			}
+		},
+		"advMapAmount" : {"max" : 16, "min" : 8},
+		"aiValue" : 1093,
+		"fightValue" : 1001,
+		"hitPoints" : 50,
+		"attack" : 15,
+		"defense" : 9,
+		"speed" : 7,
+		"cost" : { "gold" : 500 },
+		"damage" : {"max" : 16, "min" : 11},
+		"faction" : "neutral",
+		"graphics" : {
+			"animation" : "abbe neutral/Cdrone.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "abbe neutral/droneBACK",
+			"iconSmall" : "abbe neutral/droneBACKsmol",
+			"map" : "abbe neutral/Adrone.def",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 3,
+		"level" : 5,
+		"name" : { "plural" : "Patrol Drones", "singular" : "Patrol Drones" },
+		//"shots" : 4,
+		"sound" : {
+			"attack" : "abbe neutral/dr zap1.wav",
+			"defend" : "MONKDFND",
+			"killed" : "abbe neutral/dr kill.wav",
+			"move" : "abbe neutral/dr fly.wav",
+			"wince" : "abbe neutral/dr wnce.wav"
+		},
+		"stackExperience" : [
+			{
+				"bonus" : { "addInfo" : 1000, "subtype" : 45, "type" : "SPELL_AFTER_ATTACK" },
+				"values" : [ 7, 14, 21, 28, 35, 42, 49, 56, 63, 70 ]
+			},
+			{
+				"bonus" : { "addInfo" : 1000, "subtype" : 47, "type" : "SPELL_AFTER_ATTACK" },
+				"values" : [ 7, 14, 21, 28, 35, 42, 49, 56, 63, 70 ]
+			}
+		]
+	}
+}

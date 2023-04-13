@@ -1,0 +1,109 @@
+{
+	"core:creatureBank" : 
+	{
+		"types" : 
+		{
+			"grandConflux" : 
+			{
+				"name" : "Grand Elemental Conflux",
+				"aiValue" : 11000,
+				"sounds": {
+					"ambient": ["LOOPAIR"]
+				},
+				"templates" : {
+					"base" : { "animation" : "abbe neutral/grandConflux.def", 
+					"visitableFrom" : [ "+++", "+++", "+++" ], 
+					"mask" : [ "VVVVVV", "VVBBVV", "VBBBBV", "VBBABV", "VVVVVV"], 
+					"allowedTerrains":["subterra", "rough", "dirt", "sand", "lava"] 
+					}
+				},
+				"rmg" : {
+					"zoneLimit"	: 1,
+					"value"		: 25000, 
+					"rarity"	: 10
+				},
+				"levels": [
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 4, "type" : "abbe_fulmination" }, { "amount": 4, "type" : "abbe_pollution" },
+							{ "amount": 4, "type" : "abbe_conflagration" }, { "amount": 4, "type" : "abbe_glaciation" }
+						],
+						"combat_value": 209,
+						"reward" : {
+							"value": 38000,
+							"resources": 
+							{							
+								"crystal" : 4, "gems" : 4, "sulfur" : 4, "mercury" : 4
+							},
+							"artifacts": [
+								{ "class" : "TREASURE" },
+								{ "class" : "RELIC" }
+							]		
+						}
+					},
+
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 8, "type" : "abbe_fulmination" }, { "amount": 8, "type" : "abbe_pollution" },
+							{ "amount": 8, "type" : "abbe_conflagration" }, { "amount": 8, "type" : "abbe_glaciation" }
+						],
+						"combat_value": 343,
+						"reward" : {
+							"value": 75000,
+							"resources": 
+							{							
+								"crystal" : 8, "gems" : 8, "sulfur" : 8, "mercury" : 8
+							},
+							"artifacts": [
+								{ "class" : "MINOR" },
+								{ "class" : "RELIC" }
+							]		
+						}
+					},
+					
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 12, "type" : "abbe_fulmination" }, { "amount": 12, "type" : "abbe_pollution" },
+							{ "amount": 12, "type" : "abbe_conflagration" }, { "amount": 12, "type" : "abbe_glaciation" }
+						],
+						"combat_value": 556,
+						"reward" : {
+							"value": 75000,
+							"resources": 
+							{							
+								"crystal" : 12, "gems" : 12, "sulfur" : 12, "mercury" : 12
+							},
+							"artifacts": [
+								{ "class" : "MAJOR" },
+								{ "class" : "RELIC" }
+							]		
+						}
+					},
+					{
+						"chance": 10,
+						"guards": [
+							{ "amount": 16, "type" : "abbe_fulmination" }, { "amount": 16, "type" : "abbe_pollution" },
+							{ "amount": 16, "type" : "abbe_conflagration" }, { "amount": 16, "type" : "abbe_glaciation" }
+						],
+						"combat_value": 769,
+						"reward" : {
+							"value": 90000,
+							"resources": 
+							{							
+								"crystal" : 16, "gems" : 16, "sulfur" : 16, "mercury" : 16
+							},
+							"artifacts": [
+								{ "class" : "RELIC" },
+								{ "class" : "RELIC" }
+							]		
+						}
+					}
+
+				]
+			}
+		}
+	}
+}

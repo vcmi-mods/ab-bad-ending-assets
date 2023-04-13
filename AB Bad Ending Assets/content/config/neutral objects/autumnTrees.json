@@ -1,0 +1,245 @@
+{
+	"abbeautumntrees" : {
+		"name" : "Maple Trees",
+		"handler": "static",
+		"types" : {
+			"maples" : {
+			"name" : "Maple Trees",
+			"templates" : {
+			
+					"maple1" : { "animation" : "abbe decorations/MyAutTr1",  
+					"mask" : [ "VV","VB"],
+					"allowedTerrains": [ "dirt" ]
+					},						
+					
+					"maple2" : { "animation" : "abbe decorations/MyAutTr2", 					 
+					"mask" : [ "VV","VB"],
+					"allowedTerrains": [ "dirt" ]
+					},
+					
+					"maple3" : { "animation" : "abbe decorations/MyAutTr3", 					 
+					"mask" : [ "VVVV", "VVBB", "VBBV"],
+					"allowedTerrains": [ "dirt" ]
+					},
+					
+					"maple4" : { "animation" : "abbe decorations/MyAutTr4", 
+					"mask" : [ "VVVV", "VVBB", "VBBV"],
+					"allowedTerrains": [ "dirt" ]
+					},
+					
+					"maple5" : { "animation" : "abbe decorations/MyAutTr5", 
+					"mask" : [ "VVVV", "VBBV", "VVBB"],
+					"allowedTerrains": [ "dirt" ]
+					},					
+					
+					"maple6" : { "animation" : "abbe decorations/MyAutTr6",  
+					"mask" : [ "VVVV", "VBBV", "VVBB"],
+					"allowedTerrains": [ "dirt" ]
+					},
+					
+					"maple7" : { "animation" : "abbe decorations/MyAutTr7",  
+					"mask" : [ "VVVV", "VBBV", "VBBB", "VVBB"],
+					"allowedTerrains": [ "dirt" ]
+					},
+					
+					"maple8" : { "animation" : "abbe decorations/MyAutTr8",  
+					"mask" : [ "VVVV", "VVBB", "VBBB", "VBBV"],
+					"allowedTerrains": [ "dirt" ]
+					}		
+				}
+			},
+			"fredNewAutumnTrees" : {
+			"name" : "Tree",
+			"templates" : {
+			
+					"tree5" : { "animation" : "abbe decorations/AutTr05", 
+					"mask" : [ "VV","VB"],
+					"allowedTerrains": [ "dirt" ]
+					},					
+					
+					"tree6" : { "animation" : "abbe decorations/AutTr06",  
+					"mask" : [ "VV","VB"],
+					"allowedTerrains": [ "dirt" ]
+					},
+					
+					"tree7" : { "animation" : "abbe decorations/AutTr07",  
+					"mask" : [ "VV","VB"],
+					"allowedTerrains": [ "dirt" ]
+					},
+					
+					"tree8" : { "animation" : "abbe decorations/AutTr08",  
+					"mask" : [ "VV","VB"],
+					"allowedTerrains": [ "dirt" ]
+					},
+					
+					"tree9" : { "animation" : "abbe decorations/AutTr09",  
+					"mask" : [ "VV","VB"],
+					"allowedTerrains": [ "dirt" ]
+					},
+					
+					"tree10" : { "animation" : "abbe decorations/AutTr10",  
+					"mask" : [ "VV","VB"],
+					"allowedTerrains": [ "dirt" ]
+					},
+
+					"tree11" : { "animation" : "abbe decorations/AutTr11",  
+					"mask" : [ "VV","VB"],
+					"allowedTerrains": [ "dirt" ]
+					},						
+					
+					"tree12" : { "animation" : "abbe decorations/AutTr12", 					 
+					"mask" : [ "VV","VB"],
+					"allowedTerrains": [ "dirt" ]
+					},
+					
+					"tree13" : { "animation" : "abbe decorations/AutTr13", 					 
+					"mask" : [ "VV","VB"],
+					"allowedTerrains": [ "dirt" ]
+					},
+					
+					"tree14" : { "animation" : "abbe decorations/AutTr14", 
+					"mask" : [ "VV","VB"],
+					"allowedTerrains": [ "dirt" ]
+					},
+					
+					"tree15" : { "animation" : "abbe decorations/AutTr15", 
+					"mask" : [ "VV","VB"],
+					"allowedTerrains": [ "dirt" ]
+					},					
+					
+					"tree16" : { "animation" : "abbe decorations/AutTr16",  
+					"mask" : [ "VV","VB"],
+					"allowedTerrains": [ "dirt" ]
+					},
+					
+					"tree17" : { "animation" : "abbe decorations/AutTr17",  
+					"mask" : [ "VV","VB"],
+					"allowedTerrains": [ "dirt" ]
+					},
+					
+					"tree18" : { "animation" : "abbe decorations/AutTr18",  
+					"mask" : [ "VV","VB"],
+					"allowedTerrains": [ "dirt" ]
+					},
+					
+					"tree19" : { "animation" : "abbe decorations/AutTr19",  
+					"mask" : [ "VV","VB"],
+					"allowedTerrains": [ "dirt" ]
+					},
+					
+					"tree20" : { "animation" : "abbe decorations/AutTr20",  
+					"mask" : [ "VV","VB"],
+					"allowedTerrains": [ "dirt" ]
+					},
+
+					"tree21" : { "animation" : "abbe decorations/AutTr21",  
+					"mask" : [ "VV","VB"],
+					"allowedTerrains": [ "dirt" ]
+					},						
+					
+					"tree22" : { "animation" : "abbe decorations/AutTr22", 					 
+					"mask" : [ "VV","VB"],
+					"allowedTerrains": [ "dirt" ]
+					},
+					
+					"tree23" : { "animation" : "abbe decorations/AutTr23", 					 
+					"mask" : [ "VV","VB"],
+					"allowedTerrains": [ "dirt" ]
+					},
+					
+					"tree24" : { "animation" : "abbe decorations/AutTr24", 
+					"mask" : [ "VV","VB"],
+					"allowedTerrains": [ "dirt" ]
+					},
+					
+					"tree25" : { "animation" : "abbe decorations/AutTr25", 
+					"mask" : [ "VV","VB"],
+					"allowedTerrains": [ "dirt" ]
+					},					
+					
+					"tree26" : { "animation" : "abbe decorations/AutTr26",  
+					"mask" : [ "VV","VB"],
+					"allowedTerrains": [ "dirt" ]
+					},
+					
+					"tree27" : { "animation" : "abbe decorations/AutTr27",  
+					"mask" : [ "VV","VB"],
+					"allowedTerrains": [ "dirt" ]
+					},
+					
+					"tree28" : { "animation" : "abbe decorations/AutTr28",  
+					"mask" : [ "VV","VB"],
+					"allowedTerrains": [ "dirt" ]
+					},
+					
+					"tree29" : { "animation" : "abbe decorations/AutTr29",  
+					"mask" : [ "VV","VB"],
+					"allowedTerrains": [ "dirt" ]
+					},
+					
+					"tree30" : { "animation" : "abbe decorations/AutTr30",  
+					"mask" : [ "VV","VB"],
+					"allowedTerrains": [ "dirt" ]
+					},
+
+					"tree31" : { "animation" : "abbe decorations/AutTr31",  
+					"mask" : [ "VV","VB"],
+					"allowedTerrains": [ "dirt" ]
+					},						
+					
+					"tree32" : { "animation" : "abbe decorations/AutTr32", 					 
+					"mask" : [ "VV","VB"],
+					"allowedTerrains": [ "dirt" ]
+					},
+					
+					"tree33" : { "animation" : "abbe decorations/AutTr33", 					 
+					"mask" : [ "VV","VB"],
+					"allowedTerrains": [ "dirt" ]
+					},
+					
+					"tree34" : { "animation" : "abbe decorations/AutTr34", 
+					"mask" : [ "VV","VB"],
+					"allowedTerrains": [ "dirt" ]
+					},
+					
+					"tree35" : { "animation" : "abbe decorations/AutTr35", 
+					"mask" : [ "VV","VB"],
+					"allowedTerrains": [ "dirt" ]
+					},					
+					
+					"tree36" : { "animation" : "abbe decorations/AutTr36",  
+					"mask" : [ "VV","VB"],
+					"allowedTerrains": [ "dirt" ]
+					},
+					
+					"tree37" : { "animation" : "abbe decorations/AutTr37",  
+					"mask" : [ "VV","VB"],
+					"allowedTerrains": [ "dirt" ]
+					},
+					
+					"tree38" : { "animation" : "abbe decorations/AutTr38",  
+					"mask" : [ "VV","VB"],
+					"allowedTerrains": [ "dirt" ]
+					},
+					
+					"tree39" : { "animation" : "abbe decorations/AutTr39",  
+					"mask" : [ "VV","VB"],
+					"allowedTerrains": [ "dirt" ]
+					},
+					
+					"tree40" : { "animation" : "abbe decorations/AutTr40",  
+					"mask" : [ "VV","VB"],
+					"allowedTerrains": [ "dirt" ]
+					},
+
+					"tree41" : { "animation" : "abbe decorations/AutTr41",  
+					"mask" : [ "VV","VB"],
+					"allowedTerrains": [ "dirt" ]
+					}				
+
+				}
+			}
+
+		}	
+	}
+}

@@ -1,0 +1,111 @@
+{
+	"core:rogue" :
+	{
+		"upgrades":
+		[
+			"abbe_Cutthroat"
+		],	
+		"graphics" :
+		{
+			"animation" : "abbe neutral/CRogfx.def",
+			"map" : "abbe neutral/AVWrogfx.def",
+			"animationTime" :
+			{
+				"walk" : 1,
+				"idle" : 40,
+				"attack" : 1
+			}
+        }
+	},
+
+	"abbe_Cutthroat":
+	{
+		"advMapAmount" :
+		{
+			"max" : 25,
+			"min" : 17
+		},
+		"faction" : "neutral",
+        "level" : 2,
+		"growth" : 9,		
+		"cost" :
+		{
+			"gold" : 110
+		},
+		"name" :
+		{
+			"plural" : "Cutthroats",
+			"singular" : "Cutthroat"
+		},
+		
+		"aiValue" : 171,
+		"fightValue" : 152,	
+		
+		"hitPoints" : 10,		
+		"attack" : 8,
+		"defense" : 4,
+		"speed" : 7,
+		"damage" :
+		{
+			"max" : 4,
+			"min" : 2
+		},
+
+		"graphics" :
+		{
+			"animation" : "abbe neutral/NCutthroat-B.def",
+			"map" : "abbe neutral/NCutthroat-M.def",
+			"iconSmall" : "abbe neutral/NCutPort-S.bmp",
+			"iconLarge" : "abbe neutral/NCutPort-B.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"idle" : 40,
+				"attack" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack" : "RoguAttk",
+			"defend" : "RoguDfnd",
+			"killed" : "RoguKill",
+			"move" : "RoguMove",
+			"wince" : "RoguWnce"
+		},
+
+		"abilities" :
+		{	
+			"shadow strike" : 
+		   {
+			   "type" : "BLOCKS_RETALIATION"
+		   },
+		   
+		   "visionsMonsters" :
+		   {
+			   "type" : "VISIONS",
+			   "subtype" : 0,
+			   "val" : 3,
+			   "valueType" : "INDEPENDENT_MAX",
+			   "propagator" : "HERO"
+		   },	
+		   
+			"visionsHeroes" :
+			{
+				"type" : "VISIONS",
+				"subtype" : 1,
+				"val" : 3,
+				"valueType" : "INDEPENDENT_MAX",
+				"propagator" : "HERO"				
+			},
+			"visionsTowns" :
+			{
+				"type" : "VISIONS",
+				"subtype" : 2,
+				"val" : 3,
+				"valueType" : "INDEPENDENT_MAX",
+				"propagator" : "HERO"				
+			}
+		}
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"core:autumn": {
+		"graphics" : "autumn/autumn bg.png", 
+		"isSpecial" : true,
+		"bonuses": [
+			{
+				"type" : "MAGIC_SCHOOL_SKILL",
+				"subtype" : 1,
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			},
+			
+			{
+				"type" : "MAGIC_SCHOOL_SKILL",
+				"subtype" : 8,
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			},
+			
+			{
+				"type" : "MAGIC_SCHOOL_SKILL",
+				"subtype" : 2,
+				"val" : -1,
+				"valueType" : "BASE_NUMBER"
+			},
+			
+			{
+				"type" : "MAGIC_SCHOOL_SKILL",
+				"subtype" : 4,
+				"val" : -1,
+				"valueType" : "BASE_NUMBER"
+			}
+		]
+	
+	}
+}

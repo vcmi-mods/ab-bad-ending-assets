@@ -1,0 +1,81 @@
+{
+	"abbe_conflagration" : {
+		"abilities" : {
+			"nonLiving" : 
+			{
+				"type" : "NON_LIVING"
+			},
+			"teleport" : 
+			{
+				"type" : "FLYING",
+				"subtype" : 1
+			},
+			"immuneToFire" : 
+			{
+				"type" : "FIRE_IMMUNITY",
+				"subtype" : 0
+			},
+			"frostRingVulnerablity" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.frostRing",
+				"val" : 100
+			},
+			"iceBoltVulnerablity" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.iceBolt",
+				"val" : 100
+			},
+			"fireblast" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.inferno",
+				"val" : 1
+			},				
+			"casts" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},		
+			"fireblast power" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			}
+		},
+		"advMapAmount" : {"max" : 16, "min" : 8},
+		"aiValue" : 1254,
+		"fightValue" : 1109,
+		"hitPoints" : 70,
+		"attack" : 18,
+		"defense" : 14,
+		"speed" : 10,
+		"damage" : {"max" : 14, "min" : 12},
+		"cost" : { "gold" : 800 },
+		"faction" : "neutral",
+		"graphics" : {
+			"animation" : "abbe neutral/Cconflagration",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "abbe neutral/conflagrationBACK",
+			"iconSmall" : "abbe neutral/conflagrationBACKsmol",
+			"map" : "abbe neutral/Aconflagration",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 3,
+		"level" : 5,
+		"name" : { "plural" : "Conflagration Elementals", "singular" : "Conflagration Elemental" },
+		"sound" : {
+			"attack": "FELMATTK.wav",
+			"defend": "FELMDFND.wav",
+			"shoot": "FELMATTK.wav",
+			"killed": "FELMKILL.wav",
+			//"move": "FELMMOVE.wav",
+			"startMoving": "FELMMOVE.wav",
+			"endMoving": "FELMMOVE.wav",
+			"wince": "FELMWNCE.wav"
+		},
+		"stackExperience" : [
+		]
+	}
+}

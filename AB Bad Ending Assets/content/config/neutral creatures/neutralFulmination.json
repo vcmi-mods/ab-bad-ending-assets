@@ -1,0 +1,67 @@
+{
+	"abbe_fulmination" : {
+		"abilities" : {
+			"flying" : 
+			{
+				"type" : "FLYING",
+				"subtype" : 0
+			},
+			"nonLiving" : 
+			{
+				"type" : "NON_LIVING"
+			},
+			"noretaliation" : 
+			{
+				"type" : "BLOCKS_RETALIATION"
+			},
+			"meteorShowerImmunity" :
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.meteorShower"
+			},
+			"lightingVulnerablity" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.lightningBolt",
+				"val" : 100
+			},
+			"chainLightingVulnerablity" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.chainLightning",
+				"val" : 100
+			}
+		},
+		"advMapAmount" : {"max" : 16, "min" : 8},
+		"aiValue" : 1226,
+		"fightValue" : 1102,
+		"hitPoints" : 60,
+		"attack" : 22,
+		"defense" : 10,
+		"speed" : 10,
+		"cost" : { "gold" : 800 },
+		"damage" : {"max" : 16, "min" : 14},
+		"faction" : "neutral",
+		"graphics" : {
+			"animation" : "abbe neutral/Cplasma",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "abbe neutral/plasmaBACK",
+			"iconSmall" : "abbe neutral/plasmaBACKsmol",
+			"map" : "abbe neutral/Aplasma",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 3,
+		"level" : 5,
+		"name" : { "plural" : "Fulmination Elementals", "singular" : "Fulmination Elemental" },
+		"sound" : {
+			"attack": "STORATTK.wav",
+			"defend": "STORDFND.wav",
+			"killed": "STORKILL.wav",
+			"move": "STORMOVE.wav",
+			"shoot": "STORSHOT.wav",
+			"wince": "STORWNCE.wav"
+		},
+		"stackExperience" : [
+		]
+	}
+}

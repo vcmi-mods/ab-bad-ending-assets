@@ -1,0 +1,94 @@
+{
+
+	"abbe_wilder" : {
+		"abilities" : {
+			"shooting" :
+			{
+				"type" : "SHOOTER"
+			},
+			"overTheGardenWall" :
+			{
+				"type" : "NO_WALL_PENALTY"
+			},
+			"underPressureftDavidBowie" :
+			{
+				"type" : "NO_MELEE_PENALTY"
+			},
+			"forestOfRocks" :
+			{
+				"type" : "NO_TERRAIN_PENALTY",
+				"subtype" : "terrain.grass",
+				"propagator" : "HERO"
+			},
+			"rockTheEarth" :
+			{
+				"type" : "NO_TERRAIN_PENALTY",
+				"subtype" : "terrain.dirt",
+				"propagator" : "HERO"
+			},
+			
+			"earthWind&Fire" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.abbe_earthWeak",
+				"val" : 100,
+				"addInfo" : [0,2]
+			},			
+			"earthWind&FireSideB" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.abbe_earthWeak",
+				"val" : 100,
+				"addInfo" : [1,1]
+			}
+		},
+		"advMapAmount" : {"max" : 12, "min" : 5},
+		"aiValue" : 1323,
+		"fightValue" : 1183,
+		"hitPoints" : 50,
+		"attack" : 17,
+		"defense" : 12,
+		"speed" : 8,
+		"cost" : { "gold" : 750 },
+		"damage" : {"max" : 14, "min" : 14},
+		"faction" : "neutral",
+		"graphics" : {
+			"animation" : "abbe neutral/Cwilder",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "abbe neutral/wilder back",
+			"iconSmall" : "abbe neutral/wilder smol",
+			"map" : "abbe neutral/Awilder",
+			"missile" :
+			{
+				"projectile" : "PLICH",
+			    "attackClimaxFrame" : 9,
+				"offset" :
+				{
+					"upperX" : 28,
+					"upperY" : -94,
+					"middleX" : 51,
+					"middleY" : -51,
+					"lowerX" : 36,
+					"lowerY" : -12
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90]
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 2,
+		"level" : 6,
+		"doubleWide" : false,
+		"shots" : 16,
+		"name" : { "plural" : "Wilders", "singular" : "Wilder" },
+		"sound" : {
+			"attack": "abbe neutral/wilderATT.wav",
+			"defend": "ENCHDFND",
+			"killed": "ZELTKILL",
+			"move": "ENCHMOVE",
+			"shoot": "abbe neutral/wilderATT.wav",
+			"wince": "ENCHWNCE"
+		},
+		"stackExperience" : [
+		]
+	}
+}

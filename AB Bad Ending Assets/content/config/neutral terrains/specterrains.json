@@ -1,0 +1,176 @@
+{
+	"autumnPile" : {
+		"name" : "Autumn Field",
+		"handler": "terrain",
+		"base" : {
+			"sounds" : {
+				"ambient" : ["abbe neutral/autumnLOOP"]
+			},
+			"base" : {
+			"visitableFrom" : [ "+++", "+++", "+++" ],
+			"zIndex": 90						
+			}
+		},
+		"types" : {
+
+			"autumnField" : {
+				"battleground": "autumn",
+				"templates" : {
+				"orange6x4" : {"animation" : "abbe terrains/autumn1",	"mask" : [ "VVVVVV", "VVVVVV","VVVVVV", "VVVVVV" ]},
+				"orange8x6" : {"animation" : "abbe terrains/autumn2",	"mask" : [ "VVVVVVVV", "VVVVVVVV","VVVVVVVV", "VVVVVVVV", "VVVVVVVV", "VVVVVVVV" ]},
+				"orange6x6" : {"animation" : "abbe terrains/autumn3",	"mask" : [ "VVVVVV", "VVVVVV", "VVVVVV", "VVVVVV","VVVVVV", "VVVVVV" ]},
+				"orange8x3" : {"animation" : "abbe terrains/autumn4",	"mask" : [ "VVVVVVVV", "VVVVVVVV","VVVVVVVV" ]},
+				"orange3x6" : {"animation" : "abbe terrains/autumn5",	"mask" : [ "VVV", "VVV", "VVV", "VVV","VVV", "VVV" ]},
+				"orange3x3" : {"animation" : "abbe terrains/autumn6",	"mask" : [ "VVV", "VVV", "VVV" ]},
+				"orange5x2" : {"animation" : "abbe terrains/autumn7",	"mask" : [ "VVVVV", "VVVVV" ]},
+				"orange2x5" : {"animation" : "abbe terrains/autumn8",	"mask" : [ "VV", "VV", "VV", "VV","VV" ]},
+				
+				"yellow6x4" : {"animation" : "abbe terrains/autumn1b",	"mask" : [ "VVVVVV", "VVVVVV","VVVVVV", "VVVVVV" ]},
+				"yellow8x6" : {"animation" : "abbe terrains/autumn2b",	"mask" : [ "VVVVVVVV", "VVVVVVVV","VVVVVVVV", "VVVVVVVV", "VVVVVVVV", "VVVVVVVV" ]},
+				"yellow6x6" : {"animation" : "abbe terrains/autumn3b",	"mask" : [ "VVVVVV", "VVVVVV", "VVVVVV", "VVVVVV","VVVVVV", "VVVVVV" ]},
+				"yellow8x3" : {"animation" : "abbe terrains/autumn4b",	"mask" : [ "VVVVVVVV", "VVVVVVVV","VVVVVVVV" ]},
+				"yellow3x6" : {"animation" : "abbe terrains/autumn5b",	"mask" : [ "VVV", "VVV", "VVV", "VVV","VVV", "VVV" ]},
+				"yellow3x3" : {"animation" : "abbe terrains/autumn6b",	"mask" : [ "VVV", "VVV", "VVV" ]},
+				"yellow5x2" : {"animation" : "abbe terrains/autumn7b",	"mask" : [ "VVVVV", "VVVVV" ]},
+				"yellow2x5" : {"animation" : "abbe terrains/autumn8b",	"mask" : [ "VV", "VV", "VV", "VV","VV" ]}
+					}}
+
+		}
+	},
+	
+	"autumnLeaves" : {
+		"name" : "Autumn Leaves",
+		"handler": "generic",
+		"base" : {
+			"base" : {
+			"visitableFrom" : [ "+++", "+++", "+++" ],
+			"zIndex": 90						
+			}
+		},
+		"types" : {
+
+			"autumnLeaves" : {
+				"name" : "Autumn Leaves",
+				"templates" : {
+
+				"orange2x2" : {"animation" : "abbe terrains/MyAutLv7",	"mask" : [ "VV", "VV" ]},
+				"orange3x2a" : {"animation" : "abbe terrains/MyAutLv0",	"mask" : [ "VVV", "VVV" ]},
+				"orange3x2b" : {"animation" : "abbe terrains/MyAutLv2",	"mask" : [ "VVV", "VVV" ]},
+				"orange3x2c" : {"animation" : "abbe terrains/MyAutLv5",	"mask" : [ "VVV", "VVV" ]},
+				"orange3x2d" : {"animation" : "abbe terrains/MyAutLv6",	"mask" : [ "VVV", "VVV" ]},
+				"orange3x2e" : {"animation" : "abbe terrains/MyAutLv8",	"mask" : [ "VVV", "VVV" ]},
+				"orange2x3a" : {"animation" : "abbe terrains/MyAutLv1",	"mask" : [ "VV", "VV", "VV" ]},
+				"orange2x3b" : {"animation" : "abbe terrains/MyAutLv4",	"mask" : [ "VV", "VV", "VV" ]},
+
+				"yellow2x2" : {"animation" : "abbe terrains/MyAuLv15",	"mask" : [ "VV", "VV" ]},
+				"yellow3x2a" : {"animation" : "abbe terrains/MyAuLv10",	"mask" : [ "VVV", "VVV" ]},
+				"yellow3x2b" : {"animation" : "abbe terrains/MyAuLv11",	"mask" : [ "VVV", "VVV" ]},
+				"yellow3x2c" : {"animation" : "abbe terrains/MyAuLv13",	"mask" : [ "VVV", "VVV" ]},
+				"yellow3x2d" : {"animation" : "abbe terrains/MyAuLv14",	"mask" : [ "VVV", "VVV" ]},
+				"yellow3x2e" : {"animation" : "abbe terrains/MyAuLv16",	"mask" : [ "VVV", "VVV" ]},
+				"yellow2x3a" : {"animation" : "abbe terrains/MyAutLv9",	"mask" : [ "VV", "VV", "VV" ]},
+				"yellow2x3b" : {"animation" : "abbe terrains/MyAuLv12",	"mask" : [ "VV", "VV", "VV" ]},
+
+				"red2x2" : {"animation" : "abbe terrains/MyAuLv23",		"mask" : [ "VV", "VV" ]},
+				"red3x2a" : {"animation" : "abbe terrains/MyAutLv3",	"mask" : [ "VVV", "VVV" ]},
+				"red3x2b" : {"animation" : "abbe terrains/MyAuLv18",	"mask" : [ "VVV", "VVV" ]},
+				"red3x2c" : {"animation" : "abbe terrains/MyAuLv19",	"mask" : [ "VVV", "VVV" ]},
+				"red3x2d" : {"animation" : "abbe terrains/MyAuLv21",	"mask" : [ "VVV", "VVV" ]},
+				"red3x2e" : {"animation" : "abbe terrains/MyAuLv22",	"mask" : [ "VVV", "VVV" ]},
+				"red2x3a" : {"animation" : "abbe terrains/MyAuLv17",	"mask" : [ "VV", "VV", "VV" ]},
+				"red2x3b" : {"animation" : "abbe terrains/MyAuLv20",	"mask" : [ "VV", "VV", "VV" ]},
+
+				"yellow4x3" : {"animation" : "abbe terrains/MyAuLv24",	"mask" : [ "VVVV", "VVVV", "VVVV" ]},
+				"orange6x4" : {"animation" : "abbe terrains/MyAuLv25",	"mask" : [ "VVVVVV", "VVVVVV","VVVVVV", "VVVVVV" ]}
+					}}
+
+		}
+	},
+
+	
+	"sakuraField" : {
+		"name" : "Sakura Field",
+		"handler": "generic",
+		"base" : {
+			"base" : {
+			"visitableFrom" : [ "+++", "+++", "+++" ],
+			"zIndex": 90						
+			}
+		},
+		"types" : {
+
+			"default" : {
+				"name" : "Sakura Field",
+				"templates" : {
+				"dpink6x4" : {"animation" : "abbe terrains/sakura1",	"mask" : [ "VVVVVV", "VVVVVV","VVVVVV", "VVVVVV" ]},
+				"dpink8x6" : {"animation" : "abbe terrains/sakura2",	"mask" : [ "VVVVVVVV", "VVVVVVVV","VVVVVVVV", "VVVVVVVV", "VVVVVVVV", "VVVVVVVV" ]},
+				"dpink6x6" : {"animation" : "abbe terrains/sakura3",	"mask" : [ "VVVVVV", "VVVVVV", "VVVVVV", "VVVVVV","VVVVVV", "VVVVVV" ]},
+				"dpink8x3" : {"animation" : "abbe terrains/sakura4",	"mask" : [ "VVVVVVVV", "VVVVVVVV","VVVVVVVV" ]},
+				"dpink3x6" : {"animation" : "abbe terrains/sakura5",	"mask" : [ "VVV", "VVV", "VVV", "VVV","VVV", "VVV" ]},
+				"dpink3x3" : {"animation" : "abbe terrains/sakura6",	"mask" : [ "VVV", "VVV", "VVV" ]},
+				"dpink5x2" : {"animation" : "abbe terrains/sakura7",	"mask" : [ "VVVVV", "VVVVV" ]},
+				"dpink2x5" : {"animation" : "abbe terrains/sakura8",	"mask" : [ "VV", "VV", "VV", "VV","VV" ]},
+				
+				"lpink6x4" : {"animation" : "abbe terrains/sakura1b",	"mask" : [ "VVVVVV", "VVVVVV","VVVVVV", "VVVVVV" ]},
+				"lpink8x6" : {"animation" : "abbe terrains/sakura2b",	"mask" : [ "VVVVVVVV", "VVVVVVVV","VVVVVVVV", "VVVVVVVV", "VVVVVVVV", "VVVVVVVV" ]},
+				"lpink6x6" : {"animation" : "abbe terrains/sakura3b",	"mask" : [ "VVVVVV", "VVVVVV", "VVVVVV", "VVVVVV","VVVVVV", "VVVVVV" ]},
+				"lpink8x3" : {"animation" : "abbe terrains/sakura4b",	"mask" : [ "VVVVVVVV", "VVVVVVVV","VVVVVVVV" ]},
+				"lpink3x6" : {"animation" : "abbe terrains/sakura5b",	"mask" : [ "VVV", "VVV", "VVV", "VVV","VVV", "VVV" ]},
+				"lpink3x3" : {"animation" : "abbe terrains/sakura6b",	"mask" : [ "VVV", "VVV", "VVV" ]},
+				"lpink5x2" : {"animation" : "abbe terrains/sakura7b",	"mask" : [ "VVVVV", "VVVVV" ]},
+				"lpink2x5" : {"animation" : "abbe terrains/sakura8b",	"mask" : [ "VV", "VV", "VV", "VV","VV" ]}
+					}}
+
+		}
+	},
+
+	"sakuraLeaves" : {
+		"name" : "Sakura Petals",
+		"handler": "generic",
+		"base" : {
+			"base" : {
+			"visitableFrom" : [ "+++", "+++", "+++" ],
+			"zIndex": 90						
+			}
+		},
+		"types" : {
+
+			"sakuraPetals" : {
+				"name" : "Sakura Petals",
+				"templates" : {
+
+				"dpink2x2" : {"animation" : "abbe terrains/SakuLv7",	"mask" : [ "VV", "VV" ]},
+				"dpink3x2a" : {"animation" : "abbe terrains/SakuLv0",	"mask" : [ "VVV", "VVV" ]},
+				"dpink3x2b" : {"animation" : "abbe terrains/SakuLv2",	"mask" : [ "VVV", "VVV" ]},
+				"dpink3x2c" : {"animation" : "abbe terrains/SakuLv5",	"mask" : [ "VVV", "VVV" ]},
+				"dpink3x2d" : {"animation" : "abbe terrains/SakuLv6",	"mask" : [ "VVV", "VVV" ]},
+				"dpink3x2e" : {"animation" : "abbe terrains/SakuLv8",	"mask" : [ "VVV", "VVV" ]},
+				"dpink2x3a" : {"animation" : "abbe terrains/SakuLv1",	"mask" : [ "VV", "VV", "VV" ]},
+				"dpink2x3b" : {"animation" : "abbe terrains/SakuLv4",	"mask" : [ "VV", "VV", "VV" ]},
+
+				"lpink2x2" : {"animation" : "abbe terrains/SakuLv15",	"mask" : [ "VV", "VV" ]},
+				"lpink3x2a" : {"animation" : "abbe terrains/SakuLv10",	"mask" : [ "VVV", "VVV" ]},
+				"lpink3x2b" : {"animation" : "abbe terrains/SakuLv11",	"mask" : [ "VVV", "VVV" ]},
+				"lpink3x2c" : {"animation" : "abbe terrains/SakuLv13",	"mask" : [ "VVV", "VVV" ]},
+				"lpink3x2d" : {"animation" : "abbe terrains/SakuLv14",	"mask" : [ "VVV", "VVV" ]},
+				"lpink3x2e" : {"animation" : "abbe terrains/SakuLv16",	"mask" : [ "VVV", "VVV" ]},
+				"lpink2x3a" : {"animation" : "abbe terrains/SakuLv9",	"mask" : [ "VV", "VV", "VV" ]},
+				"lpink2x3b" : {"animation" : "abbe terrains/SakuLv12",	"mask" : [ "VV", "VV", "VV" ]},
+
+				"rpink2x2" : {"animation" : "abbe terrains/SakuLv23",		"mask" : [ "VV", "VV" ]},
+				"rpink3x2a" : {"animation" : "abbe terrains/SakuLv3",	"mask" : [ "VVV", "VVV" ]},
+				"rpink3x2b" : {"animation" : "abbe terrains/SakuLv18",	"mask" : [ "VVV", "VVV" ]},
+				"rpink3x2c" : {"animation" : "abbe terrains/SakuLv19",	"mask" : [ "VVV", "VVV" ]},
+				"rpink3x2d" : {"animation" : "abbe terrains/SakuLv21",	"mask" : [ "VVV", "VVV" ]},
+				"rpink3x2e" : {"animation" : "abbe terrains/SakuLv22",	"mask" : [ "VVV", "VVV" ]},
+				"rpink2x3a" : {"animation" : "abbe terrains/SakuLv17",	"mask" : [ "VV", "VV", "VV" ]},
+				"rpink2x3b" : {"animation" : "abbe terrains/SakuLv20",	"mask" : [ "VV", "VV", "VV" ]},
+
+				"lpink4x3" : {"animation" : "abbe terrains/SakuLv24",	"mask" : [ "VVVV", "VVVV", "VVVV" ]},
+				"dpink6x4" : {"animation" : "abbe terrains/SakuLv25",	"mask" : [ "VVVVVV", "VVVVVV","VVVVVV", "VVVVVV" ]}
+					}}
+
+		}
+	}
+
+}

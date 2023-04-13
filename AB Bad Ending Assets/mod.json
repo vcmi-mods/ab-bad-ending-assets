@@ -1,0 +1,68 @@
+{
+	"name" : "Antagarich Burning - map assets",
+	"description" : "Assets for a set of maps featuring Forge.",
+	
+	"author" : "HOMM modding community",
+	"contact" : "madaosoul@gmail.com",
+	"version" : "1.2",
+	"modType" : "Expansion",	
+	"changelog" :
+	{
+		"1.2"   : [ "Update to vcmi-1.2 format" ],
+		"1.1"   : [ "Fixes" ],
+		"1.0"   : [ "Initial release" ]
+	},	
+	"compatibility" :
+	{
+		"min" : "1.2.0"
+	},
+	"depends" :
+	[
+		"asphalt-terrain"
+	],
+	
+	"creatures" :
+	[
+	    "config/neutral creatures/neutralCutthroat.json",
+        "config/neutral creatures/neutralAutumnShooter.json",
+        "config/neutral creatures/neutralWilder.json",
+		
+        "config/neutral creatures/neutralDrone.json",
+        "config/neutral creatures/neutralBloodsucker.json",
+        "config/neutral creatures/neutralCyberMutant.json",
+        "config/neutral creatures/neutralConflagration.json",
+        "config/neutral creatures/neutralFulmination.json",
+        "config/neutral creatures/neutralGlaciation.json",
+        "config/neutral creatures/neutralPollution.json"
+	],
+	
+    "objects" :
+    [ 
+	"config/neutral objects/grandConflux.json",
+	
+	"config/neutral objects/dwellings.json",
+	"config/neutral objects/rewardables.json",
+
+	"config/neutral objects/sakuraTrees.json",
+	"config/neutral objects/autumnTrees.json",
+	"config/neutral terrains/specterrains.json",
+	"config/neutral objects/autumnDecor.json"
+    ],
+	
+	"spells" :
+	[
+		"config/neutral spells/specialLvl7.json",
+		"config/neutral spells/earthWeaken.json"
+	],
+	"battlefields" :
+	[
+		"config/neutral terrains/battlefields.json"
+	],
+	"obstacles" :
+	[
+		"config/neutral terrains/obstacles.json"
+	],
+	
+	"artifacts" :
+	[]
+}

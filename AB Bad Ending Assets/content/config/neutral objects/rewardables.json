@@ -1,0 +1,872 @@
+{
+    "abbe_crumblingWell" : {
+        "name" : "Crumbling Magic Well",
+        "handler": "configurable",
+        "types" : {
+            "default" :
+            {
+                "name" : "Crumbling Magic Well",
+                "rmg" : {
+                    "value"        : 3000,
+                    "rarity"    : 100,
+                    "zoneLimit" : 1
+                },
+                "sounds" : {
+                    "visit" : ["MYSTERY"]
+                },
+                "rewards" :
+                [    
+                    {
+           				 "appearChance": 
+           				 {             
+						"dice": 1,   
+            			  "max" : 60
+            			},
+						"limiter": 
+						{
+						  "dayOfWeek" : 1
+						},
+						"manaPoints": 20, 
+                        "message": "{Crumbling Magic Well}\r\n\r\nSome water pools at the bottom of this well. Do you want to draw from it?"
+                    },
+                    {
+           				 "appearChance": 
+           				 {          
+							"dice": 1,        
+						  "min" : 60
+            			},
+						"limiter": 
+						{
+						  "dayOfWeek" : 1
+						},
+						"manaPoints": 30, 
+                        "message": "{Crumbling Magic Well}\r\n\r\nSome water pools at the bottom of this well. Do you want to draw from it?"
+                    },     
+                    {
+           				 "appearChance": 
+           				 {            
+							"dice": 2,      
+            			  "max" : 60
+            			},
+						"limiter": 
+						{
+						  "dayOfWeek" : 2
+						},
+						"manaPoints": 20, 
+                        "message": "{Crumbling Magic Well}\r\n\r\nSome water pools at the bottom of this well. Do you want to draw from it?"
+                    },
+                    {
+           				 "appearChance": 
+           				 {            
+							"dice": 2,      
+						  "min" : 60
+            			},
+						"limiter": 
+						{
+						  "dayOfWeek" : 2
+						},
+						"manaPoints": 30, 
+                        "message": "{Crumbling Magic Well}\r\n\r\nSome water pools at the bottom of this well. Do you want to draw from it?"
+                    }, 
+                    {
+           				 "appearChance": 
+           				 {   
+							"dice": 3,   
+            			  "max" : 50
+            			},
+						"limiter": 
+						{
+						  "dayOfWeek" : 3
+						},
+						"manaPoints": 20, 
+                        "message": "{Crumbling Magic Well}\r\n\r\nSome water pools at the bottom of this well. Do you want to draw from it?"
+                    },
+                    {
+           				 "appearChance": 
+           				 {          
+							"dice": 3,     
+						  "min" : 50,
+            			  "max" : 75
+            			},
+						"limiter": 
+						{
+							"dayOfWeek" : 3
+						},
+						"manaPoints": 30, 
+                        "message": "{Crumbling Magic Well}\r\n\r\nSome water pools at the bottom of this well. Do you want to draw from it?"
+                    },
+                    {
+           				 "appearChance": 
+           				 {           
+							"dice": 3,    
+						  "min" : 75
+            			},
+						"limiter": 
+						{
+							"dayOfWeek" : 3
+						},
+						"manaPoints": 40, 
+                        "message": "{Crumbling Magic Well}\r\n\r\nSome water pools at the bottom of this well. Do you want to draw from it?"
+                    },                    {
+						"appearChance": 
+						{
+							"dice": 4,   
+					  "max" : 50
+					},
+					"limiter": 
+					{
+					  "dayOfWeek" : 4
+					},
+					"manaPoints": 20, 
+					"message": "{Crumbling Magic Well}\r\n\r\nSome water pools at the bottom of this well. Do you want to draw from it?"
+				},
+				{
+						"appearChance": 
+						{         
+							"dice": 4,      
+					  "min" : 50,
+					  "max" : 75
+					},
+					"limiter": 
+					{
+						"dayOfWeek" : 4
+					},
+					"manaPoints": 30, 
+					"message": "{Crumbling Magic Well}\r\n\r\nSome water pools at the bottom of this well. Do you want to draw from it?"
+				},
+				{
+						"appearChance": 
+						{          
+							"dice": 4,     
+					  "min" : 75
+					},
+					"limiter": 
+					{
+						"dayOfWeek" : 4
+					},
+					"manaPoints": 40, 
+					"message": "{Crumbling Magic Well}\r\n\r\nSome water pools at the bottom of this well. Do you want to draw from it?"
+				},
+                    {
+           				 "appearChance": 
+           				 {
+							"dice": 5,   
+            			  "max" : 40
+            			},
+						"limiter": 
+						{
+						  "dayOfWeek" : 5
+						},
+						"manaPoints": 20, 
+                        "message": "{Crumbling Magic Well}\r\n\r\nSome water pools at the bottom of this well. Do you want to draw from it?"
+                    },
+                    {
+           				 "appearChance": 
+           				 {         
+							"dice": 5,      
+						  "min" : 40,
+            			  "max" : 60
+            			},
+						"limiter": 
+						{
+							"dayOfWeek" : 5
+						},
+						"manaPoints": 30, 
+                        "message": "{Crumbling Magic Well}\r\n\r\nSome water pools at the bottom of this well. Do you want to draw from it?"
+                    },
+                    {
+           				 "appearChance": 
+           				 {          
+							"dice": 5,   
+							"min" : 60,
+							"max" : 80
+            			},
+						"limiter": 
+						{
+							"dayOfWeek" : 5
+						},
+						"manaPoints": 40, 
+                        "message": "{Crumbling Magic Well}\r\n\r\nSome water pools at the bottom of this well. Do you want to draw from it?"
+                    },
+                    {
+           				 "appearChance": 
+           				 {        
+							"dice": 5,       
+						  "min" : 80
+            			},
+						"limiter": 
+						{
+							"dayOfWeek" : 5
+						},
+						"manaPoints": 50, 
+                        "message": "{Crumbling Magic Well}\r\n\r\nSome water pools at the bottom of this well. Do you want to draw from it?"
+                    },                    {
+						"appearChance": 
+						{
+							"dice": 6,   
+					  "max" : 40
+					},
+					"limiter": 
+					{
+					  "dayOfWeek" : 6
+					},
+					"manaPoints": 20, 
+					"message": "{Crumbling Magic Well}\r\n\r\nSome water pools at the bottom of this well. Do you want to draw from it?"
+				},
+				{
+						"appearChance": 
+						{        
+							"dice": 6,       
+					  "min" : 40,
+					  "max" : 60
+					},
+					"limiter": 
+					{
+						"dayOfWeek" : 6
+					},
+					"manaPoints": 30, 
+					"message": "{Crumbling Magic Well}\r\n\r\nSome water pools at the bottom of this well. Do you want to draw from it?"
+				},
+				{
+						"appearChance": 
+						{       
+							"dice": 6,      
+						"min" : 60,
+						"max" : 80
+					},
+					"limiter": 
+					{
+						"dayOfWeek" : 6
+					},
+					"manaPoints": 40, 
+					"message": "{Crumbling Magic Well}\r\n\r\nSome water pools at the bottom of this well. Do you want to draw from it?"
+				},
+				{
+						"appearChance": 
+						{       
+							"dice": 6,        
+					  "min" : 80
+					},
+					"limiter": 
+					{
+						"dayOfWeek" : 6
+					},
+					"manaPoints": 50, 
+					"message": "{Crumbling Magic Well}\r\n\r\nSome water pools at the bottom of this well. Do you want to draw from it?"
+				},                    {
+					"appearChance": 
+					{
+						"dice": 7,   
+				  "max" : 40
+				},
+				"limiter": 
+				{
+				  "dayOfWeek" : 7
+				},
+				"manaPoints": 20, 
+				"message": "{Crumbling Magic Well}\r\n\r\nSome water pools at the bottom of this well. Do you want to draw from it?"
+			},
+			{
+					"appearChance": 
+					{        
+						"dice": 7,       
+				  "min" : 40,
+				  "max" : 60
+				},
+				"limiter": 
+				{
+					"dayOfWeek" : 7
+				},
+				"manaPoints": 30, 
+				"message": "{Crumbling Magic Well}\r\n\r\nSome water pools at the bottom of this well. Do you want to draw from it?"
+			},
+			{
+					"appearChance": 
+					{         
+						"dice": 7,    
+					"min" : 60,
+					"max" : 80
+				},
+				"limiter": 
+				{
+					"dayOfWeek" : 7
+				},
+				"manaPoints": 40, 
+				"message": "{Crumbling Magic Well}\r\n\r\nSome water pools at the bottom of this well. Do you want to draw from it?"
+			},
+			{
+					"appearChance": 
+					{      
+						"dice": 7,         
+				  "min" : 80
+				},
+				"limiter": 
+				{
+					"dayOfWeek" : 7
+				},
+				"manaPoints": 50, 
+				"message": "{Crumbling Magic Well}\r\n\r\nSome water pools at the bottom of this well. Do you want to draw from it?"
+			}
+
+                ],
+				"onSelectMessage" : "{Crumbling Magic Well}\r\n\r\nSome water pools at the bottom of this well. Do you want to draw from it?",
+                "onVisitedMessage": "{Crumbling Magic Well}\r\n\r\nThe well has been depleted.",
+                //"onVisitedMessage": "{Crumbling Magic Well}\r\n\r\nThe well has been depleted. Let's check next week.",
+				"onEmptyMessage": "{Crumbling Magic Well}\r\n\r\nThe well has been depleted. Let's check next week.",
+                "visitMode" : "once",
+				"resetDuration" : 7,      
+				"canRefuse": true,
+				"selectMode" : "selectFirst",
+                "templates" :
+                {
+                    "default" :
+                    {
+                        "animation" : "abbe neutral/GKH2OB30", 
+                        "mask" : [ "VV","VA" ], 
+                        "visitableFrom" : [ "---", "+++", "+++" ]
+                    }
+                }
+            }
+        }
+    },       
+
+	
+    "abbe_gypsyCaravan" : {
+        "name" : "Gypsy Caravan",
+        "handler": "configurable",
+        "types" : {
+            "default" :
+            {
+                "name" : "Gypsy Caravan",
+                "rmg" : {
+                    "value"        : 3000,
+                    "rarity"    : 100,
+                    "zoneLimit" : 1
+                },
+                "sounds" : {
+                    "ambient" : ["LOOPMERC"],
+                    "visit" : ["STORE"]
+                },
+                "rewards" :
+                [    
+                    {
+						"primary": {
+							"defence" : 1
+						},
+						"resources" : {
+							"gold" : -500
+						},
+						"limiter": 
+						{
+							"resources" : {"gold" : 500}
+						},
+                        "message": "{Gypsy Caravan}\r\n\r\nA group of friendly Gypsies offers to mend cracks in your armor (cost: 500). They also seem to have some trinkets, but you don't have enough gold to trade."
+                    },
+                    {
+						"limiter": 
+						{
+							"resources" : {"gold" : 1500}
+						},
+						"resources" : {
+							"gold" : -1500
+						},
+						"artifacts": [
+							{
+								"class" : "TREASURE",
+								"maxValue" : 2000
+							}
+						]
+                    }
+
+                ],
+				"onSelectMessage" : "{Gypsy Caravan}\r\n\r\nA group of friendly Gypsies offers to mend cracks in your armor (cost: 500) or to buy a shiny trinket off them (cost: 1500).",
+                "onVisitedMessage": "{Gypsy Caravan}\r\n\r\nThe Gypsies have nothing else to offer this hero.",
+				"onEmptyMessage": "{Gypsy Caravan}\r\n\r\nA group of friendly Gypsies lives here, but you don't have enough gold for their services.",
+                "visitMode" : "hero",
+				//"resetDuration" : 7,      
+				"canRefuse": true,
+				"selectMode" : "selectPlayer",
+                "templates" :
+                {
+                    "default" :
+                    {
+                        "animation" : "abbe neutral/newref1", 
+                        "mask" : [ "VVVB","VBBA" ], 
+                        "visitableFrom" : [ "---", "+++", "+++" ]
+                    }
+                }
+            }
+        }
+    },
+
+	
+    "abbe_extractor" : {
+        "name" : "Extractor",
+        "handler": "configurable",
+        "types" : {
+            "lvlup" :
+            {
+                "name" : "Ichor extractor",
+                "rmg" : {
+                    "value"        : 10000,
+                    "rarity"    : 5,
+                    "zoneLimit" : 1
+                },
+                "sounds" : {
+                    "ambient" : ["abbe neutral/labLoop"],
+                    "visit" : ["CAVEHEAD"]
+                },
+                "rewards" :
+                [    
+                    {
+						"gainedLevels" : 1,
+						"movePercentage": 0,
+						"manaPercentage": 0, 
+                        "message": "{Ichor extractor}\r\n\r\nThis strange building extracts and refines what is said to be the essence of the planet itself. A hero can be bolstered using this substance, but the process is taxing and painful. You can use mithril in your possession to start up the injection device."
+                    }
+
+                ],
+				"onSelectMessage" : "{Ichor extractor}\r\n\r\nThis strange building extracts and refines what is said to be the essence of the planet itself. A hero can be bolstered using this substance, but the process is taxing and painful. Do you want to continue?\r\n(Cost: all spell and movement points)",
+                "onVisitedMessage": "{Ichor extractor}\r\n\r\nThis hero has already been bolsered by Ichor.",
+				"onEmptyMessage": "{Ichor extractor}\r\n\r\nThe Ichor vein in this area has been depleted.",
+                "visitMode" : "hero",
+				"resetDuration" : 7,      
+				"canRefuse": true,
+				"selectMode" : "selectFirst",
+                "templates" :
+                {
+                    "default" :
+                    {
+                        "animation" : "asphalt extractors/sf533", 
+                        "mask" : [ "VVV","VVB", "VAB" ], 
+                        "visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains": ["asphalt", "dirt", "subterra"]
+                    }
+                }
+            },
+			
+            "attack" :
+            {
+                "name" : "Moxie extractor",
+                "rmg" : {
+                    "value"        : 5000,
+                    "rarity"    : 10,
+                    "zoneLimit" : 1
+                },
+                "sounds" : {
+                    "ambient" : ["abbe neutral/labLoop"],
+                    "visit" : ["CAVEHEAD"]
+                },
+                "rewards" :
+                [    
+                    {
+						"primary": {
+							"attack" : 2
+						},
+						"movePercentage": 0,
+						"manaPercentage": 0
+                    }
+
+                ],
+				"onSelectMessage" : "{Moxie extractor}\r\n\r\nThis strange building extracts and refines what is said to be the essence of the planet itself. A hero can be bolstered using this substance, but the process is taxing and painful. Do you want to continue?\r\n(Cost: all spell and movement points)",
+                "onVisitedMessage": "{Moxie extractor}\r\n\r\nThis hero has already been bolsered by Moxie.",				
+				"onEmptyMessage": "{Moxie extractor}\r\n\r\nThe Moxie vein in this area has been depleted.",
+				//"onEmptyMessage": "{Moxie extractor}\r\n\r\nThe Hero is too weakened to be bolstered by Moxie.",
+                "visitMode" : "hero",
+				"resetDuration" : 7,      
+				"canRefuse": true,
+				"selectMode" : "selectFirst",
+                "templates" :
+                {
+                    "default" :
+                    {
+                        "animation" : "asphalt extractors/sf513", 
+                        "mask" : [ "VVV","VVB", "VAB" ], 
+                        "visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains": ["asphalt", "dirt", "subterra"]
+                    }
+                }
+            },
+            "def" :
+            {
+                "name" : "Orgone extractor",
+                "rmg" : {
+                    "value"        : 5000,
+                    "rarity"    : 10,
+                    "zoneLimit" : 1
+                },
+                "sounds" : {
+                    "ambient" : ["abbe neutral/labLoop"],
+                    "visit" : ["CAVEHEAD"]
+                },
+                "rewards" :
+                [    
+                    {
+						"primary": {
+							"defence" : 2
+						},
+						"movePercentage": 0,
+						"manaPercentage": 0
+                    }
+
+                ],
+				"onSelectMessage" : "{Orgone extractor}\r\n\r\nThis strange building extracts and refines what is said to be the essence of the planet itself. A hero can be bolstered using this substance, but the process is taxing and painful. Do you want to continue?\r\n(Cost: all spell and movement points)",
+                "onVisitedMessage": "{Orgone extractor}\r\n\r\nThis hero has already been bolsered by Orgone.",
+				"onEmptyMessage": "{Orgone extractor}\r\n\r\nThe Orgone vein in this area has been depleted.",
+                "visitMode" : "hero",
+				"resetDuration" : 7,      
+				"canRefuse": true,
+				"selectMode" : "selectFirst",
+                "templates" :
+                {
+                    "default" :
+                    {
+                        "animation" : "asphalt extractors/sf510", 
+                        "mask" : [ "VVV","VVB", "VAB" ], 
+                        "visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains": ["asphalt", "dirt", "subterra"]
+                    }
+                }
+            },
+			"power" :
+            {
+                "name" : "Soma extractor",
+                "rmg" : {
+                    "value"        : 5000,
+                    "rarity"    : 10,
+                    "zoneLimit" : 1
+                },
+                "sounds" : {
+                    "ambient" : ["abbe neutral/labLoop"],
+                    "visit" : ["CAVEHEAD"]
+                },
+                "rewards" :
+                [    
+                    {
+						"primary": {
+							"spellpower" : 2
+						},
+						"movePercentage": 0,
+						"manaPercentage": 0
+                    }
+
+                ],
+				"onSelectMessage" : "{Soma extractor}\r\n\r\nThis strange building extracts and refines what is said to be the essence of the planet itself. A hero can be bolstered using this substance, but the process is taxing and painful. Do you want to continue?\r\n(Cost: all spell and movement points)",
+                "onVisitedMessage": "{Soma extractor}\r\n\r\nThis hero has already been bolsered by Soma.",
+				"onEmptyMessage": "{Soma extractor}\r\n\r\nThe Soma vein in this area has been depleted.",
+                "visitMode" : "hero",
+				"resetDuration" : 7,      
+				"canRefuse": true,
+				"selectMode" : "selectFirst",
+                "templates" :
+                {
+                    "default" :
+                    {
+                        "animation" : "asphalt extractors/sf521", 
+                        "mask" : [ "VVV","VVB", "VAB" ], 
+                        "visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains": ["asphalt", "dirt", "subterra"]
+                    }
+                }
+            },
+			
+			"knowledge" :
+            {
+                "name" : "Aether extractor",
+                "rmg" : {
+                    "value"        : 5000,
+                    "rarity"    : 10,
+                    "zoneLimit" : 1
+                },
+                "sounds" : {
+                    "ambient" : ["abbe neutral/labLoop"],
+                    "visit" : ["CAVEHEAD"]
+                },
+                "rewards" :
+                [    
+                    {
+						"primary": {
+							"knowledge" : 2
+						},
+						"movePercentage": 0,
+						"manaPercentage": 0
+                    }
+
+                ],
+				"onSelectMessage" : "{Aether extractor}\r\n\r\nThis strange building extracts and refines what is said to be the essence of the planet itself. A hero can be bolstered using this substance, but the process is taxing and painful. Do you want to continue?\r\n(Cost: all spell and movement points)",
+                "onVisitedMessage": "{Aether extractor}\r\n\r\nThis hero has already been bolsered by Aether.",
+				"onEmptyMessage": "{Aether extractor}\r\n\r\nThe Aether vein in this area has been depleted.",
+                "visitMode" : "hero",
+				"resetDuration" : 7,      
+				"canRefuse": true,
+				"selectMode" : "selectFirst",
+                "templates" :
+                {
+                    "default" :
+                    {
+                        "animation" : "asphalt extractors/sf501", 
+                        "mask" : [ "VVV","VVB", "VAB" ], 
+                        "visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains": ["asphalt", "dirt", "subterra"]
+                    }
+                }
+            }
+        }
+    },
+    "abbe_spellbook" : {
+        "name" : "Worn-out Spellbook",
+        "handler": "configurable",
+        "types" : {
+            "default" :
+            {
+                "name" : "Worn-out Spellbook",
+                "rmg" : {
+                    "value"        : 6000,
+                    "rarity"    : 10,
+                    "zoneLimit" : 1
+                },
+                "sounds" : {
+                    "visit" : ["TREASURE"],
+                    "removal" : [ "PICKUP01", "PICKUP02", "PICKUP03", "PICKUP04", "PICKUP05", "PICKUP06", "PICKUP07" ]
+                },
+                "rewards" :
+                [    
+                    {
+           				 "appearChance": 
+           				 {             
+            			  "max" : 33
+            			},
+						
+						"spells" : [ { "level" : 1 } ],
+						//"artifacts": ["spellBook"],
+						"removeObject": true
+                    },
+                    {
+           				 "appearChance": 
+           				 {                
+							"max" : 33
+            			},
+						"resources":
+						{
+							"gems": 2
+						},
+						"removeObject": true
+                    },  
+                    {
+           				 "appearChance": 
+           				 {           
+							"min" : 34,              
+						  "max" : 65
+            			},
+						
+						"spells" : [ { "level" : 2} ],
+						//"artifacts": ["spellBook"],
+						"removeObject": true
+                    },
+                    {
+           				 "appearChance": 
+           				 {               
+							"min" : 34,              
+						  "max" : 65
+            			},
+						"resources":
+						{
+							"gems": 4
+						},
+						"removeObject": true
+                    },  
+                    {
+           				 "appearChance": 
+           				 {           
+							"min" : 66,              
+						  "max" : 95
+            			},
+						
+						"spells" : [ { "level" : 3} ],
+						//"artifacts": ["spellBook"],
+						"removeObject": true
+                    },
+                    {
+           				 "appearChance": 
+           				 {               
+							"min" : 66,              
+						  "max" : 95
+            			},
+						"resources":
+						{
+							"gems": 6
+						},
+						"removeObject": true
+                    },  
+
+                    {
+           				 "appearChance": 
+           				 {            
+						  "min" : 96
+            			},
+						"primary": {
+							"knowledge" : 1
+						},
+						"gainedExp" : 1500,
+                        "message": "{Worn-out Spell Book}\r\n\r\nYou find a discarded Spell Book but instead of incantations, its pages contain wisdom revealing the secrets of the world!",
+						"removeObject": true
+                    }
+
+                ],
+				"onSelectMessage" : "{Worn-out Spell Book}\r\n\r\nYou find a discarded Spell Book. You can learn the incantation contained there, or donate it to the nearest Magic Guild in exchange for some Gems.",
+                //"onVisitedMessage": "{Worn-out Spell Book}\r\n\r\nThere's nothing more in this book that can be used.",
+				//"onEmptyMessage": "{Worn-out Spell Book}\r\n\r\nOn closer inspection, it turns out to be a worthless scrap of a book.",
+                "visitMode" : "once",
+
+				"canRefuse": false,
+				"selectMode" : "selectPlayer",
+                "templates" :
+                {
+                    "default" :
+                    {
+                        "animation" : "abbe neutral/ava0000", 
+                        "mask" : [ "VA" ], 
+                        "visitableFrom" : [ "+++", "+++", "+++" ]
+                    }
+                }
+            }
+        }
+    },
+	
+    "abbe_stoneHenge" : {
+        "name" : "Stone Circle",
+        "handler": "configurable",
+        "types" : {
+            "default" :
+            {
+                "name" : "Stone Circle",
+                "rmg" : {
+                    "value"        : 3000,
+                    "rarity"    : 100,
+                    "zoneLimit" : 1
+                },
+                "sounds" : {
+                    "visit" : ["OBELISK"]
+                },
+                "rewards" :
+                [    
+                    {
+						"limiter": 
+						{
+						  "dayOfWeek" : 1
+						},
+						"primary": {
+							"knowledge" : 1
+						},
+						
+						"message": "{Stone Circle}\r\n\r\nAir pulsates around the erected stones, showing that ancient power is still present in them. When you enter the middle of the circle, you feel their blessing flowing into you."
+                    },     
+                    {
+						"limiter": 
+						{
+						  "dayOfWeek" : 2
+						},
+						"primary": {
+							"defence" : 1
+						},
+						
+						"message": "{Stone Circle}\r\n\r\nAir pulsates around the erected stones, showing that ancient power is still present in them. When you enter the middle of the circle, you feel their blessing flowing into you."
+                    },
+                    {
+						"limiter": 
+						{
+						  "dayOfWeek" : 3,
+						  "artifacts": ["spellBook"],
+						  "secondary" : {"wisdom" : 2}
+						},
+						"spells" : [ { "level" : 3} ],
+						
+						"message": "{Stone Circle}\r\n\r\nAir pulsates around the erected stones, showing that ancient power is still present in them. When you enter the middle of the circle, you feel their blessing flowing into you."
+                    },
+				{
+					"limiter": 
+					{
+						"dayOfWeek" : 5
+					},
+					"primary": {
+						"spellpower" : 1
+					},
+						
+					"message": "{Stone Circle}\r\n\r\nAir pulsates around the erected stones, showing that ancient power is still present in them. When you enter the middle of the circle, you feel their blessing flowing into you."
+				},
+					{
+						"limiter": 
+						{
+							"dayOfWeek" : 6
+						},
+						"primary": {
+							"attack" : 1
+						},
+						
+						"message": "{Stone Circle}\r\n\r\nAir pulsates around the erected stones, showing that ancient power is still present in them. When you enter the middle of the circle, you feel their blessing flowing into you."
+					},
+			{           				 
+				"appearChance": 
+					{          
+					"max" : 40
+					},
+				"limiter": 
+				{
+					"dayOfWeek" : 7
+				},
+				"gainedExp" : 1000,
+						
+				"message": "{Stone Circle}\r\n\r\nAir pulsates around the erected stones, showing that ancient power is still present in them. When you enter the middle of the circle, you feel their blessing flowing into you."
+
+			},
+			{           				 
+				"appearChance": 
+					{          
+					"min" : 41,
+					"max" : 80
+					},
+				"limiter": 
+				{
+					"dayOfWeek" : 7
+				},
+				"gainedExp" : 1500,
+						
+				"message": "{Stone Circle}\r\n\r\nAir pulsates around the erected stones, showing that ancient power is still present in them. When you enter the middle of the circle, you feel their blessing flowing into you."
+
+			},
+			{           				 
+				"appearChance": 
+					{          
+					"max" : 81
+					},
+				"limiter": 
+				{
+					"dayOfWeek" : 7
+				},
+				"gainedExp" : 2000,
+						
+				"message": "{Stone Circle}\r\n\r\nAir pulsates around the erected stones, showing that ancient power is still present in them. When you enter the middle of the circle, you feel their blessing flowing into you."
+
+			}
+
+                ],
+				"onSelectMessage" : "{Stone Circle}\r\n\r\nAir pulsates around the erected stones, showing that ancient power is still present in them. When you enter the middle of the circle, you feel their blessing flowing into you.",
+                "onVisitedMessage": "{Stone Circle}\r\n\r\nYou're already been blessed by the stones.",
+				"onEmptyMessage": "{Stone Circle}\r\n\r\nEither you cannot comprehend the boon of the ancient monument, or the stones' power is dormant at the moment. Check tomorrow to know for sure.",
+                "visitMode" : "hero",
+				"canRefuse": false,
+				"selectMode" : "selectFirst",
+                "templates" :
+                {
+                    "default" :
+                    {
+                        "animation" : "abbe neutral/ostones", 
+                        "mask" : [ "BBB","ABB" ], 
+                        "visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains": ["grass", "dirt", "swamp"]
+                    }
+                }
+            }
+        }
+    }
+}

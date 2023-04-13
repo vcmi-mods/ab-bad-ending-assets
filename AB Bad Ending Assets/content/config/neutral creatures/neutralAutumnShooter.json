@@ -1,0 +1,99 @@
+{
+
+	"core:sharpshooter" : {
+
+		"abilities" : {
+
+			"autumn2summer" : {
+				"type" : "SPECIAL_UPGRADE",
+				"addInfo" : "creature.sharpshooter",
+				"subtype" : "creature.abbe_autumnShooter" ,
+				"propagator": "HERO"
+
+			}
+		},
+		
+		"upgrades":
+		[
+			"abbe_autumnShooter"
+		]
+
+	},
+
+	"abbe_autumnShooter" : {
+		"upgrades":
+		[
+			"sharpshooter"
+		],
+		"abilities" : {
+			"shooting" :
+			{
+				"type" : "SHOOTER"
+			},
+			"overTheGardenWall" :
+			{
+				"type" : "NO_WALL_PENALTY"
+			},
+			"underPressureftDavidBowie" :
+			{
+				"type" : "NO_DISTANCE_PENALTY"
+			},
+			
+			"summer2autumn" : {
+				"type" : "SPECIAL_UPGRADE",
+				"addInfo" : "creature.abbe_autumnShooter",
+				"subtype" : "creature.sharpshooter" ,
+				"propagator": "HERO"
+
+			}
+		},
+		"advMapAmount" : {"max" : 15, "min" : 5},
+		"aiValue" : 585,
+		"fightValue" : 460,
+		"hitPoints" : 15,
+		"attack" : 12,
+		"defense" : 10,
+		"speed" : 9,
+		"cost" : { "gold" : 400 },
+		"damage" : {"max" : 10, "min" : 8},
+		"faction" : "neutral",
+		"graphics" : {
+			"animation" : "abbe neutral/ZM171SR",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "abbe neutral/autumnshooterBACK",
+			"iconSmall" : "abbe neutral/autumnshooterBACKsmol",
+			"map" : "abbe neutral/ZMM171S",
+			"missile" :
+			{
+				"projectile" : "PLCBOWX",
+			    "attackClimaxFrame" : 10,
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90]
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 4,
+		"level" : 4,
+		"doubleWide" : false,
+		"shots" : 32,
+		"name" : { "plural" : "Sharpshooters", "singular" : "Sharpshooter" },
+		"sound" : {
+			"attack": "LCRSATTK",
+			"defend": "LCRSDFND",
+			"killed": "LCRSKILL",
+			"move": "LCRSMOVE",
+			"shoot": "LCRSSHOT",
+			"wince": "LCRSWNCE"
+		},
+		"stackExperience" : [
+		]
+	}
+}

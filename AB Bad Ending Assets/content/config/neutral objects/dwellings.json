@@ -1,0 +1,59 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"abbe_wildersHermitage" : {
+				"name" : "Wilder's Hermitage",
+				"creatures" : [[ "abbe_wilder" ]],
+				"sounds": {
+					"ambient": ["LOOPGARD"]
+				},
+				"templates" : {
+					"default" : {	
+						"animation" : "abbe neutral/wilderDwelling",
+						"mask" : [ "VVVV", "VBBV", "VVVBBVV", "VBAV" ]
+					}
+				}
+			},
+			"abbe_droneDepot" : {
+				"name" : "Drone Depot",
+				"creatures" : [[ "abbe_drone" ]],
+				"sounds": {
+					"ambient": ["LOOPFACT"]
+				},
+				"templates" : {
+					"default" : {	
+						"animation" : "abbe neutral/droneDwelling",
+						"mask" : [ "VVVVVVV", "VVVVVVV", "VVVBBVV", "VVBBBBV", "VVVBBAV" ]
+					}
+				}
+			},
+			"abbe_suckersColony" : {
+				"name" : "Suckers Colony",
+				"creatures" : [[ "abbe_brainSuck" ]],
+				"sounds": {
+					"ambient": ["abbe neutral/LOOPSUCK"]
+				},				
+				"templates" : {
+					"default" : {
+						"animation" : "abbe neutral/bloodsuckerDwelling",
+						"mask" : [ "VVVV", "VVVV", "VVBA" ]
+					}
+				}
+			},
+			"abbe_juggernautsPit" : {
+				"name" : "Monstrocities' Pit",
+				"creatures" : [[ "abbe_cyberMutant" ]],
+				"guards" : true,
+				"sounds": {
+					"ambient": ["abbe neutral/LOOPJUGG"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "abbe neutral/cybermutantDwelling",
+						"mask" : [ "VVV", "VVV", "VAB" ]
+					}
+				}
+			}
+		}		
+	}
+}

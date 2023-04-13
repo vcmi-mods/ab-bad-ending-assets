@@ -1,0 +1,72 @@
+{
+	"abbe_cyberMutant" : {
+		"abilities" : {
+			"expSlayer" : { 
+				"type" : "KING",
+				"val" : 3,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"HPregenerate" : {
+				"type" : "HP_REGENERATION",
+				"subtype" : 1,
+				"val" : 30
+			},
+			"special" : {
+				"addInfo" : 0,
+				"subtype" : "spell.abbe_specialLvl7",
+				"type" : "SPELL_AFTER_ATTACK",
+				"val" : 50
+			}
+		},
+		"advMapAmount" : {"max" : 8, "min" : 3},
+		"aiValue" : 9999,
+		"fightValue" : 8888,
+		"attack" : 28,
+		"cost" : { "gold" : 5000, "sulfur" : 2 },
+		"damage" : {"max" : 45, "min" : 35},
+		"defense" : 32,
+		"doubleWide" : true,
+		"faction" : "neutral",
+		"graphics" : {
+			"animation" : "abbe neutral/Ccybermutant",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "abbe neutral/cybermutantBACK",
+			"iconSmall" : "abbe neutral/cybermutantBACKsmol",
+			"map" : "abbe neutral/Acybermutant",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 1,
+		"hitPoints" : 225,
+		"level" : 7,
+		"name" : { "plural" : "Cyber Mutants", "singular" : "Cyber Mutant" },
+		"sound" : {
+			"attack" : "abbe neutral/cMut attack.wav",
+			"defend" : "abbe neutral/cMut defend.wav",
+			"killed" : "abbe neutral/cMut kill.wav",
+			"move" : "abbe neutral/cMut move.wav",
+			"wince" : "abbe neutral/cMut wince.wav"
+		},
+		"speed" : 11,
+		"stackExperience" : [
+			{
+				"bonus" : { "type" : "HP_REGENERATION" },
+				"values" : [ 30, 30, 36, 48, 60, 72, 84, 96, 108, 120 ]
+			},
+			{
+				"bonus" : { "type" : "JOUSTING" },
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true
+				]
+			}
+		]
+	}
+}

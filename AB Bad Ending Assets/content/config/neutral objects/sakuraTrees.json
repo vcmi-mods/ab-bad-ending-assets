@@ -1,0 +1,63 @@
+{
+	"abbesakuras" : {
+		"name" : "Sakura",
+		"handler": "static",
+		"types" : {
+			"sakuras" : {
+			"name" : "Sakura",
+			"templates" : {
+			
+					"sakura1" : { "animation" : "abbe decorations/GTree01",  
+					"mask" : [ "VVV","VBV"],
+					
+					"allowedTerrains": [
+						"grass"
+					]
+					},						
+					
+					"sakura2" : { "animation" : "abbe decorations/GTree10",  
+					"mask" : [ "VVV","VBV"],
+					"allowedTerrains": [
+						"grass"
+					]
+					},
+					
+					"sakura3" : { "animation" : "abbe decorations/GTree14",  
+					"mask" : [ "VVV","VBV"],
+					"allowedTerrains": [
+						"grass"
+					]
+					},
+					
+					"sakura4" : { "animation" : "abbe decorations/GTree22",  
+					"mask" : [ "VVV","VBV"],
+					"allowedTerrains": [
+						"grass"
+					]
+					},
+					
+					"sakura5" : { "animation" : "abbe decorations/GTree23",  
+					"mask" : [ "VVV","VBV"],
+					"allowedTerrains": [
+						"grass"
+					]
+					},
+					
+					"sakura6" : { "animation" : "abbe decorations/GTree26",  
+					"mask" : [ "VVV","VBV"],
+					"allowedTerrains": [
+						"grass"
+					]
+					},
+					
+					"sakura7" : { "animation" : "abbe decorations/GTree27",  
+					"mask" : [ "VVV","VBV"],
+					"allowedTerrains": [
+						"grass"
+					]
+					}
+				}
+			}
+		}	
+	}
+}

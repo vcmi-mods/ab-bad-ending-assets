@@ -1,0 +1,111 @@
+{
+	"abbe_glaciation" : {
+		"abilities" : {
+			"nonLiving" : 
+			{
+				"type" : "NON_LIVING"
+			},
+			"fireShieldVulnerablity" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.fireShield",
+				"val" : 100
+			},
+			"infernoVulnerablity" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.inferno",
+				"val" : 100
+			},
+			"fireballVulnerablity" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.fireball",
+				"val" : 100
+			},
+			"fireWallVulnerablity" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.fireWall",
+				"val" : 100
+			},
+			"armageddonVulnerablity" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.armageddon",
+				"val" : 100
+			},
+			"immuneToWater" :
+			{
+				"type" : "WATER_IMMUNITY",
+				"subtype" : 2 //immune to damage spells only
+			},
+			"shooting" :
+			{
+				"type" : "SHOOTER"
+			},
+			"freeshooting" :
+			{
+				"type" : "FREE_SHOOTING"
+			},		
+			"norefunds" :
+			{
+				"type" : "BLOCKS_RANGED_RETALIATION"
+			},				
+			"iceblast" :
+			{
+				"type" : "SPELL_LIKE_ATTACK",
+				"subtype" : "spell.iceBolt",
+				"val" : 1
+			}	
+		},
+		"advMapAmount" : {"max" : 16, "min" : 8},
+		"aiValue" : 1574,
+		"fightValue" : 1392,
+		"hitPoints" : 70,
+		"attack" : 16,
+		"defense" : 20,
+		"speed" : 8,
+		"cost" : { "gold" : 800 },
+		"damage" : {"max" : 18, "min" : 14},
+		"faction" : "neutral",
+		"graphics" : {
+			"animation" : "abbe neutral/Chailstone",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "abbe neutral/hailstoneBACK",
+			"iconSmall" : "abbe neutral/hailstoneBACKsmol",
+			"map" : "abbe neutral/Ahailstone",
+			"missile" :
+			{
+				"projectile" : "abbe neutral/IceBolt.def",
+			    "attackClimaxFrame" : 3,
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90]
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 3,
+		"level" : 5,
+		"doubleWide" : true,
+		"shots" : 24,
+		"name" : { "plural" : "Glaciation Elementals", "singular" : "Glaciation Elemental" },
+		"sound" : {
+			"attack": "ICELATTK.wav",
+			"defend": "ICELDFND.wav",
+			"killed": "ICELKILL.wav",
+			"move": "ICELMOVE.wav",
+			"shoot": "ICELSHOT.wav",
+			"wince": "ICELWNCE.wav"
+		},
+		"stackExperience" : [
+		]
+	}
+}

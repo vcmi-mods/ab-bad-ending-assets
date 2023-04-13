@@ -1,0 +1,216 @@
+{
+	"abbeAssetsRuins2" : {
+		"name" : "Ruins",
+		"handler":"static",
+			"types" : {
+				"forestRuins" : {
+					//"rmg": {
+					//	"zoneLimit": 3,
+					//	"value": 30,
+					//	"rarity": 30
+					//},
+					"templates" : {				
+						"NHRns01" : { "animation" : "abbe ruins/NHRns01", "mask" : [ "VVVV","VVVV", "VBBB" ], "allowedTerrains": [ "dirt","grass","swamp" ] },
+									
+						"NHRns02" : { "animation" : "abbe ruins/NHRns02", "mask" : [ "VVV","VVV", "VVB" ], "allowedTerrains": [ "dirt","grass","swamp" ] },
+									
+						"NHRns03" : { "animation" : "abbe ruins/NHRns03", "mask" : [ "VV", "VB" ], "allowedTerrains": [ "dirt","grass","swamp" ] },
+									
+						"NHRns04" : { "animation" : "abbe ruins/NHRns04", "mask" : [ "VVV", "VVB" ], "allowedTerrains": [ "dirt","grass","swamp" ] },
+									
+						"NHRns05" : { "animation" : "abbe ruins/NHRns05", "mask" : [ "VVV", "VBB" ], "allowedTerrains": [ "dirt","grass","swamp" ] },
+									
+						"NHRns06" : { "animation" : "abbe ruins/NHRns06", "mask" : [ "VB" ], "allowedTerrains": [ "dirt","grass","swamp" ] },
+									
+						"NHRns07" : { "animation" : "abbe ruins/NHRns07", "mask" : [ "VV", "VB" ], "allowedTerrains": [ "dirt","grass","swamp" ] },
+									
+						"NHRns08" : { "animation" : "abbe ruins/NHRns08", "mask" : [ "VB" ], "allowedTerrains": [ "dirt","grass","swamp" ] }
+					}
+				}
+			}
+		},
+
+	"abbeautumnlake" : {
+		"name" : "Lake",
+		"handler": "static",
+		"types" : {
+			"maples" : {
+			"name" : "Lake",
+			"templates" : {
+					"maple8" : { "animation" : "abbe decorations/AutLake",  
+					"mask" : [ "BBBB", "BBBB"],
+					"allowedTerrains": [ "dirt" ]
+					}		
+				}
+			}
+		}	
+	},
+
+	
+	"abbeautumnhills" : {
+		"name" : "Dirt Hills",
+		"handler": "static",
+		"types" : {
+			"maples" : {
+			"name" : "Dirt Hills",
+			"templates" : {
+					"authill1" : { "animation" : "abbe decorations/AutDeco1",  
+					"mask" : [ "VVV", "BBB"],
+					"allowedTerrains": [ "dirt" ]
+					},
+					
+					"authill2" : { "animation" : "abbe decorations/AutDeco2",  
+					"mask" : [ "VVV", "BBB"],
+					"allowedTerrains": [ "dirt" ]
+					},
+					
+					"authill3" : { "animation" : "abbe decorations/AutDeco3",  
+					"mask" : [ "VV", "BB"],
+					"allowedTerrains": [ "dirt" ]
+					},
+					
+					"authill4" : { "animation" : "abbe decorations/AutDeco4",  
+					"mask" : [ "VV", "BB"],
+					"allowedTerrains": [ "dirt" ]
+					}		
+				}
+			}
+		}	
+	},
+
+	
+	"abbeshrooms" : {
+		"name" : "Mushrooms",
+		"handler": "static",
+		"types" : {
+			"oneshroom" : {
+			"name" : "Mushroom",
+			"templates" : {
+					"mush1" : { "animation" : "abbe mushrooms/H4Msh1",  
+					"mask" : [ "VB"],
+					"allowedTerrains": [ "grass","swamp","dirt" ]
+					},
+					"mush2" : { "animation" : "abbe mushrooms/H4Msh2",  
+					"mask" : [ "VB"],
+					"allowedTerrains": [ "grass","swamp","dirt" ]
+					},
+					"mush3" : { "animation" : "abbe mushrooms/H4Msh3",  
+					"mask" : [ "VB"],
+					"allowedTerrains": [ "grass","swamp","dirt" ]
+					},
+					"mush4" : { "animation" : "abbe mushrooms/H4Msh4",  
+					"mask" : [ "VB"],
+					"allowedTerrains": [ "grass","swamp","dirt" ]
+					},
+					"mush24" : { "animation" : "abbe mushrooms/mshrms99",  
+					"mask" : [ "VB"],
+					"allowedTerrains": [ "grass","swamp","dirt" ]
+					},
+					"mush26" : { "animation" : "abbe mushrooms/OrnMsh01",  
+					"mask" : [ "VB"],
+					"allowedTerrains": [ "grass","swamp","dirt" ]
+					},
+					"mush27" : { "animation" : "abbe mushrooms/OrnMsh02",  
+					"mask" : [ "VB"],
+					"allowedTerrains": [ "grass","swamp","dirt" ]
+					},
+					"mush28" : { "animation" : "abbe mushrooms/OrnMsh03",  
+					"mask" : [ "VB"],
+					"allowedTerrains": [ "grass","swamp","dirt" ]
+					},
+					"mush29" : { "animation" : "abbe mushrooms/OrnMsh04",  
+					"mask" : [ "VB"],
+					"allowedTerrains": [ "grass","swamp","dirt" ]
+					}
+
+				}
+			},
+			
+			"moreshroom" : {
+				"name" : "Mushrooms",
+				"templates" : {
+					"mush5" : { "animation" : "abbe mushrooms/H4Msh5",  
+					"mask" : [ "VB"],
+					"allowedTerrains": [ "grass","swamp","dirt" ]
+					},
+					"mush6" : { "animation" : "abbe mushrooms/H4Msh6",  
+					"mask" : [ "VB"],
+					"allowedTerrains": [ "grass","swamp","dirt" ]
+					},
+					"mush7" : { "animation" : "abbe mushrooms/H4Msh7",  
+					"mask" : [ "VBV"],
+					"allowedTerrains": [ "grass","swamp","dirt" ]
+					},
+					"mush8" : { "animation" : "abbe mushrooms/H4Msh8",  
+					"mask" : [ "BB"],
+					"allowedTerrains": [ "grass","swamp","dirt" ]
+					},
+					"mush9" : { "animation" : "abbe mushrooms/H4Msh9",  
+					"mask" : [ "VB"],
+					"allowedTerrains": [ "grass","swamp","dirt" ]
+					},
+					"mush10" : { "animation" : "abbe mushrooms/H4Msh10",  
+					"mask" : [ "BBB"],
+					"allowedTerrains": [ "grass","swamp","dirt" ]
+					},
+					"mush11" : { "animation" : "abbe mushrooms/MshGrp1",  
+					"mask" : [ "VB"],
+					"allowedTerrains": [ "grass","swamp","dirt" ]
+					},
+					"mush12" : { "animation" : "abbe mushrooms/MshOrng1",  
+					"mask" : [ "VB"],
+					"allowedTerrains": [ "grass","swamp","dirt" ]
+					},
+					"mush13" : { "animation" : "abbe mushrooms/MshOrng2",  
+					"mask" : [ "VB"],
+					"allowedTerrains": [ "grass","swamp","dirt" ]
+					},
+					"mush14" : { "animation" : "abbe mushrooms/MshOrng3",  
+					"mask" : [ "VB"],
+					"allowedTerrains": [ "grass","swamp","dirt" ]
+					},
+					"mush15" : { "animation" : "abbe mushrooms/MshOrng4",  
+					"mask" : [ "VB"],
+					"allowedTerrains": [ "grass","swamp","dirt" ]
+					},
+					"mush16" : { "animation" : "abbe mushrooms/MshOrng5",  
+					"mask" : [ "VB"],
+					"allowedTerrains": [ "grass","swamp","dirt" ]
+					},
+					"mush17" : { "animation" : "abbe mushrooms/MshOrng6",  
+					"mask" : [ "VB"],
+					"allowedTerrains": [ "grass","swamp","dirt" ]
+					},
+					"mush18" : { "animation" : "abbe mushrooms/MshRed1",  
+					"mask" : [ "VB"],
+					"allowedTerrains": [ "grass","swamp","dirt" ]
+					},
+					"mush19" : { "animation" : "abbe mushrooms/MshRed2",  
+					"mask" : [ "VB"],
+					"allowedTerrains": [ "grass","swamp","dirt" ]
+					},
+					"mush20" : { "animation" : "abbe mushrooms/MshRed3",  
+					"mask" : [ "VB"],
+					"allowedTerrains": [ "grass","swamp","dirt" ]
+					},
+					"mush21" : { "animation" : "abbe mushrooms/MshRed4",  
+					"mask" : [ "VB"],
+					"allowedTerrains": [ "grass","swamp","dirt" ]
+					},
+					"mush22" : { "animation" : "abbe mushrooms/MshRed5",  
+					"mask" : [ "VB"],
+					"allowedTerrains": [ "grass","swamp","dirt" ]
+					},
+					"mush23" : { "animation" : "abbe mushrooms/MshRed6",  
+					"mask" : [ "VB"],
+					"allowedTerrains": [ "grass","swamp","dirt" ]
+					},
+					"mush25" : { "animation" : "abbe mushrooms/MyShrums",  
+					"mask" : [ "VB"],
+					"allowedTerrains": [ "grass","swamp","dirt" ]
+					}
+					}
+				}
+		}	
+	}
+}
