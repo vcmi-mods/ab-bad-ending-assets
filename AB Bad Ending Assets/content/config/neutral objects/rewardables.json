@@ -15,7 +15,7 @@
                     "visit" : ["MYSTERY"]
                 },
                 "rewards" :
-                [    
+                [     
                     {
            				 "appearChance": 
            				 {             
@@ -27,6 +27,7 @@
 						  "dayOfWeek" : 1
 						},
 						"manaPoints": 20, 
+						"manaOverflowFactor" : 100,
                         "message": "{Crumbling Magic Well}\r\n\r\nSome water pools at the bottom of this well. Do you want to draw from it?"
                     },
                     {
@@ -40,6 +41,7 @@
 						  "dayOfWeek" : 1
 						},
 						"manaPoints": 30, 
+						"manaOverflowFactor" : 100,
                         "message": "{Crumbling Magic Well}\r\n\r\nSome water pools at the bottom of this well. Do you want to draw from it?"
                     },     
                     {
@@ -53,6 +55,7 @@
 						  "dayOfWeek" : 2
 						},
 						"manaPoints": 20, 
+						"manaOverflowFactor" : 100,
                         "message": "{Crumbling Magic Well}\r\n\r\nSome water pools at the bottom of this well. Do you want to draw from it?"
                     },
                     {
@@ -66,6 +69,7 @@
 						  "dayOfWeek" : 2
 						},
 						"manaPoints": 30, 
+						"manaOverflowFactor" : 100,
                         "message": "{Crumbling Magic Well}\r\n\r\nSome water pools at the bottom of this well. Do you want to draw from it?"
                     }, 
                     {
@@ -79,6 +83,7 @@
 						  "dayOfWeek" : 3
 						},
 						"manaPoints": 20, 
+						"manaOverflowFactor" : 100,
                         "message": "{Crumbling Magic Well}\r\n\r\nSome water pools at the bottom of this well. Do you want to draw from it?"
                     },
                     {
@@ -93,6 +98,7 @@
 							"dayOfWeek" : 3
 						},
 						"manaPoints": 30, 
+						"manaOverflowFactor" : 100,
                         "message": "{Crumbling Magic Well}\r\n\r\nSome water pools at the bottom of this well. Do you want to draw from it?"
                     },
                     {
@@ -106,6 +112,7 @@
 							"dayOfWeek" : 3
 						},
 						"manaPoints": 40, 
+						"manaOverflowFactor" : 100,
                         "message": "{Crumbling Magic Well}\r\n\r\nSome water pools at the bottom of this well. Do you want to draw from it?"
                     },                    {
 						"appearChance": 
@@ -118,6 +125,7 @@
 					  "dayOfWeek" : 4
 					},
 					"manaPoints": 20, 
+					"manaOverflowFactor" : 100,
 					"message": "{Crumbling Magic Well}\r\n\r\nSome water pools at the bottom of this well. Do you want to draw from it?"
 				},
 				{
@@ -132,6 +140,7 @@
 						"dayOfWeek" : 4
 					},
 					"manaPoints": 30, 
+					"manaOverflowFactor" : 100,
 					"message": "{Crumbling Magic Well}\r\n\r\nSome water pools at the bottom of this well. Do you want to draw from it?"
 				},
 				{
@@ -145,6 +154,7 @@
 						"dayOfWeek" : 4
 					},
 					"manaPoints": 40, 
+					"manaOverflowFactor" : 100,
 					"message": "{Crumbling Magic Well}\r\n\r\nSome water pools at the bottom of this well. Do you want to draw from it?"
 				},
                     {
@@ -158,6 +168,7 @@
 						  "dayOfWeek" : 5
 						},
 						"manaPoints": 20, 
+						"manaOverflowFactor" : 100,
                         "message": "{Crumbling Magic Well}\r\n\r\nSome water pools at the bottom of this well. Do you want to draw from it?"
                     },
                     {
@@ -172,6 +183,7 @@
 							"dayOfWeek" : 5
 						},
 						"manaPoints": 30, 
+						"manaOverflowFactor" : 100,
                         "message": "{Crumbling Magic Well}\r\n\r\nSome water pools at the bottom of this well. Do you want to draw from it?"
                     },
                     {
@@ -186,6 +198,7 @@
 							"dayOfWeek" : 5
 						},
 						"manaPoints": 40, 
+						"manaOverflowFactor" : 100,
                         "message": "{Crumbling Magic Well}\r\n\r\nSome water pools at the bottom of this well. Do you want to draw from it?"
                     },
                     {
@@ -199,6 +212,7 @@
 							"dayOfWeek" : 5
 						},
 						"manaPoints": 50, 
+						"manaOverflowFactor" : 100,
                         "message": "{Crumbling Magic Well}\r\n\r\nSome water pools at the bottom of this well. Do you want to draw from it?"
                     },                    {
 						"appearChance": 
@@ -211,6 +225,7 @@
 					  "dayOfWeek" : 6
 					},
 					"manaPoints": 20, 
+					"manaOverflowFactor" : 100,
 					"message": "{Crumbling Magic Well}\r\n\r\nSome water pools at the bottom of this well. Do you want to draw from it?"
 				},
 				{
@@ -225,6 +240,7 @@
 						"dayOfWeek" : 6
 					},
 					"manaPoints": 30, 
+					"manaOverflowFactor" : 100,
 					"message": "{Crumbling Magic Well}\r\n\r\nSome water pools at the bottom of this well. Do you want to draw from it?"
 				},
 				{
@@ -239,6 +255,7 @@
 						"dayOfWeek" : 6
 					},
 					"manaPoints": 40, 
+					"manaOverflowFactor" : 100,
 					"message": "{Crumbling Magic Well}\r\n\r\nSome water pools at the bottom of this well. Do you want to draw from it?"
 				},
 				{
@@ -252,6 +269,7 @@
 						"dayOfWeek" : 6
 					},
 					"manaPoints": 50, 
+					"manaOverflowFactor" : 100,
 					"message": "{Crumbling Magic Well}\r\n\r\nSome water pools at the bottom of this well. Do you want to draw from it?"
 				},                    {
 					"appearChance": 
@@ -264,6 +282,7 @@
 				  "dayOfWeek" : 7
 				},
 				"manaPoints": 20, 
+				"manaOverflowFactor" : 100,
 				"message": "{Crumbling Magic Well}\r\n\r\nSome water pools at the bottom of this well. Do you want to draw from it?"
 			},
 			{
@@ -278,6 +297,7 @@
 					"dayOfWeek" : 7
 				},
 				"manaPoints": 30, 
+				"manaOverflowFactor" : 100,
 				"message": "{Crumbling Magic Well}\r\n\r\nSome water pools at the bottom of this well. Do you want to draw from it?"
 			},
 			{
@@ -305,16 +325,22 @@
 					"dayOfWeek" : 7
 				},
 				"manaPoints": 50, 
+				"manaOverflowFactor" : 100,
 				"message": "{Crumbling Magic Well}\r\n\r\nSome water pools at the bottom of this well. Do you want to draw from it?"
 			}
 
                 ],
 				"onSelectMessage" : "{Crumbling Magic Well}\r\n\r\nSome water pools at the bottom of this well. Do you want to draw from it?",
-                "onVisitedMessage": "{Crumbling Magic Well}\r\n\r\nThe well has been depleted.",
+                "onVisitedMessage": "{Crumbling Magic Well}\r\n\r\nThe well has been depleted. Let's check next week.",
                 //"onVisitedMessage": "{Crumbling Magic Well}\r\n\r\nThe well has been depleted. Let's check next week.",
 				"onEmptyMessage": "{Crumbling Magic Well}\r\n\r\nThe well has been depleted. Let's check next week.",
                 "visitMode" : "once",
-				"resetDuration" : 7,      
+				"resetDuration" : 7,
+				"resetParameters" : {
+					"period" : 7,
+					"visitors" : true,
+					"rewards" : false
+				},      
 				"canRefuse": true,
 				"selectMode" : "selectFirst",
                 "templates" :
@@ -422,7 +448,7 @@
 						"gainedLevels" : 1,
 						"movePercentage": 0,
 						"manaPercentage": 0, 
-                        "message": "{Ichor extractor}\r\n\r\nThis strange building extracts and refines what is said to be the essence of the planet itself. A hero can be bolstered using this substance, but the process is taxing and painful. You can use mithril in your possession to start up the injection device."
+                        "message": "{Ichor extractor}\r\n\r\nThis strange building extracts and refines what is said to be the essence of the planet itself. A hero can be bolstered using this substance, but the process is taxing and painful. Do you want to continue?\r\n(Cost: all spell and movement points)"
                     }
 
                 ],
@@ -464,7 +490,9 @@
 							"attack" : 2
 						},
 						"movePercentage": 0,
-						"manaPercentage": 0
+						"manaPercentage": 0,
+						"message": "{Moxie extractor}\r\n\r\nThis strange building extracts and refines what is said to be the essence of the planet itself. A hero can be bolstered using this substance, but the process is taxing and painful. Do you want to continue?\r\n(Cost: all spell and movement points)"
+
                     }
 
                 ],
@@ -506,7 +534,9 @@
 							"defence" : 2
 						},
 						"movePercentage": 0,
-						"manaPercentage": 0
+						"manaPercentage": 0,
+						"message": "{Orgone extractor}\r\n\r\nThis strange building extracts and refines what is said to be the essence of the planet itself. A hero can be bolstered using this substance, but the process is taxing and painful. Do you want to continue?\r\n(Cost: all spell and movement points)"
+
                     }
 
                 ],
@@ -547,7 +577,9 @@
 							"spellpower" : 2
 						},
 						"movePercentage": 0,
-						"manaPercentage": 0
+						"manaPercentage": 0,
+						"message": "{Soma extractor}\r\n\r\nThis strange building extracts and refines what is said to be the essence of the planet itself. A hero can be bolstered using this substance, but the process is taxing and painful. Do you want to continue?\r\n(Cost: all spell and movement points)"
+
                     }
 
                 ],
@@ -589,7 +621,9 @@
 							"knowledge" : 2
 						},
 						"movePercentage": 0,
-						"manaPercentage": 0
+						"manaPercentage": 0,
+						"message": "{Aether extractor}\r\n\r\nThis strange building extracts and refines what is said to be the essence of the planet itself. A hero can be bolstered using this substance, but the process is taxing and painful. Do you want to continue?\r\n(Cost: all spell and movement points)"
+
                     }
 
                 ],
