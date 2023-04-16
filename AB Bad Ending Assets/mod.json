@@ -4,10 +4,11 @@
 	
 	"author" : "HOMM modding community",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "1.2.1",
+	"version" : "1.2.2",
 	"modType" : "Expansion",	
 	"changelog" :
 	{
+		"1.2.2" : [ "Abbe elementals don't spawn at random maps" ],
 		"1.2.1" : [ "Fixed new map objects" ],
 		"1.2"   : [ "Update to vcmi-1.2 format" ],
 		"1.1"   : [ "Fixes" ],

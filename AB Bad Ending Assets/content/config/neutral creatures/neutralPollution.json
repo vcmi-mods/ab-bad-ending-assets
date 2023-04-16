@@ -33,16 +33,17 @@
 				"val" : 50
 			}
 		},
-		"advMapAmount" : {"max" : 16, "min" : 8},
+		"advMapAmount" : {"max" : 10, "min" : 5},
 		"aiValue" : 1456,
 		"fightValue" : 1276,
 		"hitPoints" : 90,
 		"attack" : 12,
 		"defense" : 22,
-		"speed" : 8,
+		"speed" : 7,
 		"cost" : { "gold" : 800 },
 		"damage" : {"max" : 20, "min" : 16},
 		"faction" : "neutral",
+		"special" : true,
 		"graphics" : {
 			"animation" : "abbe neutral/Cpollution",
 			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
@@ -51,8 +52,8 @@
 			"map" : "abbe neutral/Apollution",
 			"timeBetweenFidgets" : 1
 		},
-		"growth" : 3,
-		"level" : 5,
+		"growth" : 2,
+		"level" : 6,
 		"name" : { "plural" : "Pollution Elementals", "singular" : "Pollution Elemental" },
 		"sound" : {
 			"attack": "EELMATTK.wav",
