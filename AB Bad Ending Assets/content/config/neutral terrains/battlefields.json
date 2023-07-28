@@ -1,5 +1,5 @@
 {
-	"core:autumn": {
+	"autumn": {
 		"graphics" : "autumn/autumn bg.png", 
 		"isSpecial" : true,
 		"bonuses": [

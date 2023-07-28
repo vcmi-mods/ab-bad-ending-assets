@@ -15,7 +15,6 @@
 	{
 		"allowedTerrains" : [],   //to change later
 		"specialBattlefields" : ["autumn"],
-		"unknown" : 1,
 		"width" : 159,
 		"height" :139,
 		"blockedTiles" :  [30,39,40,41,42,43,44,45,46,55,56,71],
@@ -26,7 +25,6 @@
 	{
 		"allowedTerrains" : [],   //to change later
 		"specialBattlefields" : ["autumn"],
-		"unknown" : 1,
 		"width" : 174,
 		"height" :304,
 		"blockedTiles" :  [89,90,91,92,109,110,111,129,146,147,165],
@@ -39,7 +37,6 @@
 	{
 		"allowedTerrains" : [],   //to change later
 		"specialBattlefields" : ["autumn"],
-		"unknown" : 1,
 		"width" : 2,
 		"height" :2,
 		"blockedTiles" :  [0, 1],
@@ -50,7 +47,6 @@
 	{
 		"allowedTerrains" : [],   //to change later
 		"specialBattlefields" : ["autumn"],
-		"unknown" : 1,
 		"width" :2,
 		"height" :2,
 		"blockedTiles" :  [0, 1],
@@ -61,7 +57,6 @@
 	{
 		"allowedTerrains" : [],   //to change later
 		"specialBattlefields" : ["autumn"],
-		"unknown" : 1,
 		"width" :5,
 		"height" :3,
 		"blockedTiles" :  [0, 1, -13, -14, -15, -16],
@@ -73,7 +68,6 @@
 	{
 		"allowedTerrains" : [],   //to change later
 		"specialBattlefields" : ["autumn"],
-		"unknown" : 1,
 		"width" : 3,
 		"height" :3,
 		"blockedTiles" :  [2, 3, -14, -15, -16],
