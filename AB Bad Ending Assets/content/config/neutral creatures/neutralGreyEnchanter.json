@@ -1,0 +1,157 @@
+{
+
+	"core:enchanter" : {
+
+		"graphics" : {
+			"missile" :
+			{
+			    "attackClimaxFrame" : 8,
+				"offset" :
+				{
+					"upperX" : 50,
+					"upperY" : -50,
+					"middleX" : 50,
+					"middleY" : -50,
+					"lowerX" : 50,
+					"lowerY" : -50
+				}
+			}
+		},
+		"abilities" : {
+
+			"blue2grey" : {
+				"type" : "SPECIAL_UPGRADE",
+				"addInfo" : "creature.enchanter",
+				"subtype" : "creature.abbe_greyEnch" ,
+				"propagator": "HERO"
+
+			}
+		},
+		
+		"upgrades":
+		[
+			"abbe_greyEnch"
+		]
+
+	},
+
+	"abbe_greyEnch" : {
+		"upgrades":
+		[
+			"enchanter"
+		],
+		"abilities" : {
+			"shooter" : 
+			{
+				"type" : "SHOOTER"
+			},
+			"noPenalty" : 
+			{
+				"type" : "NO_WALL_PENALTY"
+			},
+			"casts" :
+			{
+				"type" : "CASTS",
+				"val" : 5
+			},
+			"castsAirShield" :
+			{
+				"type" : "ENCHANTER",
+				"subtype" : "spell.airShield",
+				"val" : 3,
+				"addInfo" : 3
+			},
+			"castsBless" :
+			{
+				"type" : "ENCHANTER",
+				"subtype" : "spell.bless",
+				"val" : 3,
+				"addInfo" : 3
+			},
+			"castsWeakness" :
+			{
+				"type" : "ENCHANTER",
+				"subtype" : "spell.weakness",
+				"val" : 3,
+				"addInfo" : 3
+			},
+			"castsStoneSkin" :
+			{
+				"type" : "ENCHANTER",
+				"subtype" : "spell.stoneSkin",
+				"val" : 3,
+				"addInfo" : 3
+			},
+			"castsSlow" :
+			{
+				"type" : "ENCHANTER",
+				"subtype" : "spell.slow",
+				"val" : 3,
+				"addInfo" : 3
+			},
+			"castsHaste" :
+			{
+				"type" : "ENCHANTER",
+				"subtype" : "spell.haste",
+				"val" : 3,
+				"addInfo" : 3
+			},
+			
+			"grey2blue" : {
+				"type" : "SPECIAL_UPGRADE",
+				"addInfo" : "creature.abbe_greyEnch",
+				"subtype" : "creature.enchanter" ,
+				"propagator": "HERO"
+
+			}
+		},
+		"advMapAmount" : {"max" : 12, "min" : 5},
+		"aiValue" : 1210,
+		"fightValue" : 805,
+		"hitPoints" : 30,
+		"attack" : 17,
+		"defense" : 12,
+		"speed" : 9,
+		"cost" : { "gold" : 750 },
+		"damage" : {"max" : 14, "min" : 14},
+		"faction" : "neutral",
+		"graphics" : {
+			"animation" : "abbe neutral/Cgreyench",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "abbe neutral/greyenchBACK",
+			"iconSmall" : "abbe neutral/greyenchBACKsmol",
+			"map" : "abbe neutral/Agreyench",
+			"missile" :
+			{
+				"projectile" : "CPRZEAX",
+			    "attackClimaxFrame" : 8,
+				"offset" :
+				{
+					"upperX" : 50,
+					"upperY" : -50,
+					"middleX" : 50,
+					"middleY" : -50,
+					"lowerX" : 50,
+					"lowerY" : -50
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90]
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 2,
+		"level" : 6,
+		"doubleWide" : false,
+		"shots" : 32,
+		"name" : { "plural" : "Enchanters", "singular" : "Enchanter" },
+		"sound" : {
+			"attack": "ENCHATTK.wav",
+			"defend": "ENCHDFND.wav",
+			"killed": "ENCHKILL.wav",
+			"move": "ENCHMOVE.wav",
+			"shoot": "ENCHSHOT.wav",
+			"wince": "ENCHWNCE.wav"
+		},
+		"stackExperience" : [
+		]
+	}
+}

@@ -53,7 +53,7 @@
 		},
 		"growth" : 2,
 		"level" : 6,
-		"name" : { "plural" : "Fulmination Elementals", "singular" : "Fulmination Elemental" },
+		"name" : { "plural" : "Fulminators", "singular" : "Fulminator" },
 		"sound" : {
 			"attack": "STORATTK.wav",
 			"defend": "STORDFND.wav",

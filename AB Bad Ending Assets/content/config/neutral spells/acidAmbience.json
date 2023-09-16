@@ -1,0 +1,60 @@
+{
+	"abbe_acidAmbience":
+	{
+		"type": "ability", 
+		"targetType": "NO_TARGET", 
+		"name": "Acidic Ambience",
+		"school": {"air":false, "earth":false, "fire":false, "water":false},
+		"level": 1,
+		"power": 0,
+		"defaultGainChance": 0, 
+		"gainChance":{},
+		"counters": {},		
+		"animation":{
+			"affect":["C17SPW0"]
+		},
+
+		"flags" : {"negative" : true},
+
+		"graphics":
+		{
+			"iconEffect": "abbe neutral/acidambienceeffect"
+		},
+		"sounds": {
+			"cast": "ACID"
+		},
+ 
+		"levels":
+		{
+			"base":
+			{
+				"description": "Progressively degrades defense of any creature.",
+				"power": 0,
+				"cost": 0,
+				"aiValue": 15,
+				"range": "0",
+				"targetModifier":{"smart":false},
+				"battleEffects":{
+					"timed":{
+						"type":"core:timed",
+						"cumulative":true,
+						"ignoreImmunity" : true,
+						"bonus" :{
+							"primarySkill" : {
+								"val" : -3,
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "primSkill.defence",
+								"duration" : "PERMANENT",
+								"valueType" : "ADDITIVE_VALUE"
+							}
+						}
+					}
+				}
+			},
+			"none": {},
+			"basic": {},
+			"advanced":{},
+			"expert": {}
+		}
+	}
+}

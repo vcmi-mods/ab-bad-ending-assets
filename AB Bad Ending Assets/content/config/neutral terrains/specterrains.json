@@ -1,4 +1,35 @@
 {
+	"pollutedDepths" : {
+		"name" : "Polluted Depths",
+		"handler": "terrain",
+		"base" : {
+			"sounds" : {
+				"ambient" : ["abbe neutral/toxicLOOP2"]
+			},
+			"base" : {
+			"visitableFrom" : [ "+++", "+++", "+++" ],
+			"zIndex": 90						
+			}
+		},
+		"types" : {
+
+			"defaultPollution" : {
+				"battleground": "abbe_polluted",
+				"templates" : {
+				"polluted3x6" : {"animation" : "abbe terrains/polluted3x6",	"mask" : [ "VVV", "VVV", "VVV", "VVV","VVV","VVV" ]},
+				"polluted6x4" : {"animation" : "abbe terrains/polluted6x4",	"mask" : [ "VVVVVV", "VVVVVV", "VVVVVV", "VVVVVV" ]},
+				"polluted6x6" : {"animation" : "abbe terrains/polluted6x6",	"mask" : [ "VVVVVV", "VVVVVV", "VVVVVV", "VVVVVV", "VVVVVV", "VVVVVV" ]},
+				"polluted8x3" : {"animation" : "abbe terrains/polluted8x3",	"mask" : [ "VVV", "VVV", "VVV", "VVV", "VVV", "VVV", "VVV", "VVV" ]},
+				"polluted8x6" : {"animation" : "abbe terrains/polluted8x6",	"mask" : [ "VVVVVVVV", "VVVVVVVV","VVVVVVVV","VVVVVVVV","VVVVVVVV","VVVVVVVV" ]},
+
+				"polluted3x3" : {"animation" : "abbe terrains/polluted3x3",	"mask" : [ "VVV", "VVV", "VVV" ]},
+				"polluted5x2" : {"animation" : "abbe terrains/polluted5x2",	"mask" : [ "VVVVV", "VVVVV" ]},
+				"polluted2x5" : {"animation" : "abbe terrains/polluted2x5",	"mask" : [ "VV", "VV", "VV", "VV","VV" ]}
+					}}
+
+		}
+	},
+
 	"autumnPile" : {
 		"name" : "Autumn Field",
 		"handler": "terrain",

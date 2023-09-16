@@ -1,0 +1,166 @@
+{
+	"abbe_Snake":
+	{
+		"advMapAmount" :
+		{
+			"max" : 12,
+			"min" : 8
+		},
+		"faction" : "neutral",
+		"level" : 5,		
+		"growth" : 3,		
+		"cost" :
+		{
+			"gold" : 600
+		},
+		"name" :
+		{
+			"plural" : "Emerald Oozes",
+			"singular" : "Emerald Ooze"
+		},		
+		
+		"aiValue" : 1400,
+		"fightValue" : 1400,	
+		
+		"hitPoints" : 45,		
+		"attack" : 14,
+		"defense" : 20,
+		"speed" : 7,
+		"damage" :
+		{
+			"max" : 10,
+			"min" : 10
+		},
+
+		"graphics" :
+		{
+			"animation" : "abbe neutral/Cnooze.def",
+			"map" : "abbe neutral/Mnooze.def",
+			"iconSmall" : "abbe neutral/nOozeS.bmp",
+			"iconLarge" : "abbe neutral/nOozeB.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 2,
+				"idle" : 10,
+				"attack" : 1			
+			}
+		},
+
+
+		"upgrades":
+		[
+			//"abbe_heliotropeOoze"
+		],
+		"sound" :
+		{
+			"attack" : "abbe neutral/Nooze Attack.wav",
+			"defend" : "abbe neutral/Nooze Defend.wav",
+			"killed" : "abbe neutral/Nooze Death.wav",
+			"move" : "abbe neutral/Nooze Move.wav",
+			"wince" : "abbe neutral/Nooze Wince.wav"		
+		},
+		"doubleWide" : true,
+
+		"abilities" :
+		{
+			"shedding harmful" :
+			{
+				"type" : "ENCHANTED",
+				"subtype" : "spell.abbe_sheddingOoze",
+				"val" : 0
+			},		
+			"nonliving" :
+			{
+				"type" : "NON_LIVING"
+			},
+			
+			"power" :
+			{
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"subtype" : -1,
+				"val" : 80
+			}			
+		}
+	},
+
+	
+	"abbe_Snake2":
+	{
+		"advMapAmount" :
+		{
+			"max" : 12,
+			"min" : 5
+		},
+		"faction" : "neutral",
+		"level" : 6,
+		"growth" : 2,
+		"cost" :
+		{
+			"gold" : 900
+		},
+		"name" :
+		{
+			"plural" : "Bloodstone Oozes",
+			"singular" : "Bloodstone Ooze"
+		},		
+		
+		"aiValue" : 2800,
+		"fightValue" : 2800,	
+		
+		"hitPoints" : 65,		
+		"attack" : 17,
+		"defense" : 24,
+		"speed" : 8,
+		"damage" :
+		{
+			"max" : 15,
+			"min" : 15
+		},
+
+		"graphics" :
+		{
+			"animation" : "abbe neutral/Cnooze2.def",
+			"map" : "abbe neutral/Mnooze2.def",
+			"iconSmall" : "abbe neutral/nOozeS2.bmp",
+			"iconLarge" : "abbe neutral/nOozeB2.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 2,
+				"idle" : 10,
+				"attack" : 1			
+			}
+		},
+		"sound" :
+		{
+			"attack" : "abbe neutral/Nooze Attack.wav",
+			"defend" : "abbe neutral/Nooze Defend.wav",
+			"killed" : "abbe neutral/Nooze Death.wav",
+			"move" : "abbe neutral/Nooze Move.wav",
+			"wince" : "abbe neutral/Nooze Wince.wav"		
+		},
+		"doubleWide" : true,
+
+		"abilities" :
+		{
+			"shedding harmful" :
+			{
+				"type" : "ENCHANTED",
+				"subtype" : "spell.abbe_sheddingOoze",
+				"val" : 0
+			},		
+			"nonliving" :
+			{
+				"type" : "NON_LIVING"
+			},
+			
+			"power" :
+			{
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"subtype" : -1,
+				"val" : 95
+			}			
+		}
+	}
+}

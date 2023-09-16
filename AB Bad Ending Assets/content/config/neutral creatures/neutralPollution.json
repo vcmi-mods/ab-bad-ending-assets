@@ -54,7 +54,7 @@
 		},
 		"growth" : 2,
 		"level" : 6,
-		"name" : { "plural" : "Pollution Elementals", "singular" : "Pollution Elemental" },
+		"name" : { "plural" : "Pollutors", "singular" : "Pollutor" },
 		"sound" : {
 			"attack": "EELMATTK.wav",
 			"defend": "EELMDFND.wav",

@@ -12,7 +12,7 @@
 			"animationTime" :
 			{
 				"walk" : 1,
-				"idle" : 40,
+				"idle" : 10,
 				"attack" : 1
 			}
         }
@@ -61,7 +61,7 @@
 			"animationTime" :
 			{
 				"walk" : 1,
-				"idle" : 40,
+				"idle" : 10,
 				"attack" : 1
 			}
 		},

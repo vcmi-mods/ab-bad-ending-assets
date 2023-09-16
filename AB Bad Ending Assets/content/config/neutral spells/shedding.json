@@ -1,0 +1,64 @@
+{
+	"abbe_sheddingOoze" : 
+	{
+		"type": "ability",
+		
+		"targetType" : "CREATURE",
+		"name" : "Shedding Ooze",
+		"school": {"air":false, "earth":false, "fire":false, "water":false},
+		"level": 0,
+		"power": 1,
+		"defaultGainChance": 0, 		
+		"gainChance":
+		{
+			
+		},
+		"counters": {},		
+		"graphics":
+		{
+			"iconEffect": "abbe neutral/auSurgeEffect"
+		},		
+		"animation":
+
+		{},
+		"sounds": {
+			"cast": "DISEASE"
+		},
+		
+		"levels" : 
+			{
+			
+			"base":{
+				"description": "Harmful effects are dispelled at the start of every turn.",
+				"cost": 0,
+				"power": 1,
+				"aiValue": 0,
+				"range" : "0",
+				"targetModifier":{"smart":true},
+				"battleEffects":{
+					"dispel":{
+						"type":"core:dispel",
+						"ignoreImmunity" : true,
+						"dispelNegative":true,
+						"dispelNeutral":false,
+						"dispelPositive":false
+					}
+				}
+					},
+					
+			"none":{},
+			"basic":{},
+			"advanced":{},
+			"expert":{}
+		},
+		"targetCondition" : 
+		{
+			"allOf" : {},
+			"noneOf" : {},			
+			"anyOf" : {}
+		},		
+		"flags" : {
+			"positive": true
+		}
+	}
+}

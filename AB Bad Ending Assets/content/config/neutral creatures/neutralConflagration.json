@@ -65,7 +65,7 @@
 		},
 		"growth" : 2,
 		"level" : 6,
-		"name" : { "plural" : "Conflagration Elementals", "singular" : "Conflagration Elemental" },
+		"name" : { "plural" : "Conflagrators", "singular" : "Conflagrator" },
 		"sound" : {
 			"attack": "FELMATTK.wav",
 			"defend": "FELMDFND.wav",

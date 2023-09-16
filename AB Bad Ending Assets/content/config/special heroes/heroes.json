@@ -1,0 +1,149 @@
+{
+	"abbe_Roland" :
+	{
+		"class" : "wizard",
+		"special" : true,
+
+		"images" :
+		{
+			"specialtySmall" : "abbe heroes/spec-small",
+			"specialtyLarge" : "abbe heroes/spec-large",
+			"large" : "abbe heroes/punishedroland",
+			"small" : "abbe heroes/punishedrolandsmol"
+		},
+		"spellbook" :
+	[
+		"chainLightning", "prayer"
+	],
+
+		"army" :
+		[
+			{
+				"creature" : "abbe_royalRoc",
+				"max" : 2,
+				"min" : 1
+			},
+			{
+				"creature" : "abbe_royalRoc",
+				"max" : 2,
+				"min" : 1
+			},
+			{
+				"creature" : "abbe_royalRoc",
+				"max" : 2,
+				"min" : 1
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			},
+			{
+				"level" : "expert",
+				"skill" : "wisdom"
+			}
+		],
+		"texts" :
+	{
+		"name" : "Roland",
+		"biography" : "After the demise of his beloved wife in fight against unyielding forces of cybernetic abominations, Roland's mind slowly succumbed to growing despair. He gathered his most powerful allies to lead a hopeless march against Kastore. 'Catherine, my dear... don't worry, we'll meet again soon...' .",
+		
+		"specialty" :
+		{
+			
+			"description" : "Increases the attack and defense skills of any Rocs and Thunderbirds for each level attained after 5th level.",
+
+			"tooltip" : "{Rocs}\n\nBoosts power of Rocs.",
+ 
+			"name" : "Rocs"
+		}
+		},
+		"specialty" : {
+			"creature" : "roc"
+		}
+	},
+
+	"abbe_Tanir" :
+	{
+		"class" : "wizard",
+		"special" : true,
+
+		"images" :
+		{
+			"specialtySmall" : "abbe heroes/tanirspec-small",
+			"specialtyLarge" : "abbe heroes/tanirspec-large",
+			"large" : "abbe heroes/tanir",
+			"small" : "abbe heroes/tanirsmol"
+		},
+		"spellbook" :
+	[
+		"abbe_petrify", "abbe_insidesout"
+	],
+
+		"army" :
+		[
+			{
+				"creature" : "mage",
+				"max" : 10,
+				"min" : 10
+			},
+			{
+				"creature" : "mage",
+				"max" : 10,
+				"min" : 10
+			},
+			{
+				"creature" : "mage",
+				"max" : 10,
+				"min" : 10
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			},
+			{
+				"level" : "expert",
+				"skill" : "wisdom"
+			}
+		],
+		"texts" :
+	{
+		"name" : "Tanir",
+		"biography" : "Following years of captivity and horrors suffered from the hands of Kreegans, Tanir's bitter and cynical soul has sunken into even darker depths. Despite this traumatic ordeal, his loyalty to Roland stayed as strong as ever, and once summoned to stand next to him in battle against Kastore's cyber-abominations, he answered the call with unwavering sense of duty.",
+		
+		"specialty" :
+		{
+			
+			"description" : "Increases the attack and defense skills of any Mages and Archmages for each level attained after 4th level.",
+
+			"tooltip" : "{Mages}\n\nBoosts power of Mages and Archmages.",
+ 
+			"name" : "Mages"
+		}
+		},
+		"specialty" : {
+			"creature" : "mage",
+			
+		"bonuses" : {
+			"massmantler" : 
+			{
+				"subtype" : "spell.abbe_petrify",
+				"type" : "SPELL"
+			},
+			
+			"ol-reliable" : 
+			{
+				"subtype" : "spell.abbe_insidesout",
+				"type" : "SPELL"
+			}
+		}
+	}
+	}
+}

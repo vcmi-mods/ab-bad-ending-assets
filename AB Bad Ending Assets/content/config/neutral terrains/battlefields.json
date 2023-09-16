@@ -5,30 +5,60 @@
 		"bonuses": [
 			{
 				"type" : "MAGIC_SCHOOL_SKILL",
-				"subtype" : 1,
+				"subtype" : "spellSchool.air",
 				"val" : 1,
 				"valueType" : "BASE_NUMBER"
 			},
 			
 			{
 				"type" : "MAGIC_SCHOOL_SKILL",
-				"subtype" : 8,
+				"subtype" : "spellSchool.earth",
 				"val" : 1,
 				"valueType" : "BASE_NUMBER"
 			},
 			
 			{
 				"type" : "MAGIC_SCHOOL_SKILL",
-				"subtype" : 2,
+				"subtype" : "spellSchool.fire",
 				"val" : -1,
 				"valueType" : "BASE_NUMBER"
 			},
 			
 			{
 				"type" : "MAGIC_SCHOOL_SKILL",
-				"subtype" : 4,
+				"subtype" : "spellSchool.water",
 				"val" : -1,
 				"valueType" : "BASE_NUMBER"
+			}
+		]
+	
+	},
+
+	
+	"abbe_polluted": {
+		"graphics" : "polluted/polluted bg.png", 
+		"isSpecial" : true,
+		"bonuses": [
+			{
+				"type" : "STACK_HEALTH",
+				"val" : -33,
+				"valueType" : "PERCENT_TO_BASE",
+				"limiters": ["noneOf",
+				{"type" : "HAS_ANOTHER_BONUS_LIMITER","parameters": [ "UNDEAD" ]},
+				{"type" : "HAS_ANOTHER_BONUS_LIMITER","parameters": [ "NON_LIVING" ]}]
+			},
+			
+			{
+				"type" : "ENCHANTED",
+				"subtype" : "spell.abbe_acidAmbience",
+				"val" : 0
+			},			
+			
+			{
+				"type" : "MAGIC_SCHOOL_SKILL",
+				"subtype" : "spellSchool.water",
+				"valueType" : "INDEPENDENT_MIN",
+				"val" : 0
 			}
 		]
 	

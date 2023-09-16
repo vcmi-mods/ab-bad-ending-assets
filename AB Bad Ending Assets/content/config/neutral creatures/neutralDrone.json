@@ -13,7 +13,7 @@
 			"slayer" : {
 				"type" : "ENCHANTED",
 				"subtype" : "spell.slayer",
-				"val" : 2
+				"val" : 3
 			},
 			"ironGolem" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",

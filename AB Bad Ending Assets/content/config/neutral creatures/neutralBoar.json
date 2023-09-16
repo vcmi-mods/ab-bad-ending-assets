@@ -1,0 +1,50 @@
+{
+	"abbe_boar" : {
+
+		"advMapAmount" : {
+			"max" : 25,
+			"min" : 17},
+		
+			"aiValue" : 171,
+			"fightValue" : 152,	
+
+		"hitPoints" : 12,
+		"attack" : 5,
+		"defense" : 5,
+		"speed" : 8,
+		"cost" : { "gold" : 150 },
+		"damage" : {"max" : 3, "min" : 3},
+		"faction" : "neutral",
+		"graphics" : {
+			"animation" : "abbe neutral/Cboar",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "abbe neutral/CPrL165M",
+			"iconSmall" : "abbe neutral/CPrS165N",
+			"map" : "abbe neutral/Aboar",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 8,
+		"level" : 2,
+		"doubleWide" : true,
+		"name" : { "plural" : "Hogs", "singular" : "Hog" },
+		"sound" :
+		{
+			"attack": "BOARATTK.wav",
+			"defend": "BOARDFND.wav",
+			"killed": "BOARKILL.wav",
+			"move": "BOARMOVE.wav",
+			"wince": "BOARWNCE.wav"
+		},
+		"stackExperience" : [
+		],
+		
+		"abilities" :
+		{	
+		   "powerfulCharge" :
+		   {
+			   "type" : "JOUSTING",
+			   "val" : 10
+		   }
+		}
+	}
+}

@@ -97,7 +97,7 @@
 		"level" : 6,
 		"doubleWide" : true,
 		"shots" : 24,
-		"name" : { "plural" : "Glaciation Elementals", "singular" : "Glaciation Elemental" },
+		"name" : { "plural" : "Glaciators", "singular" : "Glaciator" },
 		"sound" : {
 			"attack": "ICELATTK.wav",
 			"defend": "ICELDFND.wav",
