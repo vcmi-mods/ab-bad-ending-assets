@@ -3,7 +3,7 @@
 	{
 		"type": "combat", 
 		"targetType": "CREATURE", 
-		"name": "Insides Out",
+		"name": "Inside Out",
 		"school": {"air":false, "earth":false, "fire":false, "water":false},
 		"level": 5,
 		"power": 0,
@@ -26,16 +26,18 @@
 	},	
 		"graphics":
 		{
-			"iconBook": "abbe neutral/AssumeFrame",
-			"iconScroll": "abbe neutral/AssumeScroll",
-			"iconScenarioBonus": "abbe neutral/AssumeBonus",
-			"iconEffect": "abbe neutral/supernegmorale"
+			"iconBook": "abbe spells/AssumeFrame",
+			"iconScroll": "abbe spells/AssumeScroll",
+			"iconScenarioBonus": "abbe spells/AssumeBonus",
+			"iconEffect": "abbe spells/AssumeEffect",
+			
+			"iconImmune": "abbe spells/Assumeimmune"
 		},
 		"animation":{
-			"affect":["abbe neutral/implosionred"]
+			"affect":["C05SPE0"]
 		},
 		"sounds": {
-			"cast": "DEATHSTR"
+			"cast": "DECAY"
 		},
  
 		"levels":
@@ -63,9 +65,12 @@
 						"bonus" : {
 							"noMorale" : {
 								"val" : -3,
-								"valueType" : "INDEPENDENT_MIN",
+								"valueType" : "INDEPENDENT_MAX",
 								"type" : "MORALE",
-                                "duration" : "N_TURNS"
+								"duration" : [
+									"UNTIL_BEING_ATTACKED",
+									"UNTIL_ATTACK"
+								]
 							}
 						}
 					}

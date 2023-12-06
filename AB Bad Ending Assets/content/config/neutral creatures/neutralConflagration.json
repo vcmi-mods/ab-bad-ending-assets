@@ -8,12 +8,12 @@
 			"teleport" : 
 			{
 				"type" : "FLYING",
-				"subtype" : 1
+				"subtype" : "movementTeleporting"
 			},
 			"immuneToFire" : 
 			{
-				"type" : "FIRE_IMMUNITY",
-				"subtype" : 0
+				"type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "fire"
 			},
 			"frostRingVulnerablity" :
 			{
@@ -65,7 +65,7 @@
 		},
 		"growth" : 2,
 		"level" : 6,
-		"name" : { "plural" : "Conflagrators", "singular" : "Conflagrator" },
+		"name" : { "plural" : "Conflagration Elementals", "singular" : "Conflagration Elemental" },
 		"sound" : {
 			"attack": "FELMATTK.wav",
 			"defend": "FELMDFND.wav",
