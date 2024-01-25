@@ -29,7 +29,6 @@
 			"timeBetweenFidgets" : 1
 		},
 		"growth" : 4,
-		"hasDoubleWeek" : true,
 		"hitPoints" : 25,
 		"level" : 4,
 		"name" : { "plural" : "Brain Suckers", "singular" : "Brain Sucker" },
