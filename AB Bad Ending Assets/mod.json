@@ -18,8 +18,8 @@
 		"1.0"   : [ "Initial release" ]
 	}, 
 	"chinese" : {
-		"name" : "恩塔格瑞燃烧 - 地图要素",
-		"description" : "以铸造厂为特色的一组地图要素。",
+		"name" : "燃烧的恩塔格瑞（地图资源）",
+		"description" : "一组以铸造厂为特色的地图资源。",
 		"translations" : [
 			"translation/ab-bad-ending-assets/chinese.json"
 		]
