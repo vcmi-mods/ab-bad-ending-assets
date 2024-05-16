@@ -689,8 +689,8 @@
                     {
            				 "appearChance": 
            				 {           
-							"min" : 34,              
-						  "max" : 65
+							"min" : 33,              
+						  "max" : 66
             			},
 						
 						"spells" : [ { "level" : 2} ],
@@ -700,8 +700,8 @@
                     {
            				 "appearChance": 
            				 {               
-							"min" : 34,              
-						  "max" : 65
+							"min" : 33,              
+						  "max" : 66
             			},
 						"resources":
 						{
@@ -736,7 +736,7 @@
                     {
            				 "appearChance": 
            				 {            
-						  "min" : 96
+						  "min" : 95
             			},
 						"primary": {
 							"knowledge" : 1

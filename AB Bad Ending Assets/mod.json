@@ -4,10 +4,11 @@
 	
 	"author" : "HOMM modding community",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "1.2.7",
+	"version" : "1.2.8",
 	"modType" : "Expansion",	
 	"changelog" :
 	{
+		"1.2.8" : [ "Fix for worn-out spellbook json config" ],
 		"1.2.7" : [ "Add configuration for biomes" ],
 		"1.2.6" : [ "Fix some broken jsons for 3rd AB map" ],
 		"1.2.5" : [ "Added Chinese translation and the creatures' stackExp" ],
