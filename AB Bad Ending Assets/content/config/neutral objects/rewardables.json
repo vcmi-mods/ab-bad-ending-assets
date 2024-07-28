@@ -856,7 +856,7 @@
 			{           				 
 				"appearChance": 
 					{          
-					"min" : 41,
+					"min" : 40,
 					"max" : 80
 					},
 				"limiter": 
@@ -871,7 +871,7 @@
 			{           				 
 				"appearChance": 
 					{          
-					"max" : 81
+					"min" : 80
 					},
 				"limiter": 
 				{
