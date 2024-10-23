@@ -37,7 +37,7 @@
 			"maples" : {
 			"name" : "Lake",
 			"templates" : {
-					"maple8" : { "animation" : "abbe decorations/AutLake",  
+					"maple8l" : { "animation" : "abbe decorations/AutLake",  
 					"mask" : [ "BBBB", "BBBB"],
 					"allowedTerrains": [ "dirt" ]
 					}		

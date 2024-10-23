@@ -335,7 +335,6 @@
                 //"onVisitedMessage": "{Crumbling Magic Well}\r\n\r\nThe well has been depleted. Let's check next week.",
 				"onEmptyMessage": "{Crumbling Magic Well}\r\n\r\nThe well has been depleted. Let's check next week.",
                 "visitMode" : "once",
-				"resetDuration" : 7,
 				"resetParameters" : {
 					"period" : 7,
 					"visitors" : true,
@@ -409,7 +408,10 @@
                 "onVisitedMessage": "{Gypsy Caravan}\r\n\r\nThe Gypsies have nothing else to offer this hero.",
 				"onEmptyMessage": "{Gypsy Caravan}\r\n\r\nA group of friendly Gypsies lives here, but you don't have enough gold for their services.",
                 "visitMode" : "hero",
-				//"resetDuration" : 7,      
+				"resetParameters" : {
+					"period" : 7,
+					"rewards" : true
+				},    
 				"canRefuse": true,
 				"selectMode" : "selectPlayer",
                 "templates" :
@@ -445,7 +447,8 @@
                 "rewards" :
                 [    
                     {
-						"gainedLevels" : 1,
+//						"gainedLevels" : 1,
+						"heroLevel" : 1,
 						"movePercentage": 0,
 						"manaPercentage": 0, 
                         "message": "{Ichor extractor}\r\n\r\nThis strange building extracts and refines what is said to be the essence of the planet itself. A hero can be bolstered using this substance, but the process is taxing and painful. Do you want to continue?\r\n(Cost: all spell and movement points)"
@@ -456,7 +459,10 @@
                 "onVisitedMessage": "{Ichor extractor}\r\n\r\nThis hero has already been bolsered by Ichor.",
 				"onEmptyMessage": "{Ichor extractor}\r\n\r\nThe Ichor vein in this area has been depleted.",
                 "visitMode" : "hero",
-				"resetDuration" : 7,      
+				"resetParameters" : {
+					"period" : 7,
+					"rewards" : true
+				},      
 				"canRefuse": true,
 				"selectMode" : "selectFirst",
                 "templates" :
@@ -501,7 +507,10 @@
 				"onEmptyMessage": "{Moxie extractor}\r\n\r\nThe Moxie vein in this area has been depleted.",
 				//"onEmptyMessage": "{Moxie extractor}\r\n\r\nThe Hero is too weakened to be bolstered by Moxie.",
                 "visitMode" : "hero",
-				"resetDuration" : 7,      
+				"resetParameters" : {
+					"period" : 7,
+					"rewards" : true
+				},    
 				"canRefuse": true,
 				"selectMode" : "selectFirst",
                 "templates" :
@@ -544,7 +553,10 @@
                 "onVisitedMessage": "{Orgone extractor}\r\n\r\nThis hero has already been bolsered by Orgone.",
 				"onEmptyMessage": "{Orgone extractor}\r\n\r\nThe Orgone vein in this area has been depleted.",
                 "visitMode" : "hero",
-				"resetDuration" : 7,      
+				"resetParameters" : {
+					"period" : 7,
+					"rewards" : true
+				},    
 				"canRefuse": true,
 				"selectMode" : "selectFirst",
                 "templates" :
@@ -587,7 +599,10 @@
                 "onVisitedMessage": "{Soma extractor}\r\n\r\nThis hero has already been bolsered by Soma.",
 				"onEmptyMessage": "{Soma extractor}\r\n\r\nThe Soma vein in this area has been depleted.",
                 "visitMode" : "hero",
-				"resetDuration" : 7,      
+				"resetParameters" : {
+					"period" : 7,
+					"rewards" : true
+				},     
 				"canRefuse": true,
 				"selectMode" : "selectFirst",
                 "templates" :
@@ -631,7 +646,10 @@
                 "onVisitedMessage": "{Aether extractor}\r\n\r\nThis hero has already been bolsered by Aether.",
 				"onEmptyMessage": "{Aether extractor}\r\n\r\nThe Aether vein in this area has been depleted.",
                 "visitMode" : "hero",
-				"resetDuration" : 7,      
+				"resetParameters" : {
+					"period" : 7,
+					"rewards" : true
+				},   
 				"canRefuse": true,
 				"selectMode" : "selectFirst",
                 "templates" :
@@ -741,7 +759,8 @@
 						"primary": {
 							"knowledge" : 1
 						},
-						"gainedExp" : 1500,
+//						"gainedExp" : 1500,
+						"heroExperience" : 1500,
                         "message": "{Worn-out Spell Book}\r\n\r\nYou find a discarded Spell Book but instead of incantations, its pages contain wisdom revealing the secrets of the world!",
 						"removeObject": true
                     }
@@ -848,7 +867,8 @@
 				{
 					"dayOfWeek" : 7
 				},
-				"gainedExp" : 1000,
+//				"gainedExp" : 1000,
+				"heroExperience" : 1000,
 						
 				"message": "{Stone Circle}\r\n\r\nAir pulsates around the erected stones, showing that ancient power is still present in them. When you enter the middle of the circle, you feel their blessing flowing into you."
 
@@ -863,7 +883,8 @@
 				{
 					"dayOfWeek" : 7
 				},
-				"gainedExp" : 1500,
+//				"gainedExp" : 1500,
+				"heroExperience" : 1500,
 						
 				"message": "{Stone Circle}\r\n\r\nAir pulsates around the erected stones, showing that ancient power is still present in them. When you enter the middle of the circle, you feel their blessing flowing into you."
 
@@ -877,8 +898,8 @@
 				{
 					"dayOfWeek" : 7
 				},
-				"gainedExp" : 2000,
-						
+//				"gainedExp" : 2000,
+				"heroExperience" : 2000,						
 				"message": "{Stone Circle}\r\n\r\nAir pulsates around the erected stones, showing that ancient power is still present in them. When you enter the middle of the circle, you feel their blessing flowing into you."
 
 			}
