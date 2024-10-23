@@ -51,7 +51,7 @@
                             "earthSusceptible" : {
                                 "type" : "SPELL_DAMAGE_REDUCTION",
                                 "val" : -100,
-                                "subtype" : 3,
+                                "subtype" : "earth",
                                 "duration" : "N_TURNS"
                                             }
 						}
