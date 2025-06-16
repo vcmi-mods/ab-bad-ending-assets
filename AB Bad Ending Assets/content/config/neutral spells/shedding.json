@@ -32,7 +32,7 @@
 				"description": "Harmful effects are dispelled at the start of every turn.",
 				"cost": 0,
 				"power": 1,
-				"aiValue": 0,
+//				"aiValue": 0,
 				"range" : "0",
 				"targetModifier":{"smart":true},
 				"battleEffects":{

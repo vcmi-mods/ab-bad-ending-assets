@@ -47,7 +47,7 @@
 				"description": "Kills 50% of creatures in a stack and minimalises morale of the rest.",
 				"power": 50,
 				"cost": 40,
-				"aiValue": 15,
+//				"aiValue": 15,
 				"range": "0",
 				"targetModifier":{"smart":true},
 				"battleEffects":
