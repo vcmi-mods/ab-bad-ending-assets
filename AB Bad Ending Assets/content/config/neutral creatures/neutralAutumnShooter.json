@@ -6,8 +6,8 @@
 
 			"autumn2summer" : {
 				"type" : "SPECIAL_UPGRADE",
-				"addInfo" : "creature.sharpshooter",
-				"subtype" : "creature.abbe_autumnShooter" ,
+				"addInfo" : "sharpshooter",
+				"subtype" : "abbe_autumnShooter" ,
 				"propagator": "HERO"
 
 			}
@@ -41,8 +41,8 @@
 			
 			"summer2autumn" : {
 				"type" : "SPECIAL_UPGRADE",
-				"addInfo" : "creature.abbe_autumnShooter",
-				"subtype" : "creature.sharpshooter" ,
+				"addInfo" : "abbe_autumnShooter",
+				"subtype" : "sharpshooter" ,
 				"propagator": "HERO"
 
 			}
@@ -98,7 +98,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack"
+					"subtype" : "attack"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
 			},	
@@ -106,7 +106,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence"
+					"subtype" : "defence"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
 			},

@@ -21,8 +21,8 @@
 
 			"blue2grey" : {
 				"type" : "SPECIAL_UPGRADE",
-				"addInfo" : "creature.enchanter",
-				"subtype" : "creature.abbe_greyEnch" ,
+				"addInfo" : "enchanter",
+				"subtype" : "abbe_greyEnch" ,
 				"propagator": "HERO"
 
 			}
@@ -57,50 +57,50 @@
 			"castsAirShield" :
 			{
 				"type" : "ENCHANTER",
-				"subtype" : "spell.airShield",
+				"subtype" : "airShield",
 				"val" : 3,
 				"addInfo" : 3
 			},
 			"castsBless" :
 			{
 				"type" : "ENCHANTER",
-				"subtype" : "spell.bless",
+				"subtype" : "bless",
 				"val" : 3,
 				"addInfo" : 3
 			},
 			"castsWeakness" :
 			{
 				"type" : "ENCHANTER",
-				"subtype" : "spell.weakness",
+				"subtype" : "weakness",
 				"val" : 3,
 				"addInfo" : 3
 			},
 			"castsStoneSkin" :
 			{
 				"type" : "ENCHANTER",
-				"subtype" : "spell.stoneSkin",
+				"subtype" : "stoneSkin",
 				"val" : 3,
 				"addInfo" : 3
 			},
 			"castsSlow" :
 			{
 				"type" : "ENCHANTER",
-				"subtype" : "spell.slow",
+				"subtype" : "slow",
 				"val" : 3,
 				"addInfo" : 3
 			},
 			"castsHaste" :
 			{
 				"type" : "ENCHANTER",
-				"subtype" : "spell.haste",
+				"subtype" : "haste",
 				"val" : 3,
 				"addInfo" : 3
 			},
 			
 			"grey2blue" : {
 				"type" : "SPECIAL_UPGRADE",
-				"addInfo" : "creature.abbe_greyEnch",
-				"subtype" : "creature.enchanter" ,
+				"addInfo" : "abbe_greyEnch",
+				"subtype" : "enchanter" ,
 				"propagator": "HERO"
 
 			}
@@ -155,7 +155,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack"
+					"subtype" : "attack"
 				},
 				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
 			},	
@@ -163,7 +163,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence"
+					"subtype" : "defence"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
 			},

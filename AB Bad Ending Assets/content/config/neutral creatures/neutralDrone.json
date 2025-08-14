@@ -12,12 +12,12 @@
 			 },
 			"slayer" : {
 				"type" : "ENCHANTED",
-				"subtype" : "spell.slayer",
+				"subtype" : "slayer",
 				"val" : 2
 			},
 			"ironGolem" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",
-				"subtype" : "spellSchool.any",
+				"subtype" : "any",
 				"val" : 75
 			}
 		},
@@ -55,7 +55,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack"
+					"subtype" : "attack"
 				},
 				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
 			},	
@@ -63,7 +63,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence"
+					"subtype" : "defence"
 				},
 				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
 			},
@@ -92,11 +92,11 @@
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
 			{
-				"bonus" : { "addInfo" : [1, 0], "subtype" : "spell.weakness", "type" : "SPELL_AFTER_ATTACK" },
+				"bonus" : { "addInfo" : [1, 0], "subtype" : "weakness", "type" : "SPELL_AFTER_ATTACK" },
 				"values" : [ 7, 14, 21, 28, 35, 42, 49, 56, 63, 70 ]
 			},
 			{
-				"bonus" : { "addInfo" : [1, 0], "subtype" : "spell.disruptingRay", "type" : "SPELL_AFTER_ATTACK" },
+				"bonus" : { "addInfo" : [1, 0], "subtype" : "disruptingRay", "type" : "SPELL_AFTER_ATTACK" },
 				"values" : [ 7, 14, 21, 28, 35, 42, 49, 56, 63, 70 ]
 			}
 		]

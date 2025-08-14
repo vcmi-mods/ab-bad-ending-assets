@@ -43,19 +43,19 @@
 				"val" : -33,
 				"valueType" : "PERCENT_TO_BASE",
 				"limiters": ["noneOf",
-				{"type" : "HAS_ANOTHER_BONUS_LIMITER","parameters": [ "UNDEAD" ]},
-				{"type" : "HAS_ANOTHER_BONUS_LIMITER","parameters": [ "NON_LIVING" ]}]
+				{"type" : "HAS_ANOTHER_BONUS_LIMITER","bonusType":  "UNDEAD" },
+				{"type" : "HAS_ANOTHER_BONUS_LIMITER","bonusType":  "NON_LIVING" }]
 			},
 			
 			{
 				"type" : "ENCHANTED",
-				"subtype" : "spell.abbe_acidAmbience",
+				"subtype" : "abbe_acidAmbience",
 				"val" : 0
 			},			
 			
 			{
 				"type" : "MAGIC_SCHOOL_SKILL",
-				"subtype" : "spellSchool.water",
+				"subtype" : "water",
 				"valueType" : "INDEPENDENT_MIN",
 				"val" : 0
 			}

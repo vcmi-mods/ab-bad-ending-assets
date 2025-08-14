@@ -8,31 +8,37 @@
 			"fireShieldVulnerablity" :
 			{
 				"type" : "MORE_DAMAGE_FROM_SPELL",
-				"subtype" : "spell.fireShield",
-				"val" : 100
+				"subtype" : "fireShield",
+				"val" : 100,
+				"description" : "{Spell vulnerability}\nThis units gets 100% more damage from Fire damage spells",
+				"icon" : "icons/eradicate.png"				
 			},
 			"infernoVulnerablity" :
 			{
 				"type" : "MORE_DAMAGE_FROM_SPELL",
-				"subtype" : "spell.inferno",
-				"val" : 100
+				"subtype" : "inferno",
+				"val" : 100,
+				"hidden" : true
 			},
 			"fireballVulnerablity" :
 			{
 				"type" : "MORE_DAMAGE_FROM_SPELL",
-				"subtype" : "spell.fireball",
-				"val" : 100
+				"subtype" : "fireball",
+				"val" : 100,
+				"hidden" : true
 			},
 			"fireWallVulnerablity" :
 			{
 				"type" : "MORE_DAMAGE_FROM_SPELL",
-				"subtype" : "spell.fireWall",
-				"val" : 100
+				"subtype" : "fireWall",
+				"val" : 100,
+				"hidden" : true
 			},
 			"armageddonVulnerablity" :
 			{
 				"type" : "MORE_DAMAGE_FROM_SPELL",
-				"subtype" : "spell.armageddon",
+				"subtype" : "armageddon",
+				"hidden" : true,
 				"val" : 100
 			},
 			"immuneToWater" :
@@ -56,7 +62,7 @@
 			"iceblast" :
 			{
 				"type" : "SPELL_LIKE_ATTACK",
-				"subtype" : "spell.iceBolt",
+				"subtype" : "iceBolt",
 				"val" : 1
 			}	
 		},
@@ -111,7 +117,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack"
+					"subtype" : "attack"
 				},
 				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
 			},	
@@ -119,7 +125,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence"
+					"subtype" : "defence"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
 			},

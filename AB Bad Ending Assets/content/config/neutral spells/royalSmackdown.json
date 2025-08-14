@@ -37,7 +37,7 @@
 						"cumulative": false,
 						"bonus" : {
 							"nextCombo" : {
-								"subtype" : "spell.abbe_royalsmack2",
+								"subtype" : "abbe_royalsmack2",
 								"val" : 0,
 								"type" : "ENCHANTED"
 							}
@@ -96,7 +96,7 @@
 							},
 							
 							"nextCombo" : {
-								"subtype" : "spell.abbe_royalsmack3",
+								"subtype" : "abbe_royalsmack3",
 								"val" : 0,
 								"type" : "ENCHANTED"
 							}
@@ -155,7 +155,7 @@
 							},
 							
 							"endOfCombo" : {
-								"subtype" : "spell.abbe_royalsmack3",
+								"subtype" : "abbe_royalsmack3",
 								"val" : 0,
 								"type" : "ENCHANTED"
 							}

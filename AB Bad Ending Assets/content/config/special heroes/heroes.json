@@ -134,13 +134,13 @@
 		"bonuses" : {
 			"massmantler" : 
 			{
-				"subtype" : "spell.abbe_petrify",
+				"subtype" : "abbe_petrify",
 				"type" : "SPELL"
 			},
 			
 			"ol-reliable" : 
 			{
-				"subtype" : "spell.abbe_insidesout",
+				"subtype" : "abbe_insidesout",
 				"type" : "SPELL"
 			}
 		}

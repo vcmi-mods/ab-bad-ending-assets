@@ -17,27 +17,27 @@
 			"forestOfRocks" :
 			{
 				"type" : "NO_TERRAIN_PENALTY",
-				"subtype" : "terrain.grass",
+				"subtype" : "grass",
 				"propagator" : "HERO"
 			},
 			"rockTheEarth" :
 			{
 				"type" : "NO_TERRAIN_PENALTY",
-				"subtype" : "terrain.dirt",
+				"subtype" : "dirt",
 				"propagator" : "HERO"
 			},
 			
 			"earthWind&Fire" :
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.abbe_earthWeak",
+				"subtype" : "abbe_earthWeak",
 				"val" : 100,
 				"addInfo" : [0,2]
 			},			
 			"earthWind&FireSideB" :
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.abbe_earthWeak",
+				"subtype" : "abbe_earthWeak",
 				"val" : 100,
 				"addInfo" : [1,1]
 			}
@@ -92,7 +92,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack"
+					"subtype" : "attack"
 				},
 				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
 			},	
@@ -100,7 +100,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence"
+					"subtype" : "defence"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
 			},
