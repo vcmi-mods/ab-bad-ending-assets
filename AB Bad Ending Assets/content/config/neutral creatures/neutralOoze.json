@@ -1,244 +1,322 @@
 {
-	"abbe_Snake":
-	{
-		"advMapAmount" :
-		{
+	"abbe_Snake" : {
+		"advMapAmount" : {
 			"max" : 12,
 			"min" : 8
 		},
 		"faction" : "neutral",
-		"level" : 5,		
-		"growth" : 3,		
-		"cost" :
-		{
+		"level" : 5,
+		"growth" : 3,
+		"cost" : {
 			"gold" : 600
 		},
-		"name" :
-		{
+		"name" : {
 			"plural" : "Emerald Oozes",
 			"singular" : "Emerald Ooze"
-		},		
-		
+		},
+
 		"aiValue" : 1400,
-		"fightValue" : 1400,	
-		
-		"hitPoints" : 45,		
+		"fightValue" : 1400,
+
+		"hitPoints" : 45,
 		"attack" : 14,
 		"defense" : 20,
 		"speed" : 7,
-		"damage" :
-		{
+		"damage" : {
 			"max" : 10,
 			"min" : 10
 		},
 
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "abbe neutral/Cnooze.def",
 			"map" : "abbe neutral/Mnooze.def",
 			"iconSmall" : "abbe neutral/nOozeS.bmp",
 			"iconLarge" : "abbe neutral/nOozeB.png",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 2,
 				"idle" : 15,
-				"attack" : 1			
+				"attack" : 1
 			}
 		},
 
-		"upgrades":
-		[
+		"upgrades" : [
 			//"abbe_heliotropeOoze"
 		],
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "abbe neutral/Nooze Attack.wav",
 			"defend" : "abbe neutral/Nooze Defend.wav",
 			"killed" : "abbe neutral/Nooze Death.wav",
 			"move" : "abbe neutral/Nooze Move.wav",
-			"wince" : "abbe neutral/Nooze Wince.wav"		
+			"wince" : "abbe neutral/Nooze Wince.wav"
 		},
 		"doubleWide" : true,
 
-		"abilities" :
-		{
-			"shedding harmful" :
-			{
+		"abilities" : {
+			"shedding harmful" : {
 				"type" : "ENCHANTED",
 				"subtype" : "abbe_sheddingOoze",
 				"val" : 0
-			},		
-			"nonliving" :
-			{
+			},
+			"nonliving" : {
 				"type" : "NON_LIVING"
 			},
-			
-			"power" :
-			{
+
+			"power" : {
 				"type" : "GENERAL_DAMAGE_REDUCTION",
 				"subtype" : "damageTypeAll",
 				"val" : 80
-			}			
+			}
 		},
-		"stackExperience" : [{
-				"bonus" :
-				{
+		"stackExperience" : [
+			{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
-			},	
+				"values" : [
+					1,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
+				"values" : [
+					1,
+					2,
+					3,
+					3,
+					4,
+					4,
+					6,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					7
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
-			}]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
+			}
+		]
 	},
-	"abbe_Snake2":
-	{
-		"advMapAmount" :
-		{
+	"abbe_Snake2" : {
+		"advMapAmount" : {
 			"max" : 12,
 			"min" : 5
 		},
 		"faction" : "neutral",
 		"level" : 6,
 		"growth" : 2,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 900
 		},
-		"name" :
-		{
+		"name" : {
 			"plural" : "Bloodstone Oozes",
 			"singular" : "Bloodstone Ooze"
-		},		
-		
+		},
+
 		"aiValue" : 2800,
-		"fightValue" : 2800,	
-		
-		"hitPoints" : 65,		
+		"fightValue" : 2800,
+
+		"hitPoints" : 65,
 		"attack" : 17,
 		"defense" : 24,
 		"speed" : 8,
-		"damage" :
-		{
+		"damage" : {
 			"max" : 15,
 			"min" : 15
 		},
 
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "abbe neutral/Cnooze2.def",
 			"map" : "abbe neutral/Mnooze2.def",
 			"iconSmall" : "abbe neutral/nOozeS2.bmp",
 			"iconLarge" : "abbe neutral/nOozeB2.png",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 2,
 				"idle" : 10,
-				"attack" : 1			
+				"attack" : 1
 			}
 		},
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "abbe neutral/Nooze Attack.wav",
 			"defend" : "abbe neutral/Nooze Defend.wav",
 			"killed" : "abbe neutral/Nooze Death.wav",
 			"move" : "abbe neutral/Nooze Move.wav",
-			"wince" : "abbe neutral/Nooze Wince.wav"		
+			"wince" : "abbe neutral/Nooze Wince.wav"
 		},
 		"doubleWide" : true,
 
-		"abilities" :
-		{
-			"shedding harmful" :
-			{
+		"abilities" : {
+			"shedding harmful" : {
 				"type" : "ENCHANTED",
 				"subtype" : "abbe_sheddingOoze",
 				"val" : 0
-			},		
-			"nonliving" :
-			{
+			},
+			"nonliving" : {
 				"type" : "NON_LIVING"
 			},
-			
-			"power" :
-			{
+
+			"power" : {
 				"type" : "GENERAL_DAMAGE_REDUCTION",
 				"subtype" : "damageTypeAll",
 				"val" : 95
-			}			
+			}
 		},
-		"stackExperience" : [{
-			"bonus" :
+		"stackExperience" : [
 			{
-				"type" : "PRIMARY_SKILL",
-				"subtype" : "attack"
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
+				},
+				"values" : [
+					1,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
 			},
-			"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
-		},	
-		{
-			"bonus" :
 			{
-				"type" : "PRIMARY_SKILL",
-				"subtype" : "defence"
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
+				},
+				"values" : [
+					1,
+					2,
+					3,
+					3,
+					4,
+					4,
+					6,
+					6,
+					7,
+					8
+				]
 			},
-			"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
-		},
-		{
-			"bonus" :
 			{
-				"type" : "CREATURE_DAMAGE",
-				"subtype" : "creatureDamageMax"
+				"bonus" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					7
+				]
 			},
-			"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
-		},
-		{
-			"bonus" :
 			{
-				"type" : "CREATURE_DAMAGE",
-				"subtype" : "creatureDamageMin"
+				"bonus" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
+				},
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7
+				]
 			},
-			"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
-		},
-		{
-			"bonus" :
 			{
-				"valueType" : "PERCENT_TO_BASE",
-				"type" : "STACK_HEALTH"
-			},
-			"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
-		}]
-
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
+			}
+		]
 	}
 }

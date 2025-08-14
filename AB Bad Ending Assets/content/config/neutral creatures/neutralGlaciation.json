@@ -1,94 +1,93 @@
 {
 	"abbe_glaciation" : {
 		"abilities" : {
-			"nonLiving" : 
-			{
+			"nonLiving" : {
 				"type" : "NON_LIVING"
 			},
-			"fireShieldVulnerablity" :
-			{
+			"fireShieldVulnerablity" : {
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "fireShield",
 				"val" : 100,
 				"description" : "{Spell vulnerability}\nThis units gets 100% more damage from Fire damage spells",
-				"icon" : "icons/eradicate.png"				
+				"icon" : "icons/eradicate.png"
 			},
-			"infernoVulnerablity" :
-			{
+			"infernoVulnerablity" : {
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "inferno",
 				"val" : 100,
 				"hidden" : true
 			},
-			"fireballVulnerablity" :
-			{
+			"fireballVulnerablity" : {
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "fireball",
 				"val" : 100,
 				"hidden" : true
 			},
-			"fireWallVulnerablity" :
-			{
+			"fireWallVulnerablity" : {
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "fireWall",
 				"val" : 100,
 				"hidden" : true
 			},
-			"armageddonVulnerablity" :
-			{
+			"armageddonVulnerablity" : {
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "armageddon",
 				"hidden" : true,
 				"val" : 100
 			},
-			"immuneToWater" :
-			{
+			"immuneToWater" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"subtype" : "water",
 				"val" : 100
 			},
-			"shooting" :
-			{
+			"shooting" : {
 				"type" : "SHOOTER"
 			},
-			"freeshooting" :
-			{
+			"freeshooting" : {
 				"type" : "FREE_SHOOTING"
-			},		
-			"norefunds" :
-			{
+			},
+			"norefunds" : {
 				"type" : "BLOCKS_RANGED_RETALIATION"
-			},				
-			"iceblast" :
-			{
+			},
+			"iceblast" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "iceBolt",
 				"val" : 1
-			}	
+			}
 		},
-		"advMapAmount" : {"max" : 10, "min" : 5},
+		"advMapAmount" : {
+			"max" : 10,
+			"min" : 5
+		},
 		"aiValue" : 1574,
 		"fightValue" : 1392,
 		"hitPoints" : 70,
 		"attack" : 16,
 		"defense" : 20,
 		"speed" : 7,
-		"cost" : { "gold" : 800 },
-		"damage" : {"max" : 18, "min" : 14},
+		"cost" : {
+			"gold" : 800
+		},
+		"damage" : {
+			"max" : 18,
+			"min" : 14
+		},
 		"faction" : "neutral",
 		"special" : true,
 		"graphics" : {
 			"animation" : "abbe neutral/Chailstone",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"iconLarge" : "abbe neutral/hailstoneBACK",
 			"iconSmall" : "abbe neutral/hailstoneBACKsmol",
 			"map" : "abbe neutral/Ahailstone",
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "abbe neutral/IceBolt.def",
-			    "attackClimaxFrame" : 3,
-				"offset" :
-				{
+				"attackClimaxFrame" : 3,
+				"offset" : {
 					"upperX" : 41,
 					"upperY" : -92,
 					"middleX" : 58,
@@ -96,7 +95,17 @@
 					"lowerX" : 29,
 					"lowerY" : -14
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90
+				]
 			},
 			"timeBetweenFidgets" : 1
 		},
@@ -104,54 +113,109 @@
 		"level" : 6,
 		"doubleWide" : true,
 		"shots" : 24,
-		"name" : { "plural" : "Glaciation Elementals", "singular" : "Glaciation Elemental" },
-		"sound" : {
-			"attack": "ICELATTK.wav",
-			"defend": "ICELDFND.wav",
-			"killed": "ICELKILL.wav",
-			"move": "ICELMOVE.wav",
-			"shoot": "ICELSHOT.wav",
-			"wince": "ICELWNCE.wav"
+		"name" : {
+			"plural" : "Glaciation Elementals",
+			"singular" : "Glaciation Elemental"
 		},
-		"stackExperience" : [{
-				"bonus" :
-				{
+		"sound" : {
+			"attack" : "ICELATTK.wav",
+			"defend" : "ICELDFND.wav",
+			"killed" : "ICELKILL.wav",
+			"move" : "ICELMOVE.wav",
+			"shoot" : "ICELSHOT.wav",
+			"wince" : "ICELWNCE.wav"
+		},
+		"stackExperience" : [
+			{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
-			}]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
+			}
+		]
 	}
 }

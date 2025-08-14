@@ -3,37 +3,86 @@
 		"types" : {
 			"object" : {
 				"templates" : {
-					"desertCave" : { 
-						"visitableFrom" : [ "---", "---", "+++" ],	
-						"animation" : "abbe gates/SandCave", 
-						"mask" : [ "VVVV", "VVBV", "VBAB" ],
-						"allowedTerrains": [ "sand" ]
+					"desertCave" : {
+						"visitableFrom" : [
+							"---",
+							"---",
+							"+++"
+						],
+						"animation" : "abbe gates/SandCave",
+						"mask" : [
+							"VVVV",
+							"VVBV",
+							"VBAB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
 					},
-					"roughCave" : { 
-						"visitableFrom" : [ "---", "---", "+++" ],	
-						"animation" : "abbe gates/RoughCave", 
-						"mask" : [ "VVVV", "VVBV", "VBAB" ],
-						"allowedTerrains": [ "rough" ]
+					"roughCave" : {
+						"visitableFrom" : [
+							"---",
+							"---",
+							"+++"
+						],
+						"animation" : "abbe gates/RoughCave",
+						"mask" : [
+							"VVVV",
+							"VVBV",
+							"VBAB"
+						],
+						"allowedTerrains" : [
+							"rough"
+						]
 					},
-					"swampCave" : { 
-						"visitableFrom" : [ "---", "---", "+++" ],	
-						"animation" : "abbe gates/SwampCave", 
-						"mask" : [ "VVVV", "VVBV", "VBAB" ],
-						"allowedTerrains": [ "swamp" ]
+					"swampCave" : {
+						"visitableFrom" : [
+							"---",
+							"---",
+							"+++"
+						],
+						"animation" : "abbe gates/SwampCave",
+						"mask" : [
+							"VVVV",
+							"VVBV",
+							"VBAB"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
 					},
-					"volcanoCave" : { 
-						"visitableFrom" : [ "---", "---", "+++" ],	
-						"animation" : "abbe gates/LavaCave", 
-						"mask" : [ "VVVV", "VVBV", "VBAB" ],
-						"allowedTerrains": [ "lava" ]
+					"volcanoCave" : {
+						"visitableFrom" : [
+							"---",
+							"---",
+							"+++"
+						],
+						"animation" : "abbe gates/LavaCave",
+						"mask" : [
+							"VVVV",
+							"VVBV",
+							"VBAB"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
 					},
-					"forgeCave" : { 
-						"visitableFrom" : [ "---", "---", "+++" ],	
-						"animation" : "abbe gates/AsphaltCave", 
-						"mask" : [ "VVVV", "VVBV", "VBAB" ],
-						"allowedTerrains": [ "asphalt" ]
+					"forgeCave" : {
+						"visitableFrom" : [
+							"---",
+							"---",
+							"+++"
+						],
+						"animation" : "abbe gates/AsphaltCave",
+						"mask" : [
+							"VVVV",
+							"VVBV",
+							"VBAB"
+						],
+						"allowedTerrains" : [
+							"asphalt"
+						]
 					}
-
 				}
 			}
 		}

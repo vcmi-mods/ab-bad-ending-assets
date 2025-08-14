@@ -1,58 +1,60 @@
 {
-	"abbe_petrify":
-	{
-		"type": "combat", 
-		"targetType": "LOCATION", 
-		"name": "Petrify",
-		"school": {"air":false, "earth":true, "fire":false, "water":false},
-		"level": 1,
-		"power": 10,
-		"defaultGainChance": 0, 
-		"gainChance":{},
-		"counters": {},		
-		"animation":{
-			"affect":[ {
-				"effectName" : "petrification"
-			} ]
+	"abbe_petrify" : {
+		"type" : "combat",
+		"targetType" : "LOCATION",
+		"name" : "Petrify",
+		"school" : {
+			"air" : false,
+			"earth" : true,
+			"fire" : false,
+			"water" : false
+		},
+		"level" : 1,
+		"power" : 10,
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+		"counters" : {},
+		"animation" : {
+			"affect" : [
+				{
+					"effectName" : "petrification"
+				}
+			]
 		},
 
 		"flags" : {
-			"damage": true, "negative" : true,
-			"special": true},
-
-		"graphics":
-		{
-			"iconBook": "abbe neutral/AssumeFrame",
-			"iconScroll": "abbe neutral/AssumeScroll",
-			"iconScenarioBonus": "abbe neutral/AssumeBonus",
-			"iconEffect": "abbe neutral/Si69Petr"
+			"damage" : true,
+			"negative" : true,
+			"special" : true
 		},
-		"sounds": {
-			"cast": "PARALYZE"
-		},
- 
-		"levels":
-		{
-			"base":
-			{
-				"description": "Petrifies a group of enemies.",
-				"power": 10,
-				"cost": 25,
-//				"aiValue": 15,
-				"range": "1",
-				"targetModifier":{"smart":false},
-				"battleEffects":
-				{
 
+		"graphics" : {
+			"iconBook" : "abbe neutral/AssumeFrame",
+			"iconScroll" : "abbe neutral/AssumeScroll",
+			"iconScenarioBonus" : "abbe neutral/AssumeBonus",
+			"iconEffect" : "abbe neutral/Si69Petr"
+		},
+		"sounds" : {
+			"cast" : "PARALYZE"
+		},
+
+		"levels" : {
+			"base" : {
+				"description" : "Petrifies a group of enemies.",
+				"power" : 10,
+				"cost" : 25,
+				//				"aiValue": 15,
+				"range" : "1",
+				"targetModifier" : {
+					"smart" : false
+				},
+				"battleEffects" : {
 					"directDamage" : {
-						
-						"type":"core:damage"						
-					
+						"type" : "core:damage"
 					},
-					"theMainOne" :
-					{
-						"type": "core:timed",
-						"cumulative": true,
+					"theMainOne" : {
+						"type" : "core:timed",
+						"cumulative" : true,
 						"bonus" : {
 							"notActive" : {
 								"val" : 0,
@@ -83,10 +85,10 @@
 					}
 				}
 			},
-			"none": {},
-			"basic": {},
-			"advanced":{},
-			"expert": {}
+			"none" : {},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
 		}
 	}
 }

@@ -1,7 +1,7 @@
 {
 	"abbe_cyberMutant" : {
 		"abilities" : {
-			"expSlayer" : { 
+			"expSlayer" : {
 				"type" : "KING",
 				"val" : 3,
 				"valueType" : "ADDITIVE_VALUE"
@@ -17,18 +17,31 @@
 				"val" : 50
 			}
 		},
-		"advMapAmount" : {"max" : 8, "min" : 3},
+		"advMapAmount" : {
+			"max" : 8,
+			"min" : 3
+		},
 		"aiValue" : 9999,
 		"fightValue" : 8888,
 		"attack" : 28,
-		"cost" : { "gold" : 5000, "sulfur" : 2 },
-		"damage" : {"max" : 45, "min" : 35},
+		"cost" : {
+			"gold" : 5000,
+			"sulfur" : 2
+		},
+		"damage" : {
+			"max" : 45,
+			"min" : 35
+		},
 		"defense" : 32,
 		"doubleWide" : true,
 		"faction" : "neutral",
 		"graphics" : {
 			"animation" : "abbe neutral/Ccybermutant",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"iconLarge" : "abbe neutral/cybermutantBACK",
 			"iconSmall" : "abbe neutral/cybermutantBACKsmol",
 			"map" : "abbe neutral/Acybermutant",
@@ -37,7 +50,10 @@
 		"growth" : 1,
 		"hitPoints" : 225,
 		"level" : 7,
-		"name" : { "plural" : "Cyber Mutants", "singular" : "Cyber Mutant" },
+		"name" : {
+			"plural" : "Cyber Mutants",
+			"singular" : "Cyber Mutant"
+		},
 		"sound" : {
 			"attack" : "abbe neutral/cMut attack.wav",
 			"defend" : "abbe neutral/cMut defend.wav",
@@ -48,43 +64,98 @@
 		"speed" : 11,
 		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageBoth"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" : { "type" : "HP_REGENERATION" },
-				"values" : [ 30, 30, 36, 48, 60, 72, 84, 96, 108, 120 ]
+				"bonus" : {
+					"type" : "HP_REGENERATION"
+				},
+				"values" : [
+					30,
+					30,
+					36,
+					48,
+					60,
+					72,
+					84,
+					96,
+					108,
+					120
+				]
 			},
 			{
-				"bonus" : { "type" : "JOUSTING" },
+				"bonus" : {
+					"type" : "JOUSTING"
+				},
 				"values" : [
 					false,
 					false,

@@ -1,13 +1,9 @@
 {
-
 	"core:enchanter" : {
-
 		"graphics" : {
-			"missile" :
-			{
-			    "attackClimaxFrame" : 8,
-				"offset" :
-				{
+			"missile" : {
+				"attackClimaxFrame" : 8,
+				"offset" : {
 					"upperX" : 50,
 					"upperY" : -50,
 					"middleX" : 50,
@@ -18,115 +14,110 @@
 			}
 		},
 		"abilities" : {
-
 			"blue2grey" : {
 				"type" : "SPECIAL_UPGRADE",
 				"addInfo" : "enchanter",
-				"subtype" : "abbe_greyEnch" ,
-				"propagator": "HERO"
-
+				"subtype" : "abbe_greyEnch",
+				"propagator" : "HERO"
 			}
 		},
-		
-		"upgrades":
-		[
+
+		"upgrades" : [
 			"abbe_greyEnch"
 		]
-
 	},
 
 	"abbe_greyEnch" : {
-		"upgrades":
-		[
+		"upgrades" : [
 			"enchanter"
 		],
 		"abilities" : {
-			"shooter" : 
-			{
+			"shooter" : {
 				"type" : "SHOOTER"
 			},
-			"noPenalty" : 
-			{
+			"noPenalty" : {
 				"type" : "NO_WALL_PENALTY"
 			},
-			"casts" :
-			{
+			"casts" : {
 				"type" : "CASTS",
 				"val" : 5
 			},
-			"castsAirShield" :
-			{
+			"castsAirShield" : {
 				"type" : "ENCHANTER",
 				"subtype" : "airShield",
 				"val" : 3,
 				"addInfo" : 3
 			},
-			"castsBless" :
-			{
+			"castsBless" : {
 				"type" : "ENCHANTER",
 				"subtype" : "bless",
 				"val" : 3,
 				"addInfo" : 3
 			},
-			"castsWeakness" :
-			{
+			"castsWeakness" : {
 				"type" : "ENCHANTER",
 				"subtype" : "weakness",
 				"val" : 3,
 				"addInfo" : 3
 			},
-			"castsStoneSkin" :
-			{
+			"castsStoneSkin" : {
 				"type" : "ENCHANTER",
 				"subtype" : "stoneSkin",
 				"val" : 3,
 				"addInfo" : 3
 			},
-			"castsSlow" :
-			{
+			"castsSlow" : {
 				"type" : "ENCHANTER",
 				"subtype" : "slow",
 				"val" : 3,
 				"addInfo" : 3
 			},
-			"castsHaste" :
-			{
+			"castsHaste" : {
 				"type" : "ENCHANTER",
 				"subtype" : "haste",
 				"val" : 3,
 				"addInfo" : 3
 			},
-			
+
 			"grey2blue" : {
 				"type" : "SPECIAL_UPGRADE",
 				"addInfo" : "abbe_greyEnch",
-				"subtype" : "enchanter" ,
-				"propagator": "HERO"
-
+				"subtype" : "enchanter",
+				"propagator" : "HERO"
 			}
 		},
-		"advMapAmount" : {"max" : 10, "min" : 5},
+		"advMapAmount" : {
+			"max" : 10,
+			"min" : 5
+		},
 		"aiValue" : 1210,
 		"fightValue" : 805,
 		"hitPoints" : 30,
 		"attack" : 17,
 		"defense" : 12,
 		"speed" : 9,
-		"cost" : { "gold" : 750 },
-		"damage" : {"max" : 14, "min" : 14},
+		"cost" : {
+			"gold" : 750
+		},
+		"damage" : {
+			"max" : 14,
+			"min" : 14
+		},
 		"faction" : "neutral",
 		"graphics" : {
 			"animation" : "abbe neutral/Cgreyench",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"iconLarge" : "abbe neutral/greyenchBACK",
 			"iconSmall" : "abbe neutral/greyenchBACKsmol",
 			"map" : "abbe neutral/Agreyench",
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "CPRZEAX",
-			    "attackClimaxFrame" : 8,
-				"offset" :
-				{
+				"attackClimaxFrame" : 8,
+				"offset" : {
 					"upperX" : 50,
 					"upperY" : -50,
 					"middleX" : 50,
@@ -134,7 +125,17 @@
 					"lowerX" : 50,
 					"lowerY" : -50
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90
+				]
 			},
 			"timeBetweenFidgets" : 1
 		},
@@ -142,54 +143,109 @@
 		"level" : 6,
 		"doubleWide" : false,
 		"shots" : 32,
-		"name" : { "plural" : "Enchanters", "singular" : "Enchanter" },
-		"sound" : {
-			"attack": "ENCHATTK.wav",
-			"defend": "ENCHDFND.wav",
-			"killed": "ENCHKILL.wav",
-			"move": "ENCHMOVE.wav",
-			"shoot": "ENCHSHOT.wav",
-			"wince": "ENCHWNCE.wav"
+		"name" : {
+			"plural" : "Enchanters",
+			"singular" : "Enchanter"
 		},
-		"stackExperience" : [{
-				"bonus" :
-				{
+		"sound" : {
+			"attack" : "ENCHATTK.wav",
+			"defend" : "ENCHDFND.wav",
+			"killed" : "ENCHKILL.wav",
+			"move" : "ENCHMOVE.wav",
+			"shoot" : "ENCHSHOT.wav",
+			"wince" : "ENCHWNCE.wav"
+		},
+		"stackExperience" : [
+			{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
-			}]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
+			}
+		]
 	}
 }

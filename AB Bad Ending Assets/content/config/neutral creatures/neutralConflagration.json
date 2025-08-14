@@ -1,66 +1,70 @@
 {
 	"abbe_conflagration" : {
 		"abilities" : {
-			"nonLiving" : 
-			{
+			"nonLiving" : {
 				"type" : "NON_LIVING"
 			},
-			"teleport" : 
-			{
+			"teleport" : {
 				"type" : "FLYING",
 				"subtype" : "movementTeleporting"
 			},
-			"immuneToFire" : 
-			{
+			"immuneToFire" : {
 				"type" : "SPELL_SCHOOL_IMMUNITY",
 				"subtype" : "fire"
 			},
-			"frostRingVulnerablity" :
-			{
+			"frostRingVulnerablity" : {
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "frostRing",
 				"val" : 100,
 				"description" : "{Spell vulnerability}\nThis units gets 100% more damage from Frost Ring and Ice Bolt",
-				"icon" : "icons/eradicate.png"				
+				"icon" : "icons/eradicate.png"
 			},
-			"iceBoltVulnerablity" :
-			{
+			"iceBoltVulnerablity" : {
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "iceBolt",
 				"val" : 100,
 				"hidden" : true
 			},
-			"fireblast" :
-			{
+			"fireblast" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "inferno",
 				"val" : 1
-			},				
-			"casts" :
-			{
+			},
+			"casts" : {
 				"type" : "CASTS",
 				"val" : 1
-			},		
-			"fireblast power" :
-			{
+			},
+			"fireblast power" : {
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 100
 			}
 		},
-		"advMapAmount" : {"max" : 10, "min" : 5},
+		"advMapAmount" : {
+			"max" : 10,
+			"min" : 5
+		},
 		"aiValue" : 1254,
 		"fightValue" : 1109,
 		"hitPoints" : 70,
 		"attack" : 18,
 		"defense" : 14,
 		"speed" : 10,
-		"damage" : {"max" : 14, "min" : 12},
-		"cost" : { "gold" : 800 },
+		"damage" : {
+			"max" : 14,
+			"min" : 12
+		},
+		"cost" : {
+			"gold" : 800
+		},
 		"faction" : "neutral",
 		"special" : true,
 		"graphics" : {
 			"animation" : "abbe neutral/Cconflagration",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"iconLarge" : "abbe neutral/conflagrationBACK",
 			"iconSmall" : "abbe neutral/conflagrationBACKsmol",
 			"map" : "abbe neutral/Aconflagration",
@@ -68,56 +72,111 @@
 		},
 		"growth" : 2,
 		"level" : 6,
-		"name" : { "plural" : "Conflagration Elementals", "singular" : "Conflagration Elemental" },
-		"sound" : {
-			"attack": "FELMATTK.wav",
-			"defend": "FELMDFND.wav",
-			"shoot": "FELMATTK.wav",
-			"killed": "FELMKILL.wav",
-			//"move": "FELMMOVE.wav",
-			"startMoving": "FELMMOVE.wav",
-			"endMoving": "FELMMOVE.wav",
-			"wince": "FELMWNCE.wav"
+		"name" : {
+			"plural" : "Conflagration Elementals",
+			"singular" : "Conflagration Elemental"
 		},
-		"stackExperience" : [{
-				"bonus" :
-				{
+		"sound" : {
+			"attack" : "FELMATTK.wav",
+			"defend" : "FELMDFND.wav",
+			"shoot" : "FELMATTK.wav",
+			"killed" : "FELMKILL.wav",
+			//"move": "FELMMOVE.wav",
+			"startMoving" : "FELMMOVE.wav",
+			"endMoving" : "FELMMOVE.wav",
+			"wince" : "FELMWNCE.wav"
+		},
+		"stackExperience" : [
+			{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
-			}]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
+			}
+		]
 	}
 }

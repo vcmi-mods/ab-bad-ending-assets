@@ -1,19 +1,19 @@
 {
 	"abbe_royalRoc" : {
-
 		"abilities" : {
-			"birb" :
-			{
+			"birb" : {
 				"type" : "FLYING"
 			},
-			"theyreTakinTheHobbits" :
-				{
-					"subtype" : "abbe_royalsmack1",
-					"val" : 0,
-					"type" : "ENCHANTED"
-				}
+			"theyreTakinTheHobbits" : {
+				"subtype" : "abbe_royalsmack1",
+				"val" : 0,
+				"type" : "ENCHANTED"
+			}
 		},
-		"advMapAmount" : {"max" : 12, "min" : 5},
+		"advMapAmount" : {
+			"max" : 12,
+			"min" : 5
+		},
 		"aiValue" : 1518,
 		"fightValue" : 1518,
 
@@ -21,12 +21,21 @@
 		"attack" : 15,
 		"defense" : 15,
 		"speed" : 13,
-		"cost" : { "gold" : 900 },
-		"damage" : {"max" : 22, "min" : 16},
+		"cost" : {
+			"gold" : 900
+		},
+		"damage" : {
+			"max" : 22,
+			"min" : 16
+		},
 		"faction" : "neutral",
 		"graphics" : {
 			"animation" : "abbe neutral/CroyalRoc",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"iconLarge" : "abbe neutral/rorocback",
 			"iconSmall" : "abbe neutral/rorocbacksmol",
 			"map" : "abbe neutral/AroyalRoc",
@@ -35,59 +44,115 @@
 		"growth" : 2,
 		"level" : 6,
 		"doubleWide" : true,
-		"name" : { "plural" : "Royal Rocs", "singular" : "Royal Roc" },
-		"sound" :
-		{
-			"attack": "ROCCATTK.wav",
-			"defend": "ROCCDFND.wav",
-			"killed": "ROCCKILL.wav",
-			"move": "ROCCMOVE.wav",
-			"wince": "ROCCWNCE.wav"
+		"name" : {
+			"plural" : "Royal Rocs",
+			"singular" : "Royal Roc"
 		},
-		"stackExperience" : [{
-				"bonus" :
-				{
+		"sound" : {
+			"attack" : "ROCCATTK.wav",
+			"defend" : "ROCCDFND.wav",
+			"killed" : "ROCCKILL.wav",
+			"move" : "ROCCMOVE.wav",
+			"wince" : "ROCCWNCE.wav"
+		},
+		"stackExperience" : [
+			{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
-			}]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
+			}
+		]
 	},
-	
+
 	"core:roc" : {
-		
-		"upgrades": ["thunderbird", "abbe_royalRoc"]
+		"upgrades" : [
+			"thunderbird",
+			"abbe_royalRoc"
+		]
 	}
 }

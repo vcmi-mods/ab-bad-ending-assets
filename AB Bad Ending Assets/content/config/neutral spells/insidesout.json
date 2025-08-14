@@ -1,67 +1,70 @@
 {
-	"abbe_insidesout":
-	{
-		"type": "combat", 
-		"targetType": "CREATURE", 
-		"name": "Inside Out",
-		"school": {"air":false, "earth":false, "fire":false, "water":false},
-		"level": 5,
-		"power": 0,
-		"defaultGainChance": 0, 
-		"gainChance":{},
-		"counters": {},	
+	"abbe_insidesout" : {
+		"type" : "combat",
+		"targetType" : "CREATURE",
+		"name" : "Inside Out",
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : false
+		},
+		"level" : 5,
+		"power" : 0,
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+		"counters" : {},
 
 		"flags" : {
-			"damage": true, "negative" : true,
-			"special": true
+			"damage" : true,
+			"negative" : true,
+			"special" : true
 		},
 		"targetCondition" : {
 			"allOf" : {},
-			"anyOf" : {},			
+			"anyOf" : {},
 			"noneOf" : {
-				"core:bonus.GARGOYLE": "normal",
-				"core:bonus.NON_LIVING": "normal",
-				"core:bonus.UNDEAD": "normal",
-				"bonus.SIEGE_WEAPON" : "absolute"}
-	},	
-		"graphics":
-		{
-			"iconBook": "abbe spells/AssumeFrame",
-			"iconScroll": "abbe spells/AssumeScroll",
-			"iconScenarioBonus": "abbe spells/AssumeBonus",
-			"iconEffect": "abbe spells/AssumeEffect",
-			
-			"iconImmune": "abbe spells/Assumeimmune"
+				"core:bonus.GARGOYLE" : "normal",
+				"core:bonus.NON_LIVING" : "normal",
+				"core:bonus.UNDEAD" : "normal",
+				"bonus.SIEGE_WEAPON" : "absolute"
+			}
 		},
-		"animation":{
-			"affect":["C05SPE0"]
+		"graphics" : {
+			"iconBook" : "abbe spells/AssumeFrame",
+			"iconScroll" : "abbe spells/AssumeScroll",
+			"iconScenarioBonus" : "abbe spells/AssumeBonus",
+			"iconEffect" : "abbe spells/AssumeEffect",
+
+			"iconImmune" : "abbe spells/Assumeimmune"
 		},
-		"sounds": {
-			"cast": "DECAY"
+		"animation" : {
+			"affect" : [
+				"C05SPE0"
+			]
 		},
- 
-		"levels":
-		{
-			"base":
-			{
-				"description": "Kills 50% of creatures in a stack and minimalises morale of the rest.",
-				"power": 50,
-				"cost": 40,
-//				"aiValue": 15,
-				"range": "0",
-				"targetModifier":{"smart":true},
-				"battleEffects":
-				{
+		"sounds" : {
+			"cast" : "DECAY"
+		},
+
+		"levels" : {
+			"base" : {
+				"description" : "Kills 50% of creatures in a stack and minimalises morale of the rest.",
+				"power" : 50,
+				"cost" : 40,
+				//				"aiValue": 15,
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
+				},
+				"battleEffects" : {
 					"directDamage" : {
-						
-						"type":"core:damage",
+						"type" : "core:damage",
 						"killByPercentage" : true
-					
 					},
-					"addEffect" :
-					{
-						"type": "core:timed",
-						"cumulative": true,
+					"addEffect" : {
+						"type" : "core:timed",
+						"cumulative" : true,
 						"bonus" : {
 							"noMorale" : {
 								"val" : -3,
@@ -76,10 +79,10 @@
 					}
 				}
 			},
-			"none": {},
-			"basic": {},
-			"advanced":{},
-			"expert": {}
+			"none" : {},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
 		}
 	}
 }

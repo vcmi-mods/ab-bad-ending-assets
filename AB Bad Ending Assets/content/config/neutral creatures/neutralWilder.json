@@ -1,69 +1,77 @@
 {
-
 	"abbe_wilder" : {
 		"abilities" : {
-			"shooting" :
-			{
+			"shooting" : {
 				"type" : "SHOOTER"
 			},
-			"overTheGardenWall" :
-			{
+			"overTheGardenWall" : {
 				"type" : "NO_WALL_PENALTY"
 			},
-			"underPressureftDavidBowie" :
-			{
+			"underPressureftDavidBowie" : {
 				"type" : "NO_MELEE_PENALTY"
 			},
-			"forestOfRocks" :
-			{
+			"forestOfRocks" : {
 				"type" : "NO_TERRAIN_PENALTY",
 				"subtype" : "grass",
 				"propagator" : "HERO"
 			},
-			"rockTheEarth" :
-			{
+			"rockTheEarth" : {
 				"type" : "NO_TERRAIN_PENALTY",
 				"subtype" : "dirt",
 				"propagator" : "HERO"
 			},
-			
-			"earthWind&Fire" :
-			{
+
+			"earthWind&Fire" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "abbe_earthWeak",
 				"val" : 100,
-				"addInfo" : [0,2]
-			},			
-			"earthWind&FireSideB" :
-			{
+				"addInfo" : [
+					0,
+					2
+				]
+			},
+			"earthWind&FireSideB" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "abbe_earthWeak",
 				"val" : 100,
-				"addInfo" : [1,1]
+				"addInfo" : [
+					1,
+					1
+				]
 			}
 		},
-		"advMapAmount" : {"max" : 12, "min" : 5},
+		"advMapAmount" : {
+			"max" : 12,
+			"min" : 5
+		},
 		"aiValue" : 1323,
 		"fightValue" : 1183,
 		"hitPoints" : 50,
 		"attack" : 17,
 		"defense" : 12,
 		"speed" : 8,
-		"cost" : { "gold" : 750 },
-		"damage" : {"max" : 14, "min" : 14},
+		"cost" : {
+			"gold" : 750
+		},
+		"damage" : {
+			"max" : 14,
+			"min" : 14
+		},
 		"faction" : "neutral",
 		"graphics" : {
 			"animation" : "abbe neutral/Cwilder",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"iconLarge" : "abbe neutral/wilder back",
 			"iconSmall" : "abbe neutral/wilder smol",
 			"map" : "abbe neutral/Awilder",
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "PLICH",
-			    "attackClimaxFrame" : 9,
-				"offset" :
-				{
+				"attackClimaxFrame" : 9,
+				"offset" : {
 					"upperX" : 28,
 					"upperY" : -94,
 					"middleX" : 51,
@@ -71,7 +79,17 @@
 					"lowerX" : 36,
 					"lowerY" : -12
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90
+				]
 			},
 			"timeBetweenFidgets" : 1
 		},
@@ -79,54 +97,109 @@
 		"level" : 6,
 		"doubleWide" : false,
 		"shots" : 16,
-		"name" : { "plural" : "Wilders", "singular" : "Wilder" },
-		"sound" : {
-			"attack": "abbe neutral/wilderATT.wav",
-			"defend": "ENCHDFND",
-			"killed": "ZELTKILL",
-			"move": "ENCHMOVE",
-			"shoot": "abbe neutral/wilderATT.wav",
-			"wince": "ENCHWNCE"
+		"name" : {
+			"plural" : "Wilders",
+			"singular" : "Wilder"
 		},
-		"stackExperience" : [{
-				"bonus" :
-				{
+		"sound" : {
+			"attack" : "abbe neutral/wilderATT.wav",
+			"defend" : "ENCHDFND",
+			"killed" : "ZELTKILL",
+			"move" : "ENCHMOVE",
+			"shoot" : "abbe neutral/wilderATT.wav",
+			"wince" : "ENCHWNCE"
+		},
+		"stackExperience" : [
+			{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
-			}]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
+			}
+		]
 	}
 }

@@ -1,72 +1,60 @@
 {
-	"core:rogue" :
-	{
-		"upgrades":
-		[
+	"core:rogue" : {
+		"upgrades" : [
 			"abbe_Cutthroat"
-		],	
-		"graphics" :
-		{
+		],
+		"graphics" : {
 			"animation" : "abbe neutral/CRogfx.def",
 			"map" : "abbe neutral/AVWrogfx.def",
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"idle" : 40,
 				"attack" : 1
 			}
-        }
+		}
 	},
 
-	"abbe_Cutthroat":
-	{
-		"advMapAmount" :
-		{
+	"abbe_Cutthroat" : {
+		"advMapAmount" : {
 			"max" : 25,
 			"min" : 16
 		},
 		"faction" : "neutral",
-        "level" : 2,
-		"growth" : 9,		
-		"cost" :
-		{
+		"level" : 2,
+		"growth" : 9,
+		"cost" : {
 			"gold" : 110
 		},
-		"name" :
-		{
+		"name" : {
 			"plural" : "Cutthroats",
 			"singular" : "Cutthroat"
 		},
-		
+
 		"aiValue" : 171,
-		"fightValue" : 152,	
-		
-		"hitPoints" : 10,		
+		"fightValue" : 152,
+
+		"hitPoints" : 10,
 		"attack" : 8,
 		"defense" : 4,
 		"speed" : 7,
-		"damage" :
-		{
+		"damage" : {
 			"max" : 4,
 			"min" : 2
 		},
 
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "abbe neutral/NCutthroat-B.def",
 			"map" : "abbe neutral/NCutthroat-M.def",
 			"iconSmall" : "abbe neutral/NCutPort-S.bmp",
 			"iconLarge" : "abbe neutral/NCutPort-B.png",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"idle" : 40,
 				"attack" : 1
 			}
 		},
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "RoguAttk",
 			"defend" : "RoguDfnd",
 			"killed" : "RoguKill",
@@ -74,79 +62,124 @@
 			"wince" : "RoguWnce"
 		},
 
-		"abilities" :
-		{	
-			"shadow strike" : 
-		   {
-			   "type" : "BLOCKS_RETALIATION"
-		   },
-		   
-		   "visionsMonsters" :
-		   {
-			   "type" : "VISIONS",
-			   "subtype" : "visionsMonsters",
-			   "val" : 3,
-			   "valueType" : "INDEPENDENT_MAX",
-			   "propagator" : "HERO"
-		   },	
-		   
-			"visionsHeroes" :
-			{
+		"abilities" : {
+			"shadow strike" : {
+				"type" : "BLOCKS_RETALIATION"
+			},
+
+			"visionsMonsters" : {
+				"type" : "VISIONS",
+				"subtype" : "visionsMonsters",
+				"val" : 3,
+				"valueType" : "INDEPENDENT_MAX",
+				"propagator" : "HERO"
+			},
+
+			"visionsHeroes" : {
 				"type" : "VISIONS",
 				"subtype" : "visionsHeroes",
 				"val" : 3,
 				"valueType" : "INDEPENDENT_MAX",
-				"propagator" : "HERO"				
+				"propagator" : "HERO"
 			},
-			"visionsTowns" :
-			{
+			"visionsTowns" : {
 				"type" : "VISIONS",
 				"subtype" : "visionsTowns",
 				"val" : 3,
 				"valueType" : "INDEPENDENT_MAX",
-				"propagator" : "HERO"				
+				"propagator" : "HERO"
 			}
 		},
 		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
-			},	
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					3,
+					4
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
+				"values" : [
+					1,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					3,
+					4,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 1, 1, 1, 2, 2, 2, 3, 3, 4 ]
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 0, 1, 1, 1, 2, 2, 3, 3, 3 ]
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					3
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		]
 	}

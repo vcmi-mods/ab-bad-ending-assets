@@ -1,23 +1,32 @@
 {
 	"abbe_boar" : {
-
 		"advMapAmount" : {
 			"max" : 25,
-			"min" : 16},
-		
-			"aiValue" : 171,
-			"fightValue" : 152,	
+			"min" : 16
+		},
+
+		"aiValue" : 171,
+		"fightValue" : 152,
 
 		"hitPoints" : 12,
 		"attack" : 5,
 		"defense" : 5,
 		"speed" : 8,
-		"cost" : { "gold" : 150 },
-		"damage" : {"max" : 3, "min" : 3},
+		"cost" : {
+			"gold" : 150
+		},
+		"damage" : {
+			"max" : 3,
+			"min" : 3
+		},
 		"faction" : "neutral",
 		"graphics" : {
 			"animation" : "abbe neutral/Cboar",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"iconLarge" : "abbe neutral/CPrL165M",
 			"iconSmall" : "abbe neutral/CPrS165N",
 			"map" : "abbe neutral/Aboar",
@@ -26,65 +35,115 @@
 		"growth" : 8,
 		"level" : 2,
 		"doubleWide" : true,
-		"name" : { "plural" : "Hogs", "singular" : "Hog" },
-		"sound" :
-		{
-			"attack": "BOARATTK.wav",
-			"defend": "BOARDFND.wav",
-			"killed": "BOARKILL.wav",
-			"move": "BOARMOVE.wav",
-			"wince": "BOARWNCE.wav"
+		"name" : {
+			"plural" : "Hogs",
+			"singular" : "Hog"
+		},
+		"sound" : {
+			"attack" : "BOARATTK.wav",
+			"defend" : "BOARDFND.wav",
+			"killed" : "BOARKILL.wav",
+			"move" : "BOARMOVE.wav",
+			"wince" : "BOARWNCE.wav"
 		},
 		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
-			},	
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					3,
+					4
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
+				"values" : [
+					1,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					3,
+					4,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 1, 1, 1, 2, 2, 2, 3, 3, 4 ]
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 0, 1, 1, 1, 2, 2, 3, 3, 3 ]
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					3
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
-			}			
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
+			}
 		],
-		
-		"abilities" :
-		{	
-		   "powerfulCharge" :
-		   {
-			   "type" : "JOUSTING",
-			   "val" : 10
-		   }
+
+		"abilities" : {
+			"powerfulCharge" : {
+				"type" : "JOUSTING",
+				"val" : 10
+			}
 		}
 	}
 }

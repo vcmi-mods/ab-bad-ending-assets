@@ -1,28 +1,41 @@
 {
 	"abbe_brainSuck" : {
-		"abilities" : { "canFly" : { "type" : "FLYING" },
-			"suck" :
-			{
+		"abilities" : {
+			"canFly" : {
+				"type" : "FLYING"
+			},
+			"suck" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "forgetfulness",
 				"val" : 100
 			},
-						"immuneToMind" : 
-			{
+			"immuneToMind" : {
 				"type" : "MIND_IMMUNITY"
 			}
 		},
-		"advMapAmount" : {"max" : 20, "min" : 10},
+		"advMapAmount" : {
+			"max" : 20,
+			"min" : 10
+		},
 		"aiValue" : 479,
 		"attack" : 9,
-		"cost" : { "gold" : 400 },
-		"damage" : {"max" : 9, "min" : 6},
+		"cost" : {
+			"gold" : 400
+		},
+		"damage" : {
+			"max" : 9,
+			"min" : 6
+		},
 		"defense" : 9,
 		"faction" : "neutral",
 		"fightValue" : 469,
 		"graphics" : {
 			"animation" : "abbe neutral/Cbloodsucker.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"iconLarge" : "abbe neutral/bloodsuckerBACK.png",
 			"iconSmall" : "abbe neutral/bloodsuckerBACKsmol.png",
 			"map" : "abbe neutral/Abloodsucker.def",
@@ -31,7 +44,10 @@
 		"growth" : 4,
 		"hitPoints" : 25,
 		"level" : 4,
-		"name" : { "plural" : "Brain Suckers", "singular" : "Brain Sucker" },
+		"name" : {
+			"plural" : "Brain Suckers",
+			"singular" : "Brain Sucker"
+		},
 		"sound" : {
 			"attack" : "abbe neutral/blSuck attack.wav",
 			"defend" : "abbe neutral/blSuck defend.wav",
@@ -40,46 +56,114 @@
 			"wince" : "abbe neutral/blSuck wince.wav"
 		},
 		"speed" : 9,
-		"stackExperience" : [ {
-				"bonus" :
-				{
+		"stackExperience" : [
+			{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
-			},	
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7,
+					8
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
-			{ "bonus" : { "type" : "STACKS_SPEED" }, "values" : [ 0, 0, 1, 1, 1, 2, 2, 2, 3, 3 ] } ]
+			{
+				"bonus" : {
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3
+				]
+			}
+		]
 	}
 }
