@@ -18,15 +18,15 @@
 						"animation" : "abbe neutral/wilderDwelling",
 						"mask" : [
 							"VVVV",
-							"VBBV",
-							"VVVBBVV",
-							"VBAV"
+							"VVBV",
+							"VVAV"
 						]
 					}
 				}
 			},
 			"abbe_droneDepot" : {
 				"name" : "Drone Depot",
+				"bannedForRandomDwelling" : true,
 				"creatures" : [
 					[
 						"abbe_drone"
