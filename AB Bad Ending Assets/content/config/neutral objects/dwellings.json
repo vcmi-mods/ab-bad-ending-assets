@@ -22,7 +22,8 @@
 							"VVAV"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "abbe neutral/flagports/abbendw04.def"
 			},
 			"abbe_droneDepot" : {
 				"name" : "Drone Depot",
@@ -48,7 +49,8 @@
 							"VVVBBAV"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "abbe neutral/flagports/abbendw01.def"
 			},
 			"abbe_suckersColony" : {
 				"name" : "Suckers Colony",
@@ -71,7 +73,8 @@
 							"VVBA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "abbe neutral/flagports/abbendw03.def"
 			},
 			"abbe_juggernautsPit" : {
 				"name" : "Monstrocities' Pit",
@@ -95,7 +98,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "abbe neutral/flagports/abbendw02.def"
 			}
 		}
 	}

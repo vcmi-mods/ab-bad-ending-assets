@@ -1,0 +1,10 @@
+{
+	"basepath" : "abbe neutral/flagports/",
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "abbendw01"
+		}
+	]
+}
