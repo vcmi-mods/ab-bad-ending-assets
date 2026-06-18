@@ -1,7 +1,6 @@
 {
 	"name" : "Antagarich Burning",
 	"description" : "Assets for a set of maps featuring Forge.",
-
 	"author" : "HOMM modding community",
 	"contact" : "madaosoul@gmail.com",
 	"version" : "1.3.7",
@@ -69,28 +68,28 @@
 		"name" : "燃烧的恩塔格瑞（地图资源）",
 		"description" : "一组以铸造厂为特色的地图资源。",
 		"translations" : [
-			"translation/ab-bad-ending-assets/chinese.json"
+			"translation/chinese.json"
 		]
 	},
 	"czech" : {
 		"name" : "Hořící Antagarich",
 		"description" : "Prostředí pro sadu map s Kovárnou.",
 		"translations" : [
-			"translation/ab-bad-ending-assets/czech.json"
+			"translation/czech.json"
 		]
 	},
 	"polish" : {
 		"name" : "Antagarich Burning",
 		"description" : "Zasoby dla zestawu map z Forge.",
 		"translations" : [
-			"translation/ab-bad-ending-assets/polish.json"
+			"translation/polish.json"
 		]
 	},
 	"russian" : {
 		"name" : "Пылающий Антагарич",
 		"description" : "Ресурсы для набора карт с участием Forge.",
 		"translations" : [
-			"translation/ab-bad-ending-assets/russian.json"
+			"translation/russian.json"
 		]
 	},
 	"compatibility" : {
@@ -99,7 +98,6 @@
 	"depends" : [
 		"asphalt-terrain"
 	],
-
 	"creatures" : [
 		"config/neutral creatures/neutralGreyEnchanter.json",
 		"config/neutral creatures/neutralOoze.json",
@@ -117,7 +115,6 @@
 		"config/neutral creatures/neutralGlaciation.json",
 		"config/neutral creatures/neutralPollution.json"
 	],
-
 	"objects" : [
 		"config/neutral objects/grandConflux.json",
 		"config/neutral objects/gates.json",
@@ -130,11 +127,9 @@
 		"config/neutral terrains/specterrains.json",
 		"config/neutral objects/autumnDecor.json"
 	],
-
 	"biomes" : [
 		"config/neutral objects/abbeBiomes.json"
 	],
-
 	"spells" : [
 		"config/neutral spells/acidAmbience.json",
 		"config/neutral spells/shedding.json",
@@ -152,7 +147,5 @@
 	],
 	"heroes" : [
 		"config/special heroes/heroes.json"
-	],
-
-	"artifacts" : []
+	]
 }
