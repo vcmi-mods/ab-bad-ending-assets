@@ -179,5 +179,7 @@
 	"spell.ab-bad-ending-assets.abbe_specialLvl7.description.basic" : "Reduces enemy unit's speed by 25% and affected creature can't retaliate until being attacked.",
 	"spell.ab-bad-ending-assets.abbe_specialLvl7.description.expert" : "Reduces enemy unit's speed by 25% and affected creature can't retaliate until being attacked.",
 	"spell.ab-bad-ending-assets.abbe_specialLvl7.description.none" : "Reduces enemy unit's speed by 25% and affected creature can't retaliate until being attacked.",
-	"spell.ab-bad-ending-assets.abbe_specialLvl7.name" : "Injury"
+	"spell.ab-bad-ending-assets.abbe_specialLvl7.name" : "Injury",
+	"mod.name" : "Antagarich Burning",
+	"mod.description" : "Assets for a set of maps featuring Forge."
 }
