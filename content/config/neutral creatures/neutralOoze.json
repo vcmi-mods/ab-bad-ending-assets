@@ -56,7 +56,9 @@
 			"shedding harmful" : {
 				"type" : "COMBAT_EVENT_TRIGGER",
 				"subtype" : "enchanted",
-				"addInfo" : { "spell" : "abbe_sheddingOoze" },
+				"addInfo" : {
+					"spell" : "abbe_sheddingOoze"
+				},
 				"val" : 0
 			},
 			"nonliving" : {
@@ -215,7 +217,9 @@
 			"shedding harmful" : {
 				"type" : "COMBAT_EVENT_TRIGGER",
 				"subtype" : "enchanted",
-				"addInfo" : { "spell" : "abbe_sheddingOoze" },
+				"addInfo" : {
+					"spell" : "abbe_sheddingOoze"
+				},
 				"val" : 0
 			},
 			"nonliving" : {

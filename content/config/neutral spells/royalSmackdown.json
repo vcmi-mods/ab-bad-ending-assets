@@ -43,7 +43,9 @@
 								"val" : 0,
 								"type" : "COMBAT_EVENT_TRIGGER",
 								"subtype" : "enchanted",
-								"addInfo" : { "spell" : "abbe_royalsmack2" }
+								"addInfo" : {
+									"spell" : "abbe_royalsmack2"
+								}
 							}
 						}
 					}
@@ -106,7 +108,9 @@
 								"val" : 0,
 								"type" : "COMBAT_EVENT_TRIGGER",
 								"subtype" : "enchanted",
-								"addInfo" : { "spell" : "abbe_royalsmack3" }
+								"addInfo" : {
+									"spell" : "abbe_royalsmack3"
+								}
 							}
 						}
 					}
@@ -169,7 +173,9 @@
 								"val" : 0,
 								"type" : "COMBAT_EVENT_TRIGGER",
 								"subtype" : "enchanted",
-								"addInfo" : { "spell" : "abbe_royalsmack3" }
+								"addInfo" : {
+									"spell" : "abbe_royalsmack3"
+								}
 							}
 						}
 					}

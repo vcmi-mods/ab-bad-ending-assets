@@ -11,7 +11,9 @@
 			"slayer" : {
 				"type" : "COMBAT_EVENT_TRIGGER",
 				"subtype" : "enchanted",
-				"addInfo" : { "spell" : "slayer" },
+				"addInfo" : {
+					"spell" : "slayer"
+				},
 				"val" : 2
 			},
 			"ironGolem" : {

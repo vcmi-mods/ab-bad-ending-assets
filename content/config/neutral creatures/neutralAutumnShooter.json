@@ -3,7 +3,12 @@
 		"abilities" : {
 			"autumn2summer" : {
 				"type" : "SPECIAL_UPGRADE",
-				"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "abbe_autumnShooter" } ],
+				"limiters" : [
+					{
+						"type" : "CREATURE_TYPE_LIMITER",
+						"creature" : "abbe_autumnShooter"
+					}
+				],
 				"addInfo" : "sharpshooter",
 				"propagator" : "HERO"
 			}
@@ -31,7 +36,12 @@
 
 			"summer2autumn" : {
 				"type" : "SPECIAL_UPGRADE",
-				"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "sharpshooter" } ],
+				"limiters" : [
+					{
+						"type" : "CREATURE_TYPE_LIMITER",
+						"creature" : "sharpshooter"
+					}
+				],
 				"addInfo" : "abbe_autumnShooter",
 				"propagator" : "HERO"
 			}

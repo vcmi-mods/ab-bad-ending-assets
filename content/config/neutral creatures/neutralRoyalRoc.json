@@ -8,7 +8,9 @@
 				"val" : 0,
 				"type" : "COMBAT_EVENT_TRIGGER",
 				"subtype" : "enchanted",
-				"addInfo" : { "spell" : "abbe_royalsmack1" }
+				"addInfo" : {
+					"spell" : "abbe_royalsmack1"
+				}
 			}
 		},
 		"advMapAmount" : {

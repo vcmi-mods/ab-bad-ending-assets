@@ -57,7 +57,9 @@
 			{
 				"type" : "COMBAT_EVENT_TRIGGER",
 				"subtype" : "enchanted",
-				"addInfo" : { "spell" : "abbe_acidAmbience" },
+				"addInfo" : {
+					"spell" : "abbe_acidAmbience"
+				},
 				"val" : 0
 			},
 
