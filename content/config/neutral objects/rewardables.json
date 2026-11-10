@@ -294,7 +294,7 @@
 				"onEmptyMessage" : "{Crumbling Magic Well}\r\n\r\nThe well has been depleted. Let's check next week.",
 				"visitMode" : "once",
 				"resetParameters" : {
-					"period" : 7,
+					"weeks" : 1,
 					"visitors" : true,
 					"rewards" : false
 				},
@@ -374,7 +374,7 @@
 				"onEmptyMessage" : "{Gypsy Caravan}\r\n\r\nA group of friendly Gypsies lives here, but you don't have enough gold for their services.",
 				"visitMode" : "hero",
 				"resetParameters" : {
-					"period" : 7,
+					"weeks" : 1,
 					"rewards" : true
 				},
 				"canRefuse" : true,
@@ -430,7 +430,7 @@
 				"onEmptyMessage" : "{Ichor extractor}\r\n\r\nThe Ichor vein in this area has been depleted.",
 				"visitMode" : "hero",
 				"resetParameters" : {
-					"period" : 7,
+					"weeks" : 1,
 					"rewards" : true
 				},
 				"canRefuse" : true,
@@ -488,7 +488,7 @@
 				//"onEmptyMessage": "{Moxie extractor}\r\n\r\nThe Hero is too weakened to be bolstered by Moxie.",
 				"visitMode" : "hero",
 				"resetParameters" : {
-					"period" : 7,
+					"weeks" : 1,
 					"rewards" : true
 				},
 				"canRefuse" : true,
@@ -544,7 +544,7 @@
 				"onEmptyMessage" : "{Orgone extractor}\r\n\r\nThe Orgone vein in this area has been depleted.",
 				"visitMode" : "hero",
 				"resetParameters" : {
-					"period" : 7,
+					"weeks" : 1,
 					"rewards" : true
 				},
 				"canRefuse" : true,
@@ -600,7 +600,7 @@
 				"onEmptyMessage" : "{Soma extractor}\r\n\r\nThe Soma vein in this area has been depleted.",
 				"visitMode" : "hero",
 				"resetParameters" : {
-					"period" : 7,
+					"weeks" : 1,
 					"rewards" : true
 				},
 				"canRefuse" : true,
@@ -657,7 +657,7 @@
 				"onEmptyMessage" : "{Aether extractor}\r\n\r\nThe Aether vein in this area has been depleted.",
 				"visitMode" : "hero",
 				"resetParameters" : {
-					"period" : 7,
+					"weeks" : 1,
 					"rewards" : true
 				},
 				"canRefuse" : true,

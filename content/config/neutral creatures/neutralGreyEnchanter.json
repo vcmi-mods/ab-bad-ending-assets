@@ -16,8 +16,8 @@
 		"abilities" : {
 			"blue2grey" : {
 				"type" : "SPECIAL_UPGRADE",
+				"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "abbe_greyEnch" } ],
 				"addInfo" : "enchanter",
-				"subtype" : "abbe_greyEnch",
 				"propagator" : "HERO"
 			}
 		},
@@ -81,8 +81,8 @@
 
 			"grey2blue" : {
 				"type" : "SPECIAL_UPGRADE",
+				"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "enchanter" } ],
 				"addInfo" : "abbe_greyEnch",
-				"subtype" : "enchanter",
 				"propagator" : "HERO"
 			}
 		},

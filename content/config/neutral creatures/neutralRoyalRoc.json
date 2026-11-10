@@ -5,9 +5,10 @@
 				"type" : "FLYING"
 			},
 			"theyreTakinTheHobbits" : {
-				"subtype" : "abbe_royalsmack1",
 				"val" : 0,
-				"type" : "ENCHANTED"
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "enchanted",
+				"addInfo" : { "spell" : "abbe_royalsmack1" }
 			}
 		},
 		"advMapAmount" : {
