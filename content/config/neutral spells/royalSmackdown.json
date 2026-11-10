@@ -40,9 +40,10 @@
 						"cumulative" : false,
 						"bonus" : {
 							"nextCombo" : {
-								"subtype" : "abbe_royalsmack2",
 								"val" : 0,
-								"type" : "ENCHANTED"
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "abbe_royalsmack2" }
 							}
 						}
 					}
@@ -102,9 +103,10 @@
 							},
 
 							"nextCombo" : {
-								"subtype" : "abbe_royalsmack3",
 								"val" : 0,
-								"type" : "ENCHANTED"
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "abbe_royalsmack3" }
 							}
 						}
 					}
@@ -164,9 +166,10 @@
 							},
 
 							"endOfCombo" : {
-								"subtype" : "abbe_royalsmack3",
 								"val" : 0,
-								"type" : "ENCHANTED"
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "abbe_royalsmack3" }
 							}
 						}
 					}
